@@ -1,0 +1,23 @@
+{
+  "name": "rivals_workshop_guide",
+  "version": "0.0.1",
+  "description": "Rivals of Aether Workshop modding guide and documentation.",
+  "main": "index.js",
+  "authors": {
+    "name": "Toren Darby",
+    "email": "torendarby@gmail.com"
+  },
+  "repository": "https://github.com/Qazzquimby/rivals_workshop_guide/rivals_workshop_guide",
+  "scripts": {
+    "dev": "vuepress dev src --temp .temp --host localhost",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-internal-link": "^0.2.0"
+  }
+}
