@@ -24,8 +24,7 @@ const sidebar = {
         }];
 
         const sidebarItems = getSidebarItems(dir, root);
-        const sidebar = Array.from(sidebarRoot.concat(sidebarItems));
-        return sidebar;
+        return Array.from(sidebarRoot.concat(sidebarItems));
     }
 };
 
