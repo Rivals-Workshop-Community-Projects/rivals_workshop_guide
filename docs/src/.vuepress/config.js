@@ -4,7 +4,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'Rivals Workshop Guide',
+    title: 'Rivals Workshop Community Library',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
@@ -27,7 +27,7 @@ module.exports = {
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
-        repo: '',
+        repo: 'https://github.com/Qazzquimby/rivals_workshop_guide',
         editLinks: false,
         docsDir: '',
         editLinkText: '',
