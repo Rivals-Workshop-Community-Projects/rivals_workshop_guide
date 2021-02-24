@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/Qazzquimby/rivals_workshop_guide/rivals_workshop_guide",
   "scripts": {
-    "dev": "vuepress dev src --temp .temp --host localhost",
+    "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
