@@ -2,8 +2,6 @@ This overviews the process of creating a character.
 The phases blur into each other. Each phase informs the decision of those following.
 This applies to all production, programming or art.
 
-When this guide isn't answering your question, try [[How to Learn]].
-
 # Predesign
 ## Background and Preferences
 Especially on your first character, figure out what you enjoy.
