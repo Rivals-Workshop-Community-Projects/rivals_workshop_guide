@@ -28,9 +28,10 @@ module.exports = {
      */
     themeConfig: {
         repo: 'https://github.com/Qazzquimby/rivals_workshop_guide',
-        editLinks: false,
-        docsDir: '',
-        editLinkText: '',
+        editLinks: true,
+        docsDir: 'docs/src',
+        docsBranch: 'main',
+        editLinkText: 'Propose changes in github',
         lastUpdated: false,
         nav: [
             {
