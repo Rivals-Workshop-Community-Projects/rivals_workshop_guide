@@ -1193,6 +1193,13 @@
     vuepress-plugin-container "^2.0.2"
     vuepress-plugin-smooth-scroll "^0.0.3"
 
+"@vuepress/theme-vue@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@vuepress/theme-vue/-/theme-vue-1.8.2.tgz#7cf253588bed9199fdd051c77bfc2304b18f9c42"
+  integrity sha512-Eu+8JrJc9ksXLgbtkweFURBPMywQGvOWAFuVcYMQjHLfecI06Zfc1XLeXmKw50gRRQFgsB1kUhqrQOah9gIpwA==
+  dependencies:
+    "@vuepress/theme-default" "1.8.2"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -7659,6 +7666,11 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   integrity sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==
   dependencies:
     smoothscroll-polyfill "^0.4.3"
+
+vuepress-theme-vue@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-vue/-/vuepress-theme-vue-1.1.1.tgz#9fb14859cf1eecd18b44fed88e7f51e6573b437a"
+  integrity sha512-ZXe7TgJ9kW1LnLGi7772U4h27wdZqXuU3PlEq1rR7zwuxuszHIjn3zyxdQzbxVCChzaYz4dRMg1X4lVSnPn4vA==
 
 vuepress@^1.5.3:
   version "1.8.2"

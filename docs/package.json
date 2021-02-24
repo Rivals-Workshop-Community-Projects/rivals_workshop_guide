@@ -18,6 +18,7 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "@vuepress/theme-vue": "^1.8.2",
     "vuepress-plugin-internal-link": "^0.2.0"
   }
 }
