@@ -1,3 +1,5 @@
+# Process
+
 This overviews the process of creating a character.
 The phases blur into each other. Each phase informs the decision of those following.
 This applies to all production, programming or art.

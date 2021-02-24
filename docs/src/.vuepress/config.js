@@ -36,21 +36,28 @@ module.exports = {
         nav: [
             {
                 text: 'Guide',
-                link: '/guide/',
+                link: '/workshop_guide/',
             }
         ],
-        sidebar: {
-            '/guide/': [
-                {
-                    title: 'Guide',
-                    collapsable: false,
-                    children: [
-                        '',
-                        'using-vue',
-                    ]
-                }
-            ]
-        }
+        sidebar: [
+            '/',
+            {
+                title: 'Learning Path',
+                path: '/workshop_guide/',
+                collapsable: false,
+                sidebarDepth: 5,
+                children: [
+                    '/',
+                    '/workshop_guide/attitude',
+                    '/workshop_guide/process',
+                    // '/workshop_guide/Animation.md',
+                    // '/workshop_guide/index.md',
+                    // '/workshop_guide/',
+                    // 'attitude',
+                    // '/design'
+                ]
+            }
+        ]
 
     },
 
