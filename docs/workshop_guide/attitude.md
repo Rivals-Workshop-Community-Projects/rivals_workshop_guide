@@ -1,4 +1,7 @@
- # Expectations
+# Attitude
+
+## Expectations
+ 
 It takes a long time.
 > Remember that doing a workshop character will take a while, it shouldn’t be easy.
 > ~ Wackmaster
@@ -28,8 +31,9 @@ The response to your character when it's released can be underwhelming. Releasin
 >  Your first character is to get the experience of making one.
 >  ~ BountyXSnipe
 
-# Lifestyle
-## Work life balance
+## Lifestyle
+
+### Work-Life Balance
 Character's are huge passion projects and can consume a lot of time.
 Don't neglect other areas of your life. Eat and sleep properly.
 > I poured all my efforts and my soul into a single character.
@@ -37,7 +41,7 @@ Don't neglect other areas of your life. Eat and sleep properly.
 > I wouldn't encourage people to work as hard as I did. It was too costly on one's self.
 > ~ BountyXSnipe
 
-## Burnout 
+### Burnout 
 > Pace yourself. Burnout is terrible for the mind.
 > Don’t give up, but take a bit of a break.
 > Forcing creativity where there is none will usually result in a poor outcome.

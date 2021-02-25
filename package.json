@@ -15,7 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-container": "^2.1.5"
   },
   "dependencies": {
     "@vuepress/theme-vue": "^1.8.2",

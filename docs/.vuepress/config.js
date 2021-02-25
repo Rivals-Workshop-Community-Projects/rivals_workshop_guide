@@ -40,16 +40,27 @@ module.exports = {
             }
         ],
         sidebar: [
-            '/',
             {
                 title: 'Learning Path',
                 path: '/workshop_guide/',
                 collapsable: false,
-                sidebarDepth: 5,
+                // sidebarDepth: 2,
                 children: [
-                    '/',
                     '/workshop_guide/attitude',
                     '/workshop_guide/process',
+                    {
+                        title: 'Design',
+                        path: '/workshop_guide/design/',
+                        children: [
+                            '/workshop_guide/design/predesign',
+                            '/workshop_guide/design/identity',
+                            '/workshop_guide/design/visual_base',
+                            '/workshop_guide/design/special',
+                            '/workshop_guide/design/movement',
+                            '/workshop_guide/design/normals',
+                        ]
+                    },
+
                     // '/workshop_guide/Animation.md',
                     // '/workshop_guide/index.md',
                     // '/workshop_guide/',
@@ -69,6 +80,25 @@ module.exports = {
         '@vuepress/plugin-medium-zoom',
         [
             'internal-link', {}
-        ]
-    ]
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'caninot',
+                defaultTitle: 'Can I not?',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'quote',
+                defaultTitle: '',
+            },
+        ],
+    ],
+    markdown: {
+        extendMarkdown: md => {
+            md.set({breaks: true})
+        }
+    }
 }
