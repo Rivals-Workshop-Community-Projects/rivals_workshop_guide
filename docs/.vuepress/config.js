@@ -41,15 +41,16 @@ module.exports = {
         ],
         sidebar: [
             {
-                title: 'Learning Path',
+                title: 'Workshop Guide',
                 path: '/workshop_guide/',
                 collapsable: false,
                 // sidebarDepth: 2,
                 children: [
-                    '/workshop_guide/attitude',
+                    '/workshop_guide/mindset',
                     '/workshop_guide/process',
                     {
                         title: 'Design',
+                        collapsable: false,
                         path: '/workshop_guide/design/',
                         children: [
                             '/workshop_guide/design/predesign',
@@ -60,7 +61,7 @@ module.exports = {
                             '/workshop_guide/design/normals',
                         ]
                     },
-
+                    '/workshop_guide/release'
                     // '/workshop_guide/Animation.md',
                     // '/workshop_guide/index.md',
                     // '/workshop_guide/',
@@ -95,10 +96,17 @@ module.exports = {
                 defaultTitle: '',
             },
         ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'construction',
+                defaultTitle: 'Under Construction',
+            },
+        ],
     ],
     markdown: {
-        extendMarkdown: md => {
-            md.set({breaks: true})
-        }
+        // extendMarkdown: md => {
+        //     md.set({breaks: true})
+        // }
     }
 }

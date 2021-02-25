@@ -1,13 +1,15 @@
 # Visual Design
-The early stages of a character's visual design are difficult and important.
-Your first idea is probably not the best you can do. Spend some time improving your design before committing.
 
-While you're drafting thoughts on paper, don't get attached to specific details. 
-Not everything communicates well in spritework. A neat patterned belt in concept art might just look like noise in a sprite.
+The early stages of a character's visual design are difficult and important. Your first idea is probably not the best
+you can do. Spend some time improving your design before committing.
 
-#todo show sheets of concept art for rivals
+While you're drafting thoughts on paper, don't get attached to specific details. Not everything communicates well in
+spritework. A neat patterned belt in concept art might just look like noise in a sprite.
+
+Focus first on finding a base idle pose, but the advice here should inform all visuals.
 
 ## Form and Personality
+
 > Getting a character's design to feel right can be difficult even before touching pixel art.
 > I start with a general kinda idea I want and then make a pose, and then try to fit the idea to the pose
 > ~ Shplurmff
@@ -22,10 +24,13 @@ Not everything communicates well in spritework. A neat patterned belt in concept
 
 ## Pose Design
 
+### Base Idle Pose
+
 `Sources:
 https://fornace.medium.com/fighting-game-design-with-dan-fornace-the-power-of-silhouettes-915fde48318f#77eb`
 
-The idle sprite's pose is extremely important in communicating what the character is about. It expresses the character's personality and capabilities.
+The idle sprite's pose is extremely important in communicating what the character is about. It expresses the character's
+personality and capabilities.
 
 > The latter idle pose concepts determine the personality and style of your character.
 > Are they arrogant? Are they scared? Are they reckless or are they prepared? Do they lumber or do they prance?
@@ -52,3 +57,9 @@ The idle sprite's pose is extremely important in communicating what the characte
 > But you should be able to get a high level idea what the character is going to be about.
 
 ![Image for post](https://miro.medium.com/max/1695/1*0XWtl4LWoFvpVMiMdp0w_A.jpeg)
+
+### Other Poses
+
+:::construction
+Todo
+:::
