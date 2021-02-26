@@ -1,10 +1,35 @@
-# Visual Design
+# Visuals Design
+
+::: construction
+Hi, people who know anything about art.
+
+Right now the structure is
+
+Design
+- Talk about stuff that isn't pixel art specific. Posing, communication. Support working entirely on paper. Sketching key frame ideas.
+
+Implementation
+- Talk about turning those designs into pixel art animations. How to iterate pixel art roughs. How to animate.
+
+Does that make sense? I think most people probably don't think in two phases like that, but I think it's probably good practice to teach?
+When something is professional practice there's usually good reason.
+:::
+
+::: construction
+This should probably cover
+- Designing idle specifically.
+- Visual design principles.
+
+The below is rough notes.
+:::
 
 The early stages of a character's visual design are difficult and important. Your first idea is probably not the best
 you can do. Spend some time improving your design before committing.
 
 While you're drafting thoughts on paper, don't get attached to specific details. Not everything communicates well in
 spritework. A neat patterned belt in concept art might just look like noise in a sprite.
+
+# Base Idle Pose
 
 Focus first on finding a base idle pose, but the advice here should inform all visuals.
 
@@ -25,9 +50,6 @@ Focus first on finding a base idle pose, but the advice here should inform all v
 ## Pose Design
 
 ### Base Idle Pose
-
-`Sources:
-https://fornace.medium.com/fighting-game-design-with-dan-fornace-the-power-of-silhouettes-915fde48318f#77eb`
 
 The idle sprite's pose is extremely important in communicating what the character is about. It expresses the character's
 personality and capabilities.
@@ -57,6 +79,9 @@ personality and capabilities.
 > But you should be able to get a high level idea what the character is going to be about.
 
 ![Image for post](https://miro.medium.com/max/1695/1*0XWtl4LWoFvpVMiMdp0w_A.jpeg)
+
+`Sources:
+https://fornace.medium.com/fighting-game-design-with-dan-fornace-the-power-of-silhouettes-915fde48318f#77eb`
 
 ### Other Poses
 

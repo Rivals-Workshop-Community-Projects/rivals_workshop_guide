@@ -1,3 +1,13 @@
+# Visuals Implementation
+
+::: construction
+[See question here](design/visual_base)
+
+This should probably cover
+- Implementing idle specifically
+- Visual implementation principles
+:::
+
 ### Base Idle Sprite
 
 The base idle sprite is the first sprite of the character's idle animation.
@@ -12,6 +22,8 @@ and end of most of your animations. Your idle should be polished before any othe
 but you should do a similar thing with sprite prototypes.
 
 [Rivals did a tonne of sprite prototyping](https://twitter.com/thisisellian/status/888019865478590465)
+
+Visual concept and idle sprite are important things to get feedback on.
 
 `Sources: https://ko-fi.com/post/RoA-Workshop-Guide--Designing-an-Idle-Sprite-N4N43NG85`
 

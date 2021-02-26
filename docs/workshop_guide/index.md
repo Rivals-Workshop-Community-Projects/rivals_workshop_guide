@@ -15,4 +15,4 @@ When this guide isn't answering your question, try [[How to Learn]].
 
 \
 Though you'll probably want to skip around a bit, this guide is written in a meaningful order.
-To follow in the guide's recommended reading order, click the next page button in the bottom right.
+The next page button at the bottom right will always take you to the recommended next page.

@@ -50,7 +50,6 @@ module.exports = {
                     '/workshop_guide/process',
                     {
                         title: 'Design',
-                        collapsable: false,
                         path: '/workshop_guide/design/',
                         children: [
                             '/workshop_guide/design/predesign',
@@ -59,6 +58,16 @@ module.exports = {
                             '/workshop_guide/design/special',
                             '/workshop_guide/design/movement',
                             '/workshop_guide/design/normals',
+                        ]
+                    },
+                    {
+                        title: 'Implementation',
+                        path: '/workshop_guide/implementation/',
+                        children: [
+                            '/workshop_guide/implementation/visual_base',
+                            '/workshop_guide/implementation/special',
+                            '/workshop_guide/implementation/movement',
+                            '/workshop_guide/implementation/normals',
                         ]
                     },
                     '/workshop_guide/release'
