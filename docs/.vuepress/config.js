@@ -83,7 +83,7 @@ module.exports = {
                                     '/workshop_guide/programming/data_types',
                                     '/workshop_guide/programming/functions',
                                     '/workshop_guide/programming/control_flow',
-                                    '/workshop_guide/programming/control_flow/data_structures',
+                                    '/workshop_guide/programming/data_structures',
                                     '/workshop_guide/programming/best_practices',
 
                                 ]
@@ -155,6 +155,13 @@ module.exports = {
                 defaultTitle: 'Under Construction',
             },
         ],
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'G-VW71RR0SQJ'
+            }
+        ]
+
     ],
     markdown: {
         // extendMarkdown: md => {
