@@ -10,12 +10,13 @@
   "repository": "https://github.com/Qazzquimby/rivals_workshop_guide/rivals_workshop_guide",
   "scripts": {
     "dev": "vuepress dev docs --temp ../.temp --host localhost",
-    "build": "vuepress build docs"
+    "build": "vuepress check-md docs --fix && vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "vuepress": "^1.5.3",
+    "vuepress-plugin-check-md": "^0.0.2",
     "vuepress-plugin-container": "^2.1.5"
   },
   "dependencies": {

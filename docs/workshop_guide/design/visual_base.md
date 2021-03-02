@@ -1,22 +1,24 @@
-# Visuals Design
+# Visuals
 
-::: construction
-Hi, people who know anything about art.
+::: construction Hi, people who know anything about art.
 
 Right now the structure is
 
 Design
-- Talk about stuff that isn't pixel art specific. Posing, communication. Support working entirely on paper. Sketching key frame ideas.
+
+- Talk about stuff that isn't pixel art specific. Posing, communication. Support working entirely on paper. Sketching
+  key frame ideas.
 
 Implementation
+
 - Talk about turning those designs into pixel art animations. How to iterate pixel art roughs. How to animate.
 
-Does that make sense? I think most people probably don't think in two phases like that, but I think it's probably good practice to teach?
-When something is professional practice there's usually good reason.
+Does that make sense? I think most people probably don't think in two phases like that, but I think it's probably a good
+practice to teach? When something is professional practice, there's usually good reason.
 :::
 
-::: construction
-This should probably cover
+::: construction This should probably cover
+
 - Designing idle specifically.
 - Visual design principles.
 
@@ -85,6 +87,5 @@ https://fornace.medium.com/fighting-game-design-with-dan-fornace-the-power-of-si
 
 ### Other Poses
 
-:::construction
-Todo
+:::construction Todo
 :::

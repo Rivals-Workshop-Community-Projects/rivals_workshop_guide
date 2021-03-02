@@ -2,7 +2,7 @@
 
 **BUCKLE UP, IT'S WORK TIME**
 
-Implementation is the process of turning your ideas from [the design phase](design) into a character, as efficiently as
+Implementation is the process of turning your ideas from [the design phase](../design) into a character, as efficiently as
 possible.
 
 ## Be Agile

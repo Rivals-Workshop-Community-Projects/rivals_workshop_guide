@@ -70,12 +70,54 @@ module.exports = {
                             '/workshop_guide/implementation/normals',
                         ]
                     },
-                    '/workshop_guide/release'
-                    // '/workshop_guide/Animation.md',
-                    // '/workshop_guide/index.md',
-                    // '/workshop_guide/',
-                    // 'attitude',
-                    // '/design'
+                    '/workshop_guide/release',
+                    {
+                        title: 'By Subject',
+                        children: [
+                            {
+                                title: 'Programming',
+                                path: 'programming',
+                                children: [
+                                    '/workshop_guide/programming/',
+                                    '/workshop_guide/programming/variables',
+                                    '/workshop_guide/programming/data_types',
+                                    '/workshop_guide/programming/functions',
+                                    '/workshop_guide/programming/control_flow',
+                                    '/workshop_guide/programming/control_flow/data_structures',
+                                    '/workshop_guide/programming/best_practices',
+
+                                ]
+                            },
+                            {
+                                title: 'Visuals',
+                                children: [
+                                    '/workshop_guide/design/visual_base',
+                                    '/workshop_guide/implementation/visual_base',
+                                ]
+                            },
+                            {
+                                title: 'Movement',
+                                children: [
+                                    '/workshop_guide/design/movement',
+                                    '/workshop_guide/implementation/movement',
+                                ]
+                            },
+                            {
+                                title: 'Normals',
+                                children: [
+                                    '/workshop_guide/design/normals',
+                                    '/workshop_guide/implementation/normals',
+                                ]
+                            },
+                            {
+                                title: 'Gimmick and Specials',
+                                children: [
+                                    '/workshop_guide/design/special',
+                                    '/workshop_guide/implementation/special',
+                                ]
+                            },
+                        ]
+                    }
                 ]
             }
         ]
@@ -88,6 +130,7 @@ module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         '@vuepress/plugin-medium-zoom',
+        'check-md',
         [
             'internal-link', {}
         ],

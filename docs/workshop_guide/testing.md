@@ -10,7 +10,7 @@ Appeal
 
 # Polish Design
 ## Balance
-[Avoid over nerfing](release#Avoiding Nerf Culture)
+[Avoid over nerfing](release#avoid-nerf-culture)
 
 [Curated Judge Procedure](https://drive.google.com/file/d/1r1yhd7n4bQNaUo0Iz2hLMjngQEpsLq6d/view)
 

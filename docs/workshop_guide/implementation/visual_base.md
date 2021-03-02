@@ -1,7 +1,7 @@
-# Visuals Implementation
+# Visuals
 
 ::: construction
-[See question here](design/visual_base)
+[See question here](../design/visual_base)
 
 This should probably cover
 - Implementing idle specifically
@@ -18,7 +18,7 @@ In the same way that early concept art informed design, the base idle sprite giv
 Most movement animations and attacks will come out of the idle position, so the idle sprite is effectively the beginning
 and end of most of your animations. Your idle should be polished before any other animation can be 
 
-[The design article](./design/visual_base) covered trying concept art, 
+[The design article](../design/visual_base) covered trying concept art, 
 but you should do a similar thing with sprite prototypes.
 
 [Rivals did a tonne of sprite prototyping](https://twitter.com/thisisellian/status/888019865478590465)

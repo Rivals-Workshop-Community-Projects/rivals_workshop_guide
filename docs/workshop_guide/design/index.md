@@ -1,3 +1,7 @@
+---
+next: predesign
+---
+
 # Design
 
 Design is maybe the most fun part of the creative process, but is nonetheless very important to take seriously.

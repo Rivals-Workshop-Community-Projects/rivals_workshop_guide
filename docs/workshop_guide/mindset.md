@@ -24,6 +24,8 @@ Because there is so much work, it's important to enjoy the process. Making a cha
 
 Don't punish yourself for not meeting some set of standards. Don't push yourself past what you enjoy. 
 
+If you keep working at it, you'll keep learning and improving. The only real failure is burning out or giving up.
+
 ::: quote
 Just make stuff that’s fun for you and take your time. 
 
