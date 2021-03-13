@@ -38,13 +38,17 @@ The time for drastic changes is early playtesting. At this time you should fine 
 
 ### Be skeptical
 
-Feedback mostly comes from lower skill players and can easily be misguided or unjustified. There are many situations
-where you should not follow the community's suggestions.
+Feedback mostly comes from lower skill players and can easily be misguided or unjustified. Use your own judgement, and only apply suggestions if you think it is the right idea. 
+While you're newer to modding this may be more fairly often, but as you improve you will more often find that your original decision is better.
 
-This isn't to say that feedback is worthless, but that it needs to be used carefully, with thought.
+This isn't to say that misguided feedback is worthless, but that it needs to be used carefully, with thought.
 
-::: quote Beware of feedback aimed for different [design intentions](design/predesign.md#intention) than yours.
+::: quote 
+
+Beware of feedback aimed for different [design intentions](design/predesign.md#intention) than yours.
+
 Communication with a community is very difficult.
+
 ~ Chaokobon
 :::
 
@@ -60,7 +64,7 @@ character are fun to play as or against can be helpful, even if the suggestions 
 Players are good at knowing what they don't enjoy, but usually poor at knowing how to improve it or what's causing them
 to dislike it.
 
-When a player says "X is poorly balanced" it usually means "X feels bad somehow."
+When a player says "X is poorly balanced," it usually means "X feels bad somehow."
 
 When a lot of people feel similarly, that is a good indicator of what parts the community does and doesn't enjoy, even
 if it doesn't tell you what changes to make.
@@ -79,7 +83,7 @@ Community balance feedback tends to ask for nerfs more than buffs.
 
 Fun is usually the ultimate goal. Be very careful when making changes for balance that you aren't losing much fun.
 
-::: quote Just try and make things fun. Balance can be for later. Doesn't matter if your character is balanced if no one
+::: quote Just try to make things fun. Balance can be for later. Doesn't matter if your character is balanced if no one
 plays them.
 ~ Shplurmff
 :::

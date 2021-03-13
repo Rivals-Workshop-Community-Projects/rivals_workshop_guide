@@ -6,7 +6,14 @@ A common instruction is saving a value in a variable.
 my_first_variable = 1000
 ```
 
-This stores the value `1000` in the variable named `my_first_variable`.
+The `=` operator stores the value `1000` in the variable named `my_first_variable`. You can read it as "set
+my_first_variable to 1000."
+
+(Note: `=` is for assigning a value. If you want to check if two things are equal, use `==`, which means "is equal to")
+
+You can name the variable pretty much anything, but it should be a noun and helpful for the reader's understanding.
+Use `_`
+as a space. You can use numbers, but not at the very start of the name.
 
 You can later use that variable to refer to its value.
 
@@ -41,3 +48,9 @@ are only accessible from the current scope, which makes it easier to stay organi
 If your variable doesn't need to be accessed on later frames, chances are good it *should* be a `var` variable.
 
 Different objects have their own variables. You can access an object's variable like `other_player.x`.
+
+::: Construction
+
+Persistant values, naming steps, avoiding duplication
+
+:::

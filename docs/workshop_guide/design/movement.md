@@ -12,6 +12,11 @@ feels.
 - Aids combat by letting you adjust position quickly during aerials, to extend combos, poke and retreat, or dodge and
   punish.
 
+## Pratfall accel
+
+Relevant both when directly entering pratfall (such as at the end of a movement special), and when parried during an
+aerial. Pratfall accel can't be made too high (higher than 0.6-7?)  or it will negate parries.
+
 ## Air speed
 
 - Very helpful for horizontal recovery Characters with higher fall speeds or lower jumps naturally travel less
@@ -33,13 +38,30 @@ horizontally on the control stick.
 Low air friction means a character will not slow down as much if the player attempts to use a neutral aerial when
 moving, and will cause them to travel a bit further during combos.
 
-High air friction helps resist being KO'd to a degree, and it may be beneficial in some cases to slow
-to a stop quicker without providing directional input.
+High air friction helps resist being KO'd to a degree, and it may be beneficial in some cases to slow to a stop quicker
+without providing directional input.
 
 https://www.ssbwiki.com/Air_friction
 
+## Gravity
 
+Gravity is a constant downward acceleration.
 
+A character might have high gravity but low fall speed. They would still fall slowly, but reach that fall speed faster.
+
+Hitstun gravity has a significant effect on how easy the character is to combo *todo how exactly*
+
+## Initial dash
+
+Dash dancing stuff
+
+## Run
+
+Chasing, keep away
+
+## Air dodge length and jump squat timing
+
+Important for wavedashing feeling consistent. Changing will make wave dash inputs different than every other character.
 
 > Any speed boost is really good. +speed buffs basically every attack.
 > ~ Mawral

@@ -36,6 +36,8 @@ if state == PS_WALK { // While walking
 }
 ```
 
+You'll often want to use boolean's logical connectors `and` and `or` to handle more complex conditions, such as `if window == 3 and window_timer == 1`
+
 Immediately after the `if` block, you can put an optional `else` block, which will run any time the `if` condition is
 false.
 
