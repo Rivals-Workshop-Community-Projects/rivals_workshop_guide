@@ -33,6 +33,10 @@ module.exports = {
         docsBranch: 'main',
         editLinkText: 'Propose changes in github',
         lastUpdated: false,
+        algolia: {
+            apiKey: '<API_KEY>',
+            indexName: '<INDEX_NAME>'
+        },
         nav: [
             {
                 text: 'Guide',
@@ -47,7 +51,8 @@ module.exports = {
                 // sidebarDepth: 2,
                 children: [
                     '/workshop_guide/mindset',
-                    '/workshop_guide/process',
+                    '/workshop_guide/journey',
+                    '/workshop_guide/iteration',
                     {
                         title: 'Design',
                         path: '/workshop_guide/design/',
@@ -155,13 +160,6 @@ module.exports = {
                 defaultTitle: 'Under Construction',
             },
         ],
-        [
-            '@vuepress/google-analytics',
-            {
-                'ga': 'G-VW71RR0SQJ'
-            }
-        ]
-
     ],
     markdown: {
         // extendMarkdown: md => {

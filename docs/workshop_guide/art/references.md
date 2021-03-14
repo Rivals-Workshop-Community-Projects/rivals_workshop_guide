@@ -20,3 +20,5 @@ Pose and animation references
 
 Your idle or jump sprite, to keep self-consistency.
 
+https://spritedatabase.net/
+Base cast sprites
