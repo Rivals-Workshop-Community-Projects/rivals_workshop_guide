@@ -6,6 +6,7 @@ like filling out a form.
 These scripts run only once, at the beginning of the game.
 
 ## Initializing Variables
+
 ### init.gml
 
 `init.gml` initializes your character's variables.
@@ -30,7 +31,7 @@ using, which would lead to bugs.
 
 Mr. Example's `other_init.gml` might contain `mr_example_debuff_active = false`.
 
-## Initializing Variables
+## Initializing Graphics
 
 ### load.gml
 
@@ -88,7 +89,20 @@ This will need a much larger guide to talk about how to *design* an attack.
 Will also need integration with atk file processing.
 
 :::
+Unlike all other scripts, these need to be placed in the `/attacks` sub-folder to be found.
 
-(Mawral's Window Guide)[https://ko-fi.com/post/RoA-Workshop-Guide-Explaining-Attack-Windows-M4M72XOMP]
-(Attack Grid Indices)[https://rivalsofaether.com/attack-grid-indexes/]
-(Hitbox Grid Indices)[https://rivalsofaether.com/hitbox-grid-indexes/]
+Names are typically from [the standard attack names](https://rivalsofaether.com/attack-names/), such as `bair.gml`
+
+The files typically look like a long series of function calls setting attack, window, and hitbox values:
+
+```gml
+set_hitbox_value(AT_DAIR, 1, HG_LIFETIME, 3);
+set_hitbox_value(AT_DAIR, 1, HG_HITBOX_X, -6);
+set_hitbox_value(AT_DAIR, 1, HG_HITBOX_Y, -44);
+// ... Many more lines
+```
+
+[Mawral's Window Guide](https://ko-fi.com/post/RoA-Workshop-Guide-Explaining-Attack-Windows-M4M72XOMP)
+[Relevant functions](https://rivalsofaether.com/functions/#post-130:~:text=Attack%2FHitbox%20Grid%20Functions,get_attack_value(%20attack%2C%20index%20)%20%20Reference%E2%86%92)
+[Attack Grid Indices](https://rivalsofaether.com/attack-grid-indexes/)
+[Hitbox Grid Indices](https://rivalsofaether.com/hitbox-grid-indexes/)
