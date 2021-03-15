@@ -21,8 +21,9 @@ You can later use that variable to refer to its value.
 my_second_variable = my_first_variable + 1 // my_second_variable will store 1001
 ```
 
-Objects (programming term for things like characters, projectiles or stages) already have a lot of variables, and you
-can read or change them.
+A lot of variables already exist, which you can read or change. In most files, these variables will belong to your
+character's '[instance](objects_and_instances.md#instance)' of oPlayer, which basically means a blob of data that
+characters use.
 
 ```gml
 // update.gml
@@ -35,22 +36,22 @@ the same as `x = x+1`.
 
 #### Local Variables
 
-When `var` is before a variable, it makes that variable '
-local.'
+When `var` is before a variable, it makes that variable 'local.'
 
 ```gml
 var my_local_variable = 1000
 ```
 
 [Local Variables](https://docs.yoyogames.com/source/dadiospice/002_reference/001_gml%20language%20overview/variables/local%20variables.html)
-are only accessible from the current scope, which makes it easier to stay organized and avoid unexpected side effects.
+are only accessible from the current "scope," which makes it much easier to stay organized and avoid unexpected side
+effects.
 
-If your variable doesn't need to be accessed on later frames, chances are good it *should* be a `var` variable.
+Being local to the current scope means only being accessible within the current block of code. If the variable is
+created within an [if](control_flow.md#if) or [for](control_flow.md#for) structure, it won't exist outside that block.
+Wherever it is, it won't be accessible outside the current file.
 
-Different objects have their own variables. You can access an object's variable like `other_player.x`.
+If your variable doesn't need to be accessed on later frames, chances are good it *should* be a `var` variable. You
+should be using `var` often to stay organized.
 
-::: Construction
-
-Persistant values, naming steps, avoiding duplication
-
-:::
+Different [instances](objects_and_instances.md#instance) have their own variables, which you can access
+with `<instance id>.<variable name>`, e.g. `other_player.x`.
