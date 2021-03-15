@@ -42,9 +42,11 @@ To find the source of an error, you start with whatever clue you have about the 
 the error, it will give you the line number, so you know exactly where to start. When there is no error message, you'll
 have to guess at what point you'll expect the wrong behavior to be visible.
 
-Once you know what line to investigate, use `print` to learn more about what's happening at the time. Sometimes the
-error makes it obvious what to check (`Type check failure` makes it clear that a value's type is wrong), and other times
-you may need to explore.
+Once you know what line to investigate, use `print` to show the content of variables and learn more about what's
+happening at the time.
+
+Sometimes the error makes it obvious what to check (`Type check failure` makes it clear that a value's type is wrong),
+and other times you may need to explore.
 
 If doing this in an update script, the log may become full of irrelevant noise. You can wrap the print in
 an [`if`](language/control_flow.md#if) block to only print in certain situations.
@@ -75,6 +77,10 @@ Find common error messages, give an example, and common fixes for them.
 - `<instance id> (<object>) does not have variable '<variable name>'`
 - `Expected a statement, got <character>`
 - `Type check failure for argument <argument num>: Expected a <correct type>`
+  `print`
+  the [typeof](https://docs.yoyogames.com/source/dadiospice/002_reference/001_gml%20language%20overview/typeof.html)
+  variables to help you find if you're using `"3"` when you want `3` or something.
+  See [data types](language/data_types.md).
 
 #### `Couldn't find instance <instance id>`
 
