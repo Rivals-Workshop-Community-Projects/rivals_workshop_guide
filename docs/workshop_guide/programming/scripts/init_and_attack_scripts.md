@@ -106,3 +106,9 @@ set_hitbox_value(AT_DAIR, 1, HG_HITBOX_Y, -44);
 [Relevant functions](https://rivalsofaether.com/functions/#post-130:~:text=Attack%2FHitbox%20Grid%20Functions,get_attack_value(%20attack%2C%20index%20)%20%20Reference%E2%86%92)
 [Attack Grid Indices](https://rivalsofaether.com/attack-grid-indexes/)
 [Hitbox Grid Indices](https://rivalsofaether.com/hitbox-grid-indexes/)
+
+# Misc
+
+## unload.gml
+*Not mentioned in the manual*
+Called at the end of each match, and is used to destroy any persistent 'ds_' [data structures](../language/data_structures.md) 
