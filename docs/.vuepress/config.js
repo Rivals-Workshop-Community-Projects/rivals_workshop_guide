@@ -52,45 +52,43 @@ module.exports = {
                 children: [
                     '/workshop_guide/mindset',
                     '/workshop_guide/journey',
-                    '/workshop_guide/iteration',
-                    {
-                        title: 'Design',
-                        path: '/workshop_guide/design/',
-                        children: [
-                            '/workshop_guide/design/predesign',
-                            '/workshop_guide/design/identity',
-                            '/workshop_guide/design/visual_base',
-                            '/workshop_guide/design/special',
-                            '/workshop_guide/design/movement',
-                            '/workshop_guide/design/normals',
-                        ]
-                    },
-                    {
-                        title: 'Implementation',
-                        path: '/workshop_guide/implementation/',
-                        children: [
-                            '/workshop_guide/implementation/visual_base',
-                            '/workshop_guide/implementation/special',
-                            '/workshop_guide/implementation/movement',
-                            '/workshop_guide/implementation/normals',
-                        ]
-                    },
                     '/workshop_guide/release',
                     {
                         title: 'By Subject',
+                        path: '/workshop/guide/',
                         children: [
                             {
                                 title: 'Programming',
-                                path: 'programming',
+                                path: '/workshop_guide/programming/',
                                 children: [
-                                    '/workshop_guide/programming/',
-                                    '/workshop_guide/programming/variables',
-                                    '/workshop_guide/programming/data_types',
-                                    '/workshop_guide/programming/functions',
-                                    '/workshop_guide/programming/control_flow',
-                                    '/workshop_guide/programming/data_structures',
-                                    '/workshop_guide/programming/best_practices',
+                                    {
+                                        title: 'Language Features',
+                                        path: '/workshop_guide/programming/language/',
+                                        children: [
+                                            '/workshop_guide/programming/language/variables',
+                                            '/workshop_guide/programming/language/data_types',
+                                            '/workshop_guide/programming/language/functions',
+                                            '/workshop_guide/programming/language/control_flow',
+                                            '/workshop_guide/programming/language/data_structures',
+                                            '/workshop_guide/programming/language/objects_and_instances',
+                                            '/workshop_guide/programming/language/articles',
 
+                                        ]
+                                    },
+                                    {
+                                        title: 'Scripts',
+                                        path: '/workshop_guide/programming/scripts/',
+                                        children: [
+                                            '/workshop_guide/programming/scripts/init_and_attack_scripts',
+                                            '/workshop_guide/programming/scripts/event_scripts',
+                                            '/workshop_guide/programming/scripts/animation_scripts',
+                                            '/workshop_guide/programming/scripts/article_scripts',
+                                            '/workshop_guide/programming/scripts/hitbox_scripts',
+                                            '/workshop_guide/programming/scripts/ai_scripts',
+                                        ]
+                                    },
+                                    '/workshop_guide/programming/best_practices',
+                                    '/workshop_guide/programming/troubleshooting',
                                 ]
                             },
                             {

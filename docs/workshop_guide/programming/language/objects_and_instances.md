@@ -17,20 +17,20 @@ determines what variables they have, and how Rivals uses them.
 
 ## Available Objects
 
-- oPlayer (Characters)
+- `oPlayer` (Characters)
 
-- pHitBox
-- pHurtBox
+- `pHitBox`
+- `pHurtBox`
 
-- obj_article1
-- obj_article2
-- obj_article3
-- obj_article_solid
-- obj_article_platform
+- `obj_article1`
+- `obj_article2`
+- `obj_article3`
+- `obj_article_solid`
+- `obj_article_platform`
 
-- hit_fx_obj
+- `hit_fx_obj` (Visual effects created on hit)
 
-- oTestPlayer (Characters while in playtest mode, found on the character select screen or workshop screen.)
+- `oTestPlayer` (Characters while in playtest mode, found on the character select screen or workshop screen.)
 
 ## Basic Usage
 
@@ -38,7 +38,7 @@ determines what variables they have, and how Rivals uses them.
 
 `instance_destroy(instance_id)` destroys the instance with that id. Be careful with this. It's usually best to let
 articles destroy themselves at the end of their `update` script, so they don't disappear in the middle of doing
-something.
+something. `instance_destroy()` with no arguments destroys the current instance, same as `instance_destroy(self)`.
 
 Other instances' variables can be accessed with `.` syntax, such as:
 
@@ -59,12 +59,12 @@ perspective of *all* instances of a given object.
 
 Perspective is important for some functions:
 
-Fetching functions (`asset_get`, `sound_get`) need to be of the perspective of the resource's character or an instance
+- Fetching functions (`asset_get`, `sound_get`) need to be of the perspective of the resource's character or an instance
 that character owns, such as their article or hitbox.
 
-`sound_play` panning depends on the location of the caller.
+- `sound_play` panning depends on the location of the caller.
 
-`instance_create`. The new instance's `player_id` variable is set to the instance that created it. Only create instances
+- `instance_create`. The new instance's `player_id` variable is set to the instance that created it. Only create instances
 from your character's perspective to avoid bugs.
 
 ::: construction

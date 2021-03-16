@@ -1,17 +1,13 @@
 # Programming Best Practices
 
-::: construction
-
-Rough notes
-
-:::
-
 The natural tendency of new programmers is to write code that works, and then move on. Unfortunately, that leads to a
 trail of chaos left behind, where the code may work, but it's hard to tell *how* or *why.*
 
+\
 That's fine until you need to change something. Either you're trying to find the cause of a bug and fix it, or you're
 trying to adjust how part of the character works, you'll be back. Code is read much more often than it's written.
 
+\
 Being organized also prevents a lot of bugs before they happen. Spending a little more time making your code clean and
 organized will *save* you more time in the future.
 
@@ -19,10 +15,12 @@ organized will *save* you more time in the future.
 
 This is the quickest win. Once good naming is a habit, all your code will be easier to understand.
 
+\
 Naming well is conceptually simple. Think of what the variable *means.* If someone asked you what it is, think of what
 you'd tell them. That's what your variable name should say.
 
-Don't worry much about keeping your variable names very short. Editors provide autocompletion of variable names.
+\
+Don't worry too much about keeping your variable names very short. Editors provide autocompletion of variable names.
 
 ::: construction
 
@@ -39,7 +37,7 @@ Rivals' built-in functions.
 
 Rivals doesn't do a great job of this itself. The variable to see if a character can cancel their current action into a
 wall jump is `can_wall_jump`. Can you guess the variable to see if a character has a remaining wall jump?
-It's `has_walljump`. Try to make your code obvious.
+It's `has_walljump`. Try to make your code obvious, and avoid creased foreheads.
 
 # Duplication
 
@@ -116,7 +114,7 @@ if attack == AT_DSPECIAL {
 Say that later you want to add a flash as well as the sound effect. Again, you'd need to make the same changes to
 multiple places in order to avoid weird inconsistent behavior.
 
-Fortunately, you can save the behavior to a [function](functions.md) with a `#define` block.
+Fortunately, you can save the behavior to a [function](language/functions.md) with a `#define` block.
 
 ```gml{4,10,13-15}
 if attack == AT_NSPECIAL {
@@ -156,18 +154,24 @@ grouped and hidden. When well organized, code should read like an english explan
 ## A weird example
 
 Imagine programming a robot to walk from your bedroom to your front door, where the only built-ins
-are `left_wheel_velocity` and `right_wheel_velocity`, and `wait(ms)`. It would be entirely possible to complete the task
-just by changing the wheel's at the right times to get it to turn and move the right amounts. The resulting code would
-be incomprehensible and extremely hard to change.
+are `left_wheel_velocity` and `right_wheel_velocity`, and `wait(ms)`.
 
+It would be entirely possible to complete the task just by changing the wheel's at the right times to get it to turn and
+move the right amounts. The resulting code would be incomprehensible and extremely hard to change.
+
+\
 The trick to notice is that you're doing repeated actions with those wheel changes, turning and moving forwards. You
 could improve things by making functions for `turn(direction)` and `move(distance)`, which handle the wheel adjustments
-for that change. Now the code would look like a series of turns and movements rather than a series of wheel adjustments.
-Easier to read, write, and understand, but still not *easy.*
+for that change.
 
+Now the code would look like a series of turns and movements rather than a series of wheel adjustments. Easier to read,
+write, and understand, but still not *easy.*
+
+\
 The functions being used are still too small and low level to describe what you're doing. If you keep track of the
-robot's current position, you could make `go_to_point(x, y)`, which turns towards that point and moves to reach it. Then
-you can name the points to stop and turn at, e.g. `bedroom_door = [15, 30]`, and write the code just as a list of
+robot's current position, you could make `go_to_point(x, y)`, which turns towards that point and moves to reach it.
+
+Then you can name the points to stop and turn at, e.g. `bedroom_door = [15, 30]`, and write the code just as a list of
 english named locations. Now the code is short, easy to understand, and easy to change.
 
 ## Decomposing from the start
@@ -175,11 +179,11 @@ english named locations. Now the code is short, easy to understand, and easy to 
 Normally it's better not to write the horrific version first and then clean it up. It's much nicer for things to be
 simple when you're still writing them. Write the code as if you were explaining it to someone.
 
-With the robot example - Get to the front door:
+With the robot example the task is "get to the front door":
 
-- If someone asked "How does it work?", "It goes to this series of points."
-- They ask "How does `go_to_point` work?", "It turns the robot toward the point, and moves the distance between them."
-- "How does turning work?", "It moves one wheel forwards, and the other backwards, for the right amount of time."
+- If someone asked "How does it work?" - "It goes to this series of points."
+- They ask "How does `go_to_point` work?" - "It turns the robot toward the point, and moves the distance between them."
+- "How does turning work?" - "It moves one wheel forwards, and the other backwards, for the right amount of time."
   etc.
 
 In this way, even though the problem is complicated, each level of the code is simple. To look into the details, the

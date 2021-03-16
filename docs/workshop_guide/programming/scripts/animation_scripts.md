@@ -17,7 +17,7 @@ Give a useful example
 
 :::
 
-# draw scripts
+# Draw Scripts
 
 These actually draw things to the screen. Typically used with
 
@@ -48,7 +48,7 @@ other_init.gml runs on your character as well.
 
 :::
 
-## Article draw
+## Article Draw
 
 Draws on your articles with the given article index.
 

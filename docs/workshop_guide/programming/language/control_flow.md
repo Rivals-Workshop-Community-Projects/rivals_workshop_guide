@@ -24,7 +24,7 @@ if <a boolean, something true or false> {
 }
 ```
 
-(See [boolean](data_types.md#boolean))
+(See [boolean](data_types.md#booleans-true-or-false-values))
 
 `if` statements let you run code only if some condition is true.
 
@@ -46,9 +46,11 @@ false.
 
 *For running code from another object's perspective, or accessing all objects of a given type.*
 
-`with` is a powerful tool that should be used carefully.
+[Please understand objects and instances first.](objects_and_instances.md)
 
-It changes the [perspective](objects_and_instances.md#perspective) to the [instance](objects_and_instances.md), for the
+As explained below, `with` should be used carefully. It is a complicated solution.
+
+`with` changes the [perspective](objects_and_instances.md#perspective) to the [instance](objects_and_instances.md), for the
 code inside.
 
 Inside the block, the original caller object can be referenced as `other`.
@@ -73,7 +75,7 @@ with <object> {
 }
 ```
 
-This not only changes perspective, but it runs the code on every instance of the object. `with oPlayer {...` code will
+This not only changes perspective, but it runs the code on every [instance](objects_and_instances.md) of the object. `with oPlayer {...` code will
 run on every player. This is not usually what you want, so most with blocks begin with an `if` check
 involving `player_id`, to only run on friendly, or enemy instances.
 
@@ -130,7 +132,7 @@ The `i` stands for 'iterator,' because each time the loop runs is an 'iteration.
 There are three parts in the head of the for loop, separated by semicolons.
 
 - The first is a statement, usually to set the initial value of the iterator.
-- The second is a [boolean](data_types.md#boolean) expression meaning 'should the loop end now?'
+- The second is a [boolean](data_types.md#booleans-true-or-false-values) expression meaning 'should the loop end now?'
 - The third is a statement run each time the loop finishes, usually updating the iterator.
 
 It is used most often to access each value of a [data structure](data_structures.md)

@@ -6,7 +6,7 @@ something new, it'll probably be broken in obvious ways that you'll figure out a
 The trouble is when things are broken in more subtle or complicated ways, where finding the source of the problem is its
 own challenge.
 
-*Always press Ctrl+8 to display debug messages when testing your character.*
+**Always press Ctrl+8 to display debug messages when testing your character.**
 
 ## Types of Bugs
 
@@ -86,22 +86,7 @@ Find common error messages, give an example, and common fixes for them.
 
 You're probably running code on a destroyed article.
 
-Rather than using `instance_destroy` on the article, ask the article to destroy itself.
-
-Set `should_die = false` in the article's [init script](scripts/article_scripts.md#init).
-
-Set `should_die = true` where you want to destroy the article
-
-Add
-
-```gml
-if should_die {
-    instance_destroy(self)
-}
-
-```
-
-to the bottom of the article's [update script](scripts/article_scripts.md#update).
+See [destroying articles safely.](language/articles.md#safely)
 
 ### Crash Window
 

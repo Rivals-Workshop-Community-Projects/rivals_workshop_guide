@@ -51,8 +51,6 @@ using [Dan Fornace's workshophelper](https://github.com/dfornace/workshophelper)
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/8e2cf977-f883-4e42-b976-3e3a0ae7c984_offset.png)
 
-~ [Mawral]()
-
 ### colors.gml
 
 Used to generate the alternate color palettes for the character.
@@ -103,6 +101,7 @@ set_hitbox_value(AT_DAIR, 1, HG_HITBOX_Y, -44);
 ```
 
 [Mawral's Window Guide](https://ko-fi.com/post/RoA-Workshop-Guide-Explaining-Attack-Windows-M4M72XOMP)
+[Mawral's Hitbox Guide](https://ko-fi.com/post/RoA-Workshop-Guide--Explaining-Hitboxes-D1D73IDDE)
 [Relevant functions](https://rivalsofaether.com/functions/#post-130:~:text=Attack%2FHitbox%20Grid%20Functions,get_attack_value(%20attack%2C%20index%20)%20%20Reference%E2%86%92)
 [Attack Grid Indices](https://rivalsofaether.com/attack-grid-indexes/)
 [Hitbox Grid Indices](https://rivalsofaether.com/hitbox-grid-indexes/)

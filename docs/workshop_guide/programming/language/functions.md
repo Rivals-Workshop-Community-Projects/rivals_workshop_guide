@@ -1,29 +1,33 @@
 # Functions
 
-[Built in Functions.](https://rivalsofaether.com/functions/)
+Similar to how a [variable](variables.md) saves a value to a name, a function saves a block of code to a name.
 
-Functions are a piece of code assigned, given a name, similar to how a variable is a value given a name.
+[Many functions exist,](https://rivalsofaether.com/functions/) to save you from needing to write everything you need
+from scratch.
 
+\
 To make them more flexible, functions can receive inputs (called 'arguments') and give an output (called a 'return
 value')
 
 ```gml
-the_maximum = max(1, 2, 3)
+var the_maximum = max(1, 2, 3)
 print(the_maximum)
 ```
 
 - `1, 2, 3` are input arguments passed in to the function `max`.
 - `max` returns `3`, which gets saved to `the_maximum`.
-- `print` takes `the_maximum` as a argument, and displays it to the screen (press ctrl 8 to see print output).
+- `print` takes `the_maximum` as an argument, and displays it to the screen (press ctrl 8 to see print output).
 
-# Making Functions with Define
+# Making Functions with `Define`
 
-Once you're familiar with the other basics of the language, you can, and should (!) make your own functions.
+Once you're familiar with the other basics of the language, you can, and [*
+should*](../best_practices.md#decomposition-and-pseudocode) make your own functions!
 
 Your functions are created with a `#define` block. Like variables, they can be named almost anything, but should be
-named a *verb*, and help the reader's understanding.
+named a *verb*, that helps the reader's understanding.
 
-Your functions **must be declared at the bottom of the file they're used in.**
+Your functions **must be declared at the bottom of the file they're used in.** You can't put any normal code underneath
+a define.
 
 ```gml
 #define stop_movement {
@@ -45,11 +49,12 @@ Notice the first line. This requires two inputs, which will be given the names `
 
 # What are Functions for?
 
-The most obvious use for a function is [avoiding duplication,](best_practices.md#behavior) which makes your code easier
+The most obvious use for a function is [avoiding duplication,](../best_practices.md#behavior) which makes your code easier
 to read, write, and change.
 
-[As explained here,](best_practices.md#decomposition-and-pseudocode) it's helpful to store code in functions even when
-they're only used once, as a way of keeping your code simple.
+Functions also let you [decompose your code into simpler layers,](../best_practices.md#decomposition-and-pseudocode) as a
+great way to manage complexity. Functions can help even when they're only used once, as a way of keeping your code
+simple.
 
 # Advanced Defines
 
@@ -71,7 +76,7 @@ The function body has two new variables.
     print(_out_string)
 ```
 
-You can use some arguments as variables and loop through the rest.
+You can use some arguments as variables and [loop](control_flow.md#for-loop) through the rest.
 
 ```gml
 
