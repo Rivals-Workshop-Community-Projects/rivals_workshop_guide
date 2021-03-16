@@ -55,7 +55,7 @@ module.exports = {
                     '/workshop_guide/release',
                     {
                         title: 'By Subject',
-                        path: '/workshop/guide/',
+                        path: '/workshop_guide/',
                         children: [
                             {
                                 title: 'Programming',
