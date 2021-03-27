@@ -41,6 +41,10 @@ module.exports = {
             {
                 text: 'Guide',
                 link: '/workshop_guide/',
+            },
+            {
+                text: 'Assistant',
+                link: '/assistant/'
             }
         ],
         sidebar: [
@@ -121,6 +125,13 @@ module.exports = {
                             },
                         ]
                     }
+                ]
+            },
+            {
+                title: 'Assistant',
+                path: '/assistant/',
+                children: [
+
                 ]
             }
         ]

@@ -31,10 +31,12 @@ Numbers have more operators, `>`, `>=`, `<`, and `<=`, described [below](#reals-
 
 ### Logical Operators
 
-You can combine booleans with logical operators.
+You can combine booleans with logical operators `and` and `or`.
 
-- `&&` means 'and'. `can_use_fireball = fireball_ready && state_cat != SC_HITSTUN`
-- `||` means 'or'. `bomb_should_explode = fuse_timer <= 0 || should_die`
+```gml
+can_use_fireball = fireball_ready && state_cat != SC_HITSTUN
+bomb_should_explode = fuse_timer <= 0 || should_die
+```
 
 \
 It is technically possible to use `0` and `1` as `false` and `true` respectively. **Don't.** It makes the intention of the

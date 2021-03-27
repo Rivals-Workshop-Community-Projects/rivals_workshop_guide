@@ -5,6 +5,8 @@ Statements are lines of code with direct effects, like `x=10` or `print('hi!')`.
 Control Flow are lines of code that *control how statements will be called.* It's probably easiest to understand that by
 looking at the if statement as an example
 
+# Basic Control Flow
+
 ## If
 
 *For running code only if a condition is true.*
@@ -41,6 +43,28 @@ as `if window == 3 and window_timer == 1`
 
 Immediately after the `if` block, you can put an optional `else` block, which will run any time the `if` condition is
 false.
+
+## Switch Case
+
+::: construction
+
+todo
+
+:::
+
+## Break
+
+::: construction
+
+todo
+
+:::
+
+# Advanced Control Flow
+
+Everything below this point is useful less often, and usually needs a good understanding of the language to use effectively.
+
+New modders can skip ahead.
 
 ## With
 

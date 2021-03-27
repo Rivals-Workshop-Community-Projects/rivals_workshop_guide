@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@vuepress/theme-vue": "^1.8.2",
+    "vue-simple-accordion": "^0.1.0",
     "vuepress-plugin-internal-link": "^0.2.0"
   }
 }

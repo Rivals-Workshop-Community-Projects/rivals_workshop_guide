@@ -1,6 +1,7 @@
 # Data Structures
 
-Variables hold single values, but sometimes you want a collection of values
+Variables hold single values, but sometimes you want a collection of values. This isn't crucial information to know, so
+feel free to skim or skip.
 
 [Official docs](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/data_structures/index.html)
 including more specialized data structures.
@@ -19,8 +20,8 @@ hit_noise_names = [
 ] 
 ```
 
-Arrays are accessed like `my_array[0]` for the first item, `my_array[1]` for the second, and so on.
-That can be a bit hard to remember at first. In programming, the first slot is *usually* index `0`.
+Arrays are accessed like `my_array[0]` for the first item, `my_array[1]` for the second, and so on. That can be a bit
+hard to remember at first. In programming, the first slot is *usually* index `0`.
 \
 `array_length(array)` gets the number of items in the array.
 
@@ -35,7 +36,8 @@ empty slots in the array up to that size. Be careful to check if the value is `n
 
 ## Struct
 
-An instance is a cluster of data, usually representing a *thing* in the game, such as a character or the stage. See [objects and instances](objects_and_instances.md) for background.
+An instance is a cluster of data, usually representing a *thing* in the game, such as a character or the stage.
+See [objects and instances](objects_and_instances.md) for background.
 
 With structs, you can create your own instances to organize data. When you need an instance that's visible on screen and
 has a position, you probably want an [article](articles.md) instead.

@@ -22,7 +22,7 @@ Need guide for choosing movement attributes
 
 ### other_init.gml
 
-A bit misleading, `other_init.gml` is called by *all* players at the start of the game, *including your character.*
+`other_init.gml` is called by all *other* characters at the start of the game.
 
 This is useful for setting other character's up to be compatible with your complex behavior.
 

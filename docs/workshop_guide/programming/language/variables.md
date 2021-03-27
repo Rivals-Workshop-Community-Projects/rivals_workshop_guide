@@ -49,3 +49,18 @@ should be using `var` often to stay organized.
 
 Different [instances](objects_and_instances.md) have their own variables, which you can access
 with `<instance id>.<variable name>`, e.g. `other_player.x`.
+
+\
+\
+*Advanced* If you need to set a `var` variable in a block and use it out of the block, you can declare the variable before it.
+
+```gml
+var message
+if is_ready {
+   message = "Ready!"
+}
+else {
+   message = "Not ready!"
+}
+print(message)
+```

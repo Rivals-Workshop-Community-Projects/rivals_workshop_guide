@@ -1,7 +1,6 @@
 ---
 home: true
 tagline: Rivals of Aether Workshop modding guide and documentation.
-actionText: Overview →
+actionText: Workshop Guide →
 actionLink: /workshop_guide/
 ---
-
