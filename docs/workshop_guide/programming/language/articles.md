@@ -4,16 +4,18 @@ next: ../scripts/
 
 # Articles
 
-*This builds on [the excellent guide by Mawral.](https://ko-fi.com/post/RoA-Workshop-Guide--Explaining-Articles-O5O82YTXU)*
+*This builds
+on [the excellent guide by Mawral.](https://ko-fi.com/post/RoA-Workshop-Guide--Explaining-Articles-O5O82YTXU)*
 Thank you Mawral <3
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/ce89075a-c714-4421-b121-1d015e6b7942_articles.png)
 
-Sometimes you want an [instance](objects_and_instances.md) other than your character. 
+Sometimes you want an [instance](objects_and_instances.md) other than your character.
 
-You grow a tree, have an owlfriend, drop bear traps, or throw a bouncy saw blade. 
+You grow a tree, have an owlfriend, drop bear traps, or throw a bouncy saw blade.
 
-Sometimes these can be handled as simple projectiles. Other times it's okay to just make them part of your character, tracking their location and using a draw script.
+Sometimes these can be handled as simple projectiles. Other times it's okay to just make them part of your character,
+tracking their location and using a draw script.
 
 If you have something with more complex behavior, it's probably easier to use an **article.**
 
@@ -42,8 +44,8 @@ There are five article objects:
 
 ## Creating an Instance of an Article
 
-Instances of articles are created with [instace_create("obj_article1"),](https://rivalsofaether.com/instance_create/) or whichever article type.
-Note that this is the only time when you'll need to put the article object name in quotes.
+Instances of articles are created with [instace_create("obj_article1"),](https://rivalsofaether.com/instance_create/) or
+whichever article type. Note that this is the only time when you'll need to put the article object name in quotes.
 
 ```gml{4}
 //attack_update.gml
@@ -52,20 +54,6 @@ if attack == AT_DSPECIAL {
     bomb = instance_create(x, y, "obj_article1") // Optionally save a reference to the instance in a variable.
   }
 }
-```
-
-### Creating an Instance from within a Non-Player Script
-
-When creating an article from the perspective of a non-player, such as within an article or hitbox script, the new
-article's `player_id` will be set incorrectly.
-
-You need to either manually set the article's `player_id`, or use a [`with`](control_flow.md#with) statement to take the
-player's perspective before creating the article.
-
-```gml{3}
-// article1_update.gml or hitbox_update.gml
-var new_article = instance_create(x, y, "obj_article2")
-new_article.player_id = player_id // Otherwise child's player_id would be the first article.
 ```
 
 ## Scripting Articles
