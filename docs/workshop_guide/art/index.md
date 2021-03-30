@@ -1,4 +1,8 @@
+# Art
+
 ::: construction
+
+This will later be ordered into a learning path, similar to [programming](../programming/learning_path)
 
 Still outlining subjects.
 

@@ -1,5 +1,4 @@
-#todo ask about this vs rivals style
-https://twitter.com/ThisIsEllian/status/1237523016772235264
+# Animation
 
 
 
