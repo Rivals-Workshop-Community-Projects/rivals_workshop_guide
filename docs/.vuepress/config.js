@@ -34,8 +34,11 @@ module.exports = {
         editLinkText: 'Propose changes in github',
         lastUpdated: false,
         algolia: {
-            apiKey: '<API_KEY>',
-            indexName: '<INDEX_NAME>'
+            appId: 'EC0FR1RUSS',
+            apiKey: 'aea82c5a88df28dbc55b424c3fef075d',
+            indexName: 'rivalslib',
+            // apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+            // indexName: 'docsearch',
         },
         nav: [
             {
@@ -53,11 +56,11 @@ module.exports = {
                 path: '/workshop_guide/',
                 children: [
                     {
-                        title: "Quickstart",
+                        title: "(EMPTY) Quickstart",
                         path: "/workshop_guide/quickstart/",
                     },
                     {
-                        title: "The Journey",
+                        title: "(EARLY WIP) The Journey",
                         path: "/workshop_guide/process/",
 
                         children: [
@@ -88,7 +91,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                title: 'Reference',
+                                title: '(EARLY WIP) Reference',
                                 path: '/workshop_guide/programming/reference/',
                                 children: [
                                     {
@@ -109,7 +112,7 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Art',
+                        title: '(EARLY WIP) Art',
                         path: '/workshop_guide/art/',
                         children: []
                     },
