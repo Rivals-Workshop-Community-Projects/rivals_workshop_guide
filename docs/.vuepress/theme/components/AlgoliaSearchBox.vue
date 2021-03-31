@@ -7,7 +7,7 @@
     <input
         id="algolia-search-input"
         class="search-query"
-        placeholder="WOW a palcedhlfjalfkl"
+        placeholder=""
     >
   </form>
 </template>
