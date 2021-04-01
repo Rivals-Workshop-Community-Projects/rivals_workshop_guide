@@ -44,7 +44,7 @@ The same exercise can be done for any character. Look for what glues them togeth
 
 **Smash's Mario**: "Sorta generic brawler with unrelated specials", no effort at cohesion in the gameplay. The identity is closer to "stuff mario does in other games."
 
-::: caninot
+::: warn
 Having a loose identity, is a valid design [intention](predesign.md#intention), particularly common when creating an
 existing character.
 

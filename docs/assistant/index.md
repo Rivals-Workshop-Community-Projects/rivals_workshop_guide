@@ -4,10 +4,12 @@ The Assistant is a tool that looks at your mod files, and does all sorts of thin
 are a lot of ways Rivals modding could be easier, and the Assistant is meant to let you focus more on making content,
 and less on handling the language.
 
+[Installation](installation.md)
+
 ## Function library
 
-User functions in the form of `#define`s are very helpful, but they can't be used across files. The Assistant solves
-this by automatically copying define and macro definitions to the files they're used in.
+User functions in the form of `#define` blocks are very helpful, but they can't be used across files. The Assistant
+solves this by automatically copying define and macro definitions to the files they're used in.
 
 \
 In addition to accessing your own defines across files, you can also use a community library, automatically updated as
@@ -36,12 +38,6 @@ and helper functions like:
 if window_timer == 1 and !hitpause { // Don't forget to check hitpause...
 // New
 if window_time_is(1) {
-
-// Old
-window = 3
-window_timer = 0
-// New
-set_window(3)
 
 // Old
 print("My value: " + str(value) + " %")
@@ -85,28 +81,3 @@ Examples:
 - `"red_ellipse_30_30"`
 - `"rect_34_36"`
 - `"orange_rect_3_5"`
-
-## Installation
-
-### VSCode
-
-1. Download and install [VSCode](https://code.visualstudio.com/).
-2. Open the extension manager (Ctrl+Shift+X), search for and install Rivals Workshop Assistant.
-
-That's it. For a better experience, also install `rivals of aether gml support` the same way, for highlighting and
-completion.
-
-### GMEdit
-
-VSCode is recommended over GMEdit at this time.
-- GMEdit reloads less often, and needs manual confirmation to merge changes each time.
-- GMEdit is more difficult to update, so its version of the Assistant may be updated less often and be missing features.
-
-1. Go to
-   the [plugin's release page](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases)
-   .
-2. Download the 'rivals-workshop-assistant-gmedit.zip' from that release. 
-3. In GMEdit preferences, near the bottom, click 'Plugins directory' to open the plugins directory.
-4. Extract the zip file into the plugins directory.
-5. Either reopen GMEdit or press Ctrl+Shift+I, then Ctrl+R to reload the editor.
-

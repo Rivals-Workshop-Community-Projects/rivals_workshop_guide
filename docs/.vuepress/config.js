@@ -1,4 +1,23 @@
 const {description} = require('../../package')
+const glob = require('glob');
+const pathing = require('path');
+
+const getChildren = function (root_path, relative_path) {
+    // 'docs/assistant/function_library/attacks/*.md'
+    const children = glob.sync(`${root_path}/${relative_path}/*.md`)
+        .filter(path => {
+            return pathing.basename(path) !== 'index.md'
+        })
+    .map(path => {
+        // remove "parent_path" and ".md"
+        path = path.slice(root_path.length + 1, -3)
+        return path
+    })
+    .sort()
+    console.log('children: ' + children)
+    return children
+};
+
 
 module.exports = {
     /**
@@ -121,7 +140,19 @@ module.exports = {
             {
                 title: 'Assistant',
                 path: '/assistant/',
-                children: []
+                children: [
+                    {
+                        title: 'Function Library',
+                        path: '/assistant/function_library/',
+                        children: [
+                            {
+                                title: 'Attacks',
+                                path: '/assistant/function_library/attacks/',
+                                children: getChildren('docs', '/assistant/function_library/attacks')
+                            }
+                        ],
+                    }
+                ]
             }
         ]
 
@@ -140,8 +171,8 @@ module.exports = {
         [
             'vuepress-plugin-container',
             {
-                type: 'caninot',
-                defaultTitle: 'Can I not?',
+                type: 'warn',
+                defaultTitle: 'Attention',
             },
         ],
         [
@@ -156,6 +187,20 @@ module.exports = {
             {
                 type: 'construction',
                 defaultTitle: 'Under Construction',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'danger',
+                defaultTitle: 'Danger!',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'see_also',
+                defaultTitle: 'See Also',
             },
         ],
     ],

@@ -30,13 +30,28 @@ body
   color black !important
 }
 
+table
+  border-collapse separate
+  margin 0
+
+th
+  padding 0
+  display none
+
+th, td
+  border none
+
+tr:nth-child(2n) {
+  background-color: $borderColor !important
+}
+
 ul
   list-style-type: disc;
 
 .theme-default-content code
   background-color rgba(0,0,35,0.3)
 
-.caninot
+.danger
   margin 1rem 0
   padding .1rem 1.5rem
   border-radius 0.4rem
@@ -51,6 +66,25 @@ ul
   background-color #9983A3
   .title
     font-weight bold
+
+.see_also
+  margin 1rem
+  padding-bottom: .5rem;
+  //border-radius 0.4rem
+
+  background #166a7c
+  border-left .2rem solid rgba(23, 162, 184, .8)
+  box-shadow 0 0.2rem 0.5rem rgb(0 0 0 / 5%), 0 0 0.05rem rgb(0 0 0 / 10%)
+  transition color .25s,background-color .25s,border-color .25s
+
+  ul
+    list-style-type none !important
+
+  .custom-block-title
+    font-weight bold
+    background-color rgba(23, 162, 184, .8);
+    padding-left .3rem
+    margin-bottom .3rem
 
 .construction
   margin 1rem 0

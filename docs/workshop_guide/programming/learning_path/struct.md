@@ -1,4 +1,4 @@
-## Struct
+# Struct
 
 An instance is a cluster of data, usually representing a *thing* in the game, such as a character or the stage.
 See [objects and instances](objects_and_instances.md) for background.
