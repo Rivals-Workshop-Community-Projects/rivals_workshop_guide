@@ -3,6 +3,8 @@
 The Assistant's function library lets you write shorter, simpler code by automatically sharing helprul `#define`
 and `#macro` statements to the files where they're used.
 
+For example:
+
 ```gml
 // Old
 window = 3
@@ -11,14 +13,18 @@ window_timer = 0
 set_window(3)
 ```
 
-To use functions in the [library](docs/assistant/code_injection_reference/function_library.md), you only need to use them as if they were already
-available. The Assistant notices, and provides them at the bottom of the file.
+To use functions in the library, you only need to use them as if they were already available. The Assistant notices, and
+provides them at the bottom of the file.
 
 To share one of your defines across files, navigate to the `assistant/user_inject` that was created. All defines in gml
 files in that directory will be available everywhere, just like the Assistant library.
 
 If you already supply a define in a file, the Assistant will **not** provide it. This lets you override the library on a
 per-file basis.
+
+- Documentation for the library can be found in the sidebar under this page.
+- Source code for the library can be found in the `assistant/.inject` folder that the Assistant will make in the root of
+  your project.
 
 ## Updates
 

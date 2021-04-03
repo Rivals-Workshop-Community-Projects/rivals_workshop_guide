@@ -19,16 +19,4 @@ if window_time_is(frame) {
 \
 **Parameters:**
 
-- `frame`: ([int](/docs/workshop_guide/programming/learning_path/data_types.md#integers)) The frame to check equality for.
-
-[comment]: <> (::: see_also)
-
-[comment]: <> (:::)
-
-[comment]: <> (\ )
-
-[comment]: <> (**Notes:**)
-
-[comment]: <> (\ )
-
-[comment]: <> (**Further Examples:**)
+- `frame`: ([int](/workshop_guide/programming/learning_path/data_types.md#integers)) The frame to check equality for.

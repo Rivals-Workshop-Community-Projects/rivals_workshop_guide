@@ -4,8 +4,6 @@
 
 Configure a window from a series of keys and values.
 
-[comment]: <> ( TODO link to definition of window when its made )
-
 ```gml
 // Without Assistant
 set_window_value(AT_BAIR, 1, AG_WINDOW_TYPE, 1)
@@ -22,11 +20,11 @@ make_window(AT_BAIR, 1,
 **Parameters:**
 
 - `_attack_name`: The [attack index](https://rivalsofaether.com/attack-indexes/) to be configured.
-- `_index`: ([int](/docs/workshop_guide/programming/learning_path/data_types.md#integers)) the index of the window to
+- `_index`: ([int](/workshop_guide/programming/learning_path/data_types.md#integers)) The index of the window to
   configure.
 - Any number of pairs of:
     - `value_name`:
-      A [window attack grid index](https://rivalsofaether.com/attack-grid-indexes/#post-153:~:text=Window%20Data,These%20values%20only)
+      A [window attack grid index](https://rivalsofaether.com/attack-grid-arindexes/#post-153:~:text=Window%20Data,These%20values%20only)
       to set.
     - `value`: The value to set to the paired window attack grid index.
 
@@ -37,11 +35,8 @@ make_window(AT_BAIR, 1,
 
 :::
 
+::: construction
 
-[comment]: <> (\ )
+Link to definition of Window when that is made.
 
-[comment]: <> (**Notes:**)
-
-[comment]: <> (\ )
-
-[comment]: <> (**Further Examples:**)
+:::

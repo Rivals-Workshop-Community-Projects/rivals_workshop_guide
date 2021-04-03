@@ -6,7 +6,7 @@ and less on handling the language.
 
 [Installation](installation.md)
 
-## Function library
+## [Function library](function_library)
 
 User functions in the form of `#define` blocks are very helpful, but they can't be used across files. The Assistant
 solves this by automatically copying define and macro definitions to the files they're used in.
@@ -58,9 +58,9 @@ for(var weapon_i=0; weapon_i<array_length(weapons); weapon_i++) {
 }
 ```
 
-Right now `$foreach <collection_name>$` is the only code injection.
+Right now `$foreach <collection_name>$` is the only code injection, but there are many ways this can be exanded.
 
-## Asset creation
+## [Asset Generation](asset_generation.md)
 
 The Assistant can help you mock-up projectiles and articles by automatically generating placeholder sprites for them.
 

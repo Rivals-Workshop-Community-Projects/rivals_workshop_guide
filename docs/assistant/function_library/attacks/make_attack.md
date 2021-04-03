@@ -30,12 +30,3 @@ make_attack(AT_BAIR,
 - [make_window](make_window.md): Configure a window.
 
 :::
-
-
-[comment]: <> (\ )
-
-[comment]: <> (**Notes:**)
-
-[comment]: <> (\ )
-
-[comment]: <> (**Further Examples:**)

@@ -20,7 +20,7 @@ make_hitbox(AT_BAIR, 1,
 **Parameters:**
 
 - `_attack_name`: The [attack index](https://rivalsofaether.com/attack-indexes/) to be configured.
-- `_index`: ([int](/docs/workshop_guide/programming/learning_path/data_types.md#integers)) the index of the hitbox to
+- `_index`: ([int](/workshop_guide/programming/learning_path/data_types.md#integers)) The index of the hitbox to
   configure.
 - Any number of pairs of:
     - `value_name`: An [hitbox grid index](https://rivalsofaether.com/hitbox-grid-indexes/) to set.
@@ -32,12 +32,3 @@ make_hitbox(AT_BAIR, 1,
 - [make_window](make_window.md): Configure a window.
 
 :::
-
-
-[comment]: <> (\ )
-
-[comment]: <> (**Notes:**)
-
-[comment]: <> (\ )
-
-[comment]: <> (**Further Examples:**)

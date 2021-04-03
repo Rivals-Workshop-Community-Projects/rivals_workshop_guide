@@ -75,11 +75,11 @@ module.exports = {
                 path: '/workshop_guide/',
                 children: [
                     {
-                        title: "(EMPTY) Quickstart",
+                        title: "Quickstart (EMPTY)",
                         path: "/workshop_guide/quickstart/",
                     },
                     {
-                        title: "(EARLY WIP) The Journey",
+                        title: "The Journey (EARLY WIP)",
                         path: "/workshop_guide/process/",
 
                         children: [
@@ -110,7 +110,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                title: '(EARLY WIP) Reference',
+                                title: 'Reference (EARLY WIP)',
                                 path: '/workshop_guide/programming/reference/',
                                 children: [
                                     {
@@ -131,7 +131,7 @@ module.exports = {
                         ]
                     },
                     {
-                        title: '(EARLY WIP) Art',
+                        title: 'Art (EARLY WIP)',
                         path: '/workshop_guide/art/',
                         children: []
                     },
@@ -149,9 +149,16 @@ module.exports = {
                                 title: 'Attacks',
                                 path: '/assistant/function_library/attacks/',
                                 children: getChildren('docs', '/assistant/function_library/attacks')
+                            },
+                            {
+                                title: 'Logging',
+                                path: '/assistant/function_library/logging/',
+                                children: getChildren('docs', '/assistant/function_library/logging')
                             }
                         ],
-                    }
+                    },
+                    '/assistant/asset_generation',
+                    '/assistant/code_injection',
                 ]
             }
         ]
@@ -172,7 +179,7 @@ module.exports = {
             'vuepress-plugin-container',
             {
                 type: 'warn',
-                defaultTitle: 'Attention',
+                defaultTitle: 'Warning',
             },
         ],
         [
