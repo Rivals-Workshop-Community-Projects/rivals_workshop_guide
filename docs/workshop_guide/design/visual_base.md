@@ -1,29 +1,62 @@
 # Visuals
 
-::: construction Hi, people who know anything about art.
+::: construction
 
-Right now the structure is
-
-Design
-
-- Talk about stuff that isn't pixel art specific. Posing, communication. Support working entirely on paper. Sketching
-  key frame ideas.
-
-Implementation
-
-- Talk about turning those designs into pixel art animations. How to iterate pixel art roughs. How to animate.
-
-Does that make sense? I think most people probably don't think in two phases like that, but I think it's probably a good
-practice to teach? When something is professional practice, there's usually good reason.
-:::
-
-::: construction This should probably cover
+This should probably cover
 
 - Designing idle specifically.
 - Visual design principles.
 
 The below is rough notes.
 :::
+
+
+## Design References
+
+### Design references
+
+Some modders spend a lot of time
+
+\
+<details>
+<summary>Example of how references can guide a character design</summary>
+
+Say that you want to make a twisty, tricky witch character.
+
+Google images "witch" doesn't help much, looking halloweeny, but google images "hag" has some helpful pictures such as:
+
+<img src="https://lordsofnether.com/wp-content/uploads/2020/08/Hag-1920x2560.png" height=300 alt="Hag">
+
+You might decide the hunched back fits, and remember a similar posture from dota's witch doctor.
+
+<img src="https://i.pinimg.com/originals/ff/7c/cd/ff7ccd5b2ed2e16c4845fdfc6b5d7396.png" height=300 alt="Witch doctor">
+
+Leaning on the staff might be interesting. That and the twisty-misshapen look reminds of you of spooky old trees, so you
+search for "gnarled wood."
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/432ac0f9-fa1f-4654-abcd-ece09fbe141c/dphaj7-b1defe12-d5f2-4d0a-bda3-8fdc0b164e8c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNDMyYWMwZjktZmExZi00NjU0LWFiY2QtZWNlMDlmYmUxNDFjXC9kcGhhajctYjFkZWZlMTItZDVmMi00ZDBhLWJkYTMtOGZkYzBiMTY0ZThjLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl19.o8lZX0CFfNJgLm2lakH-K64yFdCMC3ybSJV12EBc1wU" height=300 alt="Gnarled Wood">
+
+That might work for body shape, or a staff, or at the very least for some cool attack vfx, like black lightning.
+
+No animal immediately jumps to mind as fitting this weird body shape. Ferrets are long, and sorta shifty looking, so you
+look for ferret characters.
+
+<img src="https://static.wikia.nocookie.net/toothandtail_gamepedia/images/0/09/Ferret.png" height=300 alt="Tooth and tail ferret">
+
+Not quite right but could maybe work with some adjustments. Carrying something large on their back could be interesting.
+Maybe a cauldron or big sack.
+
+Thinking less about body shape and more in terms of 'witchyness', a raven or toad or black cat might be better choices,
+giving more things to search.
+
+</details>
+
+
+
+
+
+
+
 
 # Entire process
 
@@ -151,5 +184,26 @@ the opposing player.
 Body parts that the character uses to attack should be especially visible, as they make attacks clearer. Etalus, maypul.
 Find quote from Dan I think. Ranno and Wrastor's legs use highly contrasting colors.
 
-
 Todo, clear poses with stubby limbs. Other challenges.
+
+::: construction
+
+unsorted stuff below
+
+:::
+
+Designing to be easier to draw.
+
+- Avoid lots of secondary motion, scarfs capes hair
+- Avoid complex shapes or patterns
+
+::: construction
+
+Ask about this
+
+:::
+
+Designing to be easier to pose.
+
+- Avoid stubby limbs (?)
+- Avoid capes and silhouette noise

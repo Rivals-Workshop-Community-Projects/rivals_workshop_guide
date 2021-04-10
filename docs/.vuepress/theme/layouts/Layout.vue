@@ -8,13 +8,24 @@
         <p><a href="https://discord.com">discord</a> qazzquimby#0073</p>
         <p>email <a target="_top" href="mailto: qazzquimby@yahoo.com">qazzquimby@yahoo.com</a></p></div>
     </template>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VW71RR0SQJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VW71RR0SQJ');
+    </script>
   </ParentLayout>
 </template>
 
+
+
 <script>
 import ParentLayout from '@parent-theme/layouts/Layout.vue'
-
 export default {
+
   name: 'Layout',
 
   components: {

@@ -1,24 +1,102 @@
-Drawing should usually be done with references.
+# Using References
 
-Knowing what things look like, so you can draw them from memory, is not something brains naturally know how to do. It
-feels like they do, but most of the time this is crude symbolism that doesn't feel real.
+![](https://i.gyazo.com/636fa88383bbee93a83be3c998a954d0.png)
 
-![](https://images.squarespace-cdn.com/content/v1/54b1c248e4b0c108166821e2/1421640873646-8B4CYI9GKOP1S27R3QHO/ke17ZwdGBToddI8pDm48kCCc_WoUrSzh-S8VMK3Cp1VZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIhVsM69mXoL3ea3hqhbcA1XsLdTj0ZAvF4aGeR1Tn5FYKMshLAGzx4R3EDFOm1kBS/image-asset.jpeg?format=750w)
-![](https://images.squarespace-cdn.com/content/v1/54b1c248e4b0c108166821e2/1421640890607-EVYLA5YLEER5GWK1K69W/ke17ZwdGBToddI8pDm48kKA6pJ4ETxA3d6nND23Jopt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmv1ihXzK27xJYOPbUG3fJT8NnM5nKeLuWMzZnVuvmtaxMk74BdBx-c_oVihRUCCOc/image-asset.jpeg?format=750w)
+**NO,** there is nothing wrong with using references. Seeing how things look is an absolutely necessary part of making
+any kind of realistic art.
 
-If you sketch a quick pixel-art dog, and then do they same while looking at the reference below, your second should look
-more realistic and better fit Rivals' style.
+\
+Brains aren't naturally good at knowing how things look. You may be able to recognize if something looks right, but
+being able to generate something that looks natural from your imagination is extremely difficult.
+
+Attempts to work from imagination (without huge amounts of prior experience) are usually overly simple and artificial
+looking, because brains don't know how to generate the details.
+
+Drawing from references lets you see those details, make better art, and get a better understanding of how things look.
+
+Most artists should use references almost constantly.
+
+#### Example
+
+If skeptical, try drawing a pixel-art dog buddy in Rivals style, entirely from imagination.
+
+Then draw the same kind of dog while looking at the reference below, and paying attention to how it is different from
+your first try.
 
 <details>
-    <summary>Dog reference</summary>
-    ![](https://pbs.twimg.com/media/DxPFbdKUcAA4fPe.png)
+<summary>Dog reference</summary>
+
+<img src="https://pbs.twimg.com/media/DxPFbdKUcAA4fPe.png" width="500" alt="Rivals Dog">
+
 </details>
 
-Style references - Rivals sprites to compare style (link to page on rivals style)
+## Specific references
 
-Pose and animation references
+There's a misconception that a reference must be exactly what you're drawing it, and you need to copy it, like
+referencing a picture of sonic to draw sonic.
 
-Your idle or jump sprite, to keep self-consistency.
+Usually a reference shows you some small aspect of the subject. For example:
 
-https://spritedatabase.net/
-Base cast sprites
+- Spyro the dragon's color palette
+- Broken glass for hit fx
+- Smash's mario fair pose
+- A military officer for clothes design
+- A video of rollerblading for run animation
+- Absa's got-hit sprite pose
+
+## Pose and Animation references
+
+There are a lot of ways an animation can look unnatural. Follow similar movement in other animations, or similar poses.
+
+- How does someone throw something big and heavy?
+- How does someone wind up just before they do a sweeping kick?
+- How do four-legged animals turn around?
+
+\
+<details>
+<summary>Example of how an attack animation can be guided by references</summary>
+
+Say you have a quadruped wildcat character who's going to pounce and swipe with both claws.
+
+Google imaging that movement doesn't turn up much, but there are good examples of lions running and jumping.
+
+<img src="https://i.pinimg.com/originals/30/ff/ca/30ffca60b5008006ab43e7d171fc9b13.gif" width=400 alt="lion running">
+
+
+That can help with the pounce movement, but finding references for the clawing looks harder. Searching eventually finds
+Ms. Fortune sprites in similar poses.
+
+<img src="https://static.wikia.nocookie.net/skullgirls/images/3/35/Nyaaawn.png" alt="ms fortune yawn">
+<img src="https://static.wikia.nocookie.net/skullgirls/images/2/24/Jumping_LP.png" alt="ms fortune jumping lp">
+
+They're not from the same attack (and one is actually a yawn), but they both fit and look catty.
+
+These sources can be combined to make some evocative keyframes for the animation.
+
+</details>
+
+## Style references
+
+If something isn't looking right, you can compare
+with [Rivals sprites](https://drive.google.com/drive/folders/18qVCZ9uKaAMQcDLDYdkrbeBP9HAibHlu?usp=sharing) that have
+similar poses or animations.
+
+- How many frames do they use?
+- How do they make that material look shiny?
+- How do they make the face clear when it's so small?
+
+# Getting references
+
+- Google images, sometimes with 'animation' in the query.
+- [Vanilla cast sprites](https://drive.google.com/drive/folders/18qVCZ9uKaAMQcDLDYdkrbeBP9HAibHlu?usp=sharing) for
+  anything about Rival's style.
+- Workshop sprites that do an especially good job at what you're working on.
+- [Spriter's Resource](https://www.spriters-resource.com/) and [Sprite Database](https://spritedatabase.net/) mostly for
+  poses.
+- Your own existing sprites, for self-consistency. Especially adjacent animations, like looking at crouch to draw dtilt.
+
+::: construction
+
+Are there more good sources? Please let me know.
+
+:::

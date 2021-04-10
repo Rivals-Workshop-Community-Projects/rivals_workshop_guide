@@ -8,6 +8,8 @@ This should probably cover
 - Visual implementation principles
 :::
 
+Animations build off other animations. Jab comes out of idle, so idle needs to be done before jab. In general, movement should be animated first. 
+
 ### Base Idle Sprite
 
 The base idle sprite is the first sprite of the character's idle animation.

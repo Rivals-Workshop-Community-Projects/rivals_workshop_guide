@@ -37,8 +37,17 @@ module.exports = {
     head: [
         ['meta', {name: 'theme-color', content: '#534388'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
-        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}]
-    ],
+        ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
+        ['script', {async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-EPVWBP6RYB'}],
+        ['script', {}, `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EPVWBP6RYB');
+      `],
+],
+
 
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
@@ -56,9 +65,7 @@ module.exports = {
             appId: 'EC0FR1RUSS',
             apiKey: 'aea82c5a88df28dbc55b424c3fef075d',
             indexName: 'rivalslib',
-            // apiKey: '25626fae796133dc1e734c6bcaaeac3c',
-            // indexName: 'docsearch',
-        },
+         },
         nav: [
             {
                 text: 'Guide',
@@ -131,9 +138,19 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Art (EARLY WIP)',
+                        title: 'Art (WIP)',
                         path: '/workshop_guide/art/',
-                        children: []
+                        children: [
+                            '/workshop_guide/art/references',
+                            '/workshop_guide/art/feedback',
+                            '/workshop_guide/art/pixel_art_basics',
+                            '/workshop_guide/art/proportion',
+                            '/workshop_guide/art/form',
+                            '/workshop_guide/art/lines',
+                            '/workshop_guide/art/color',
+                            '/workshop_guide/art/shading',
+                            '/workshop_guide/art/simplification',
+                        ]
                     },
                 ]
             },
@@ -187,6 +204,13 @@ module.exports = {
             {
                 type: 'quote',
                 defaultTitle: '',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'sources',
+                defaultTitle: 'Sources',
             },
         ],
         [
