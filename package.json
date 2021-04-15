@@ -10,7 +10,7 @@
   "repository": "https://github.com/Qazzquimby/rivals_workshop_guide/rivals_workshop_guide",
   "scripts": {
     "dev": "vuepress dev docs --temp ../.temp --host localhost",
-    "build": "vuepress check-md docs --fix && vuepress build docs && cd && git add docs/.vuepress/dist"
+    "build": "vuepress check-md docs --fix && vuepress build docs && git add docs/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {

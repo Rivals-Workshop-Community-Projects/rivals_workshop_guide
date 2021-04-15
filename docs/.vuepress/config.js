@@ -138,7 +138,7 @@ module.exports = {
                         ]
                     },
                     {
-                        title: 'Art (WIP)',
+                        title: 'Art',
                         path: '/workshop_guide/art/',
                         children: [
                             '/workshop_guide/art/references',
