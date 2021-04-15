@@ -150,6 +150,9 @@ module.exports = {
                             '/workshop_guide/art/color',
                             '/workshop_guide/art/shading',
                             '/workshop_guide/art/simplification',
+                            '/workshop_guide/art/pose',
+                            '/workshop_guide/art/anticipation_action_recovery',
+                            '/workshop_guide/art/advancing_frames',
                         ]
                     },
                 ]

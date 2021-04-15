@@ -16,6 +16,8 @@ Rivals characters look better than this, because they aren't just 2d structures.
 
 <img src="https://i.gyazo.com/eda5e299e2167f691593bde4c57d9ab8.png" alt="Etalus turning">
 
+[Short Video Guide](https://youtu.be/7An0jukOkCI?t=6)
+
 ## How to draw form
 
 Drawing form is very hard. Do not expect it to come quickly. Some things in this guide can be learned quickly and just

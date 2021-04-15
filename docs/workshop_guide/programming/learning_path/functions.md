@@ -51,12 +51,11 @@ Notice the first line. This requires two inputs, which will be given the names `
 
 ### Why Create Functions
 
-The most obvious use for a function is [avoiding duplication,](best_practices.md#behavior) which makes your code
-easier to read, write, and change.
+The most obvious use for a function is [avoiding duplication,](best_practices.md#behavior) which makes your code easier
+to read, write, and change.
 
-Functions also let you [decompose your code into simpler layers,](best_practices.md#decomposition) as
-a great way to manage complexity. Functions can help even when they're only used once, as a way of keeping your code
-simple.
+Functions also let you [decompose your code into simpler layers,](best_practices.md#decomposition) as a great way to
+manage complexity. Functions can help even when they're only used once, as a way of keeping your code simple.
 
 ### Advanced Defines
 
@@ -96,3 +95,6 @@ You can use some arguments as variables and [loop](array.md#for-loop) through th
 
 These should always have a first line comment explaining what the arguments are, with the unknown quantity last,
 named `...args`
+
+(In the GML documentation, defines are called 'scripts', because in standard gml each user-function is written in a
+separate file.)

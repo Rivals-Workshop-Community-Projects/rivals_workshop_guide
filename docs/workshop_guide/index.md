@@ -17,7 +17,7 @@ you, help you find whatever information you need, and stop you from falling into
 - ~~[The Journey](process) (WIP) walks you through the process of building a character at a high level.~~
 - [Programming Guide](programming/learning_path) teaches programming and language features.
 - ~~[Programming Reference Documents](programming/reference) (EARLY WIP).~~
-- [Art Guide](art) (WIP) covers all the theory necessary to make good Rivals art and animations.  
+- [Art Guide](art) covers the theory behind making good Rivals art and animations.  
   Topics about animation and workflow are still to come.
 
 Reference documentation is still early in development, but eventually any Rivals, Gml, or [Assistant](/assistant)

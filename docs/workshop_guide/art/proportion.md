@@ -6,6 +6,10 @@ Getting characters proportioned correctly is a simple but important step to make
 
 Rivals characters typically stand **25-45px tall**, and **35-60px wide**.
 
+Average height characters are very close to **35 px tall.** 
+
+![](https://storage.ko-fi.com/cdn/useruploads/display/7fae8c82-24fd-40e2-8713-80fbed50caf2_height.png)
+
 It's not illegal to be outside that range, but small characters tend to feel frustrating to hit, and large characters
 tend to get comboed too easily.
 
@@ -25,6 +29,8 @@ tend to get comboed too easily.
 ![](https://media.discordapp.net/attachments/611423483863367692/612094255300870154/GridShovelKnight.png)
 ![](https://media.discordapp.net/attachments/611423483863367692/612094267690582046/GridEmpty.png)
 
+Characters without `small_sprites="1"` in their `config.ini` file will need their sprites to be scaled up to double
+size. If your character looks like a tiny-pixel dwarf, this may be the reason.
 
 ## Proportion
 
@@ -37,11 +43,14 @@ Most importantly, make sure your character's body proportions are consistent, an
 move. Exaggerated poses are an exception.
 
 \
-Characters should be obviously facing forward, but they  usually turn ~45 degrees towards the camera, to make their features easier to see.
+Characters should be obviously facing forward, but they usually turn ~45 degrees towards the camera, to make their
+features easier to see.
 
 \
 ::: sources
 
 Thine
+
+[Mawral](https://ko-fi.com/post/RoA-Workshop-Guide--Designing-an-Idle-Sprite-N4N43NG85)
 
 :::
