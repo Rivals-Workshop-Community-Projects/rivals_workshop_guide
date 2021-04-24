@@ -11,7 +11,7 @@ Normals should be compelling, and should express or refine the character's [iden
 Be careful of redundant moves that serve the same purpose. One can easily overshadow another and reduce the number of
 real options available at a given time.
 
-> Most of the normals i pick are just because I like how something looks or imagine it being cool in my head, but i do make sure to consider "does this really fit?"
+> Most of the normals I pick are just because I like how something looks or imagine it being cool in my head, but i do make sure to consider "does this really fit?"
 > Half the time I'll add a little twist to spice things up a bit, like Zerra dtilt being belmont dtilt, but sends you fully into the air instead of landing again.
 > ~ Shplurmff
 
