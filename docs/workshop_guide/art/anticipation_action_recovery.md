@@ -51,7 +51,7 @@ Longer, slower movements show that there is less force behind them. This leads t
 
 [Classic Skullgirls talk on using fewer transition frames to make more powerful animations.](https://www.youtube.com/watch?v=Mw0h9WmBlsw)
 
-# Anticipation
+## Anticipation
 
 <img src="https://i.gyazo.com/819ea1883ee24d83c71bcde1f8bcee6e.png" height=200 alt="zetter anticipation">
 
@@ -112,7 +112,7 @@ The bottom one shows better where Amber is aiming towards. She's aiming to the r
 
 In addition to a clear pose, characters always look in the direction they're going to attack.
 
-# Active
+## Active
 
 <img src="https://i.gyazo.com/b23b781057cbb4f6fe418425c7105d26.png" height=250 alt="zetter active">
 
@@ -124,7 +124,7 @@ The active pose is often a very fast movement, shown with a [smear](pose.md#smea
 
 <img src="https://i.gyazo.com/baeddfa57866bdf284a82a95a8c65970.png" height=250 alt="absa fair active">
 
-# Recovery
+## Recovery
 
 <img src="https://i.gyazo.com/2b03ba64f783db830ff30cd5a885483f.png" height=250 alt="zetter recovery">
 

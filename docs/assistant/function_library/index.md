@@ -39,5 +39,5 @@ There are three kinds of update:
 - **Major** updates change functions, or remove old depreciated functions. This can easily break existing projects, so
   it is disabled by default.
 
-You can change the types of updates you'll receive in `assistant/assistant_config.ini`, which would automatically be
+You can change the types of updates you'll receive in `assistant/assistant_config.yaml`, which would automatically be
 created for you.

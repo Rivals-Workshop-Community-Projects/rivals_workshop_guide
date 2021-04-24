@@ -1,3 +1,10 @@
+---
+
+next: references
+
+---
+
+
 # Art
 
 This section will try to teach the art theory used to create good Rivals-style pixel art animations.

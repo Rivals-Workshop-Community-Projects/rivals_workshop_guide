@@ -1,10 +1,25 @@
+---
+next: installation.md
+---
+
 # Rivals Workshop Assistant
 
 The Assistant is a tool that looks at your mod files, and does all sorts of things automatically to save you time. There
 are a lot of ways Rivals modding could be easier, and the Assistant is meant to let you focus more on making content,
 and less on handling the language.
 
-[Installation](installation.md)
+\
+**[Installation](installation.md)**
+
+## [Aseprite Exporting](animation_handling.md)
+
+The Assistant automates converting aseprite files to spritesheets when making changes.
+
+You can work entirely on aseprite files in a new `anims` folder, and the correctly sized and named files will just
+appear in `sprites`.
+
+Advanced features are planned, such drawing hitboxes and hurtboxes, and tagging attack windows, all within the aseprite
+file.
 
 ## [Function library](function_library)
 
@@ -45,7 +60,7 @@ print("My value: " + str(value) + " %")
 prints("My value:", value, "%")
 ```
 
-## Code injection
+## [Code Injection](code_injection.md)
 
 Beyond providing functions, the Assistant can generate code for you based on a seed.
 

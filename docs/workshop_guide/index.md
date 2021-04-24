@@ -16,11 +16,11 @@ you, help you find whatever information you need, and stop you from falling into
 - ~~[Quickstart](quickstart) (EMPTY) gets you set up and able to explore.~~
 - ~~[The Journey](process) (WIP) walks you through the process of building a character at a high level.~~
 - [Programming Guide](programming/learning_path) teaches programming and language features.
-- ~~[Programming Reference Documents](programming/reference) (EARLY WIP).~~
-- [Art Guide](art) covers the theory behind making good Rivals art and animations.  
-  Topics about animation and workflow are still to come.
+    - ~~[Programming Reference Documents](programming/reference) (EARLY WIP).~~  
+      Reference docs are will eventually make all Rivals, Gml, or [Assistant](/assistant)
+      functions, variables, scripts, error messages, etc, searchable.
+- [Art Guide](art) covers the theory behind making good Rivals art and animations.
 
-Reference documentation is still early in development, but eventually any Rivals, Gml, or [Assistant](/assistant)
-function should be accessible in the search bar, along with built in variables, scripts, error messages, etc.
+Reference documentation is 
 
 When this guide isn't answering your question, try [[How to Learn]].

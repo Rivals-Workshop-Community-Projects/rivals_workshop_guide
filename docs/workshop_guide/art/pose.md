@@ -33,7 +33,8 @@ For most animations, the whole body should move, and the gesture line should cha
 
 ::: quote
 
-Exaggeration is the name of the game. Fighting games are fast; you don’t have time for subtleties and nuances. Everything has to be shown clearly and quickly.
+Exaggeration is the name of the game. Fighting games are fast; you don’t have time for subtleties and nuances.
+Everything has to be shown clearly and quickly.
 
 ...
 
@@ -45,19 +46,21 @@ It’s so much easier to tone something down than it is to build it up after the
 
 :::
 
-Whenever something needs to be clear to the players, amplify it. It's a cartoon game. Readability and power matter much more than realism.
+Whenever something needs to be clear to the players, amplify it. It's a cartoon game. Readability and power matter much
+more than realism.
 
 \
 While body proportions shouldn't change for no reason, they *should* change to emphasize an action.
-In Melee, Mario's fist grows noticeably during his forward-air to improve readability and power.
 
-<img src="https://ssb.wiki.gallery/images/5/5b/MarioFairSSBM.gif" height="150" alt="melee mario fair">
+
+<cimg src="https://ssb.wiki.gallery/images/5/5b/MarioFairSSBM.gif" caption="In Melee, Mario's fist grows noticeably during his forward-air to improve readability and power." height=150 />
 
 ::: quote
 
 <img src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 alt="amber exaggeration">
 
-Amber was mostly broken proportions in her animations, just at least not to the point where you really notice the broken proportions.
+Amber was mostly broken proportions in her animations, just at least not to the point where you really notice the broken
+proportions.
 
 ~ BountyXSnipe
 
@@ -95,8 +98,8 @@ the blur where the movement took place.
 Smears are especially important for sweeping attacks to show the hitbox. Smears imply hitboxes, because any movement
 that fast would create a strong impact.
 
-Smears should lead in an [arc](pose.md#arcs) from near the previous frame's location to the
-current location.The tail end of a smear usually reaches near the previous frame's location.
+Smears should lead in an [arc](pose.md#arcs) from near the previous frame's location to the current location.The tail
+end of a smear usually reaches near the previous frame's location.
 
 Smears are not outlined, and grow thinner closer to the tail.
 

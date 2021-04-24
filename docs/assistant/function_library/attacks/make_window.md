@@ -20,7 +20,7 @@ make_window(AT_BAIR, 1,
 **Parameters:**
 
 - `_attack_name`: The [attack index](https://rivalsofaether.com/attack-indexes/) to be configured.
-- `_index`: ([int](/workshop_guide/programming/learning_path/data_types.md#integers)) The index of the window to
+- `_index`: [int](/workshop_guide/programming/learning_path/data_types.md#integers) The index of the window to
   configure.
 - Any number of pairs of:
     - `value_name`:
@@ -32,11 +32,5 @@ make_window(AT_BAIR, 1,
 
 - [make_attack](make_attack.md): Configure an attack.
 - [make_hitbox](make_hitbox.md): Configure a hitbox.
-
-:::
-
-::: construction
-
-Link to definition of Window when that is made.
 
 :::

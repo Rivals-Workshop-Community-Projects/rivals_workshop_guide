@@ -8,12 +8,12 @@ const getChildren = function (root_path, relative_path) {
         .filter(path => {
             return pathing.basename(path) !== 'index.md'
         })
-    .map(path => {
-        // remove "parent_path" and ".md"
-        path = path.slice(root_path.length + 1, -3)
-        return path
-    })
-    .sort()
+        .map(path => {
+            // remove "parent_path" and ".md"
+            path = path.slice(root_path.length + 1, -3)
+            return path
+        })
+        .sort()
     console.log('children: ' + children)
     return children
 };
@@ -46,7 +46,7 @@ module.exports = {
 
   gtag('config', 'G-EPVWBP6RYB');
       `],
-],
+    ],
 
 
     /**
@@ -65,7 +65,7 @@ module.exports = {
             appId: 'EC0FR1RUSS',
             apiKey: 'aea82c5a88df28dbc55b424c3fef075d',
             indexName: 'rivalslib',
-         },
+        },
         nav: [
             {
                 text: 'Guide',
@@ -81,20 +81,20 @@ module.exports = {
                 title: 'Workshop Guide',
                 path: '/workshop_guide/',
                 children: [
-                    {
-                        title: "Quickstart (EMPTY)",
-                        path: "/workshop_guide/quickstart/",
-                    },
-                    {
-                        title: "The Journey (EARLY WIP)",
-                        path: "/workshop_guide/process/",
-
-                        children: [
-                            '/workshop_guide/process/mindset',
-                            '/workshop_guide/process/iteration',
-                            '/workshop_guide/process/release',
-                        ]
-                    },
+                    // {
+                    //     title: "Quickstart (EMPTY)",
+                    //     path: "/workshop_guide/quickstart/",
+                    // },
+                    // {
+                    //     title: "The Journey (EARLY WIP)",
+                    //     path: "/workshop_guide/process/",
+                    //
+                    //     children: [
+                    //         '/workshop_guide/process/mindset',
+                    //         '/workshop_guide/process/iteration',
+                    //         '/workshop_guide/process/release',
+                    //     ]
+                    // },
                     {
                         title: 'Programming',
                         path: '/workshop_guide/programming/',
@@ -161,6 +161,8 @@ module.exports = {
                 title: 'Assistant',
                 path: '/assistant/',
                 children: [
+                    '/assistant/installation',
+                    '/assistant/animation_handling',
                     {
                         title: 'Function Library',
                         path: '/assistant/function_library/',
@@ -171,10 +173,20 @@ module.exports = {
                                 children: getChildren('docs', '/assistant/function_library/attacks')
                             },
                             {
+                                title: 'Drawing',
+                                path: '/assistant/function_library/drawing/',
+                                children: getChildren('docs', '/assistant/function_library/drawing')
+                            },
+                            {
                                 title: 'Logging',
                                 path: '/assistant/function_library/logging/',
                                 children: getChildren('docs', '/assistant/function_library/logging')
-                            }
+                            },
+                            {
+                                title: 'Transitions',
+                                path: '/assistant/function_library/transitions/',
+                                children: getChildren('docs', '/assistant/function_library/transitions')
+                            },
                         ],
                     },
                     '/assistant/asset_generation',
