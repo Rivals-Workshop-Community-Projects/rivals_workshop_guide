@@ -191,6 +191,7 @@ module.exports = {
                     },
                     '/assistant/asset_generation',
                     '/assistant/code_injection',
+                    '/assistant/changelog'
                 ]
             }
         ]
