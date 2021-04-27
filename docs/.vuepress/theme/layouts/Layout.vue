@@ -5,8 +5,9 @@
         ---
         <h3>I need help making this!</h3>
         <p>Contributions or feedback?</p>
-        <p><a href="https://discord.com">discord</a> qazzquimby#0073</p>
-        <p>email <a target="_top" href="mailto: qazzquimby@yahoo.com">qazzquimby@yahoo.com</a></p></div>
+        <p><a href="https://forms.gle/Yv8qUkPknk7FB5Lw7">Brief survey, so I know what will help you.</a></p>
+        <p><a href="https://discord.com">Discord</a> qazzquimby#0073</p>
+        <p>Email <a target="_top" href="mailto: qazzquimby@yahoo.com">qazzquimby@yahoo.com</a></p></div>
     </template>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VW71RR0SQJ"></script>
