@@ -26,6 +26,20 @@ The GMEdit plugin is a bit more difficult to install, and currently doesn't auto
 
 The next time you save a file in the editor with the plugin, it will create an `assistant` directory.
 
-Inside is `assistant_config.yaml`. 
+Inside is `assistant_config.yaml`.
 
 Set the path to your `aseprite.exe` to enable automatic animation exporting.
+
+## Usage
+
+The editor must open the root folder for the project, containing the `config.ini` file. If an individual file or
+subfolder is opened, the Assistant won't run. Let me know if this is annoying for you and I can look at changing it.
+
+## Troubleshooting
+
+There should be an error message in the developer tools console. This can be opened with **Ctrl+Shift+I** or
+
+- **GMEdit**: Top left dropdown -> Dev Tools
+- **Vscode**: Help -> Toggle Developer Tools
+
+If that error message doesn't point to a clear solution, contact me.
