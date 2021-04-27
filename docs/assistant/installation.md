@@ -37,9 +37,28 @@ subfolder is opened, the Assistant won't run. Let me know if this is annoying fo
 
 ## Troubleshooting
 
-There should be an error message in the developer tools console. This can be opened with **Ctrl+Shift+I** or
+### Nothing happening
+
+If the Assistant is installed and is loaded, there should be an error message in the developer tools console.
+
+The developer tools console can be opened with **Ctrl+Shift+I** or
 
 - **GMEdit**: Top left dropdown -> Dev Tools
 - **Vscode**: Help -> Toggle Developer Tools
 
 If that error message doesn't point to a clear solution, contact me.
+
+If there is nothing related to the assistant in there, it's not installed yet. If you just installed it, try restarting
+the editor.
+
+### Antivirus detection
+
+Antivirus tools tend to distrust unknown exes that read and modify files, and even download another exe when updating.
+
+There's not a lot I can do about that, I think. Try marking the file as an exception in the antivirus.
+
+If you're cautious, you can compile the exe yourself with the build
+script [here](https://github.com/Rivals-Workshop-Community-Projects).
+
+If enough people have trouble with it, I can look for an alternative method of building the exe, which might help.
+
