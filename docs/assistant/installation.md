@@ -51,6 +51,15 @@ If that error message doesn't point to a clear solution, contact me.
 If there is nothing related to the assistant in there, it's not installed yet. If you just installed it, try restarting
 the editor.
 
+### Something unwanted happened to my files
+
+If it's a minor inconvenience in a gml file, consider writing `// NO-INJECT` somewhere in the file, to disable
+processing. Please let me know if something's misbehaving.
+
+If it's serious, like data loss, please tell me **immediately.**
+
+Every day, the Assistant will make a backup to `/assistant/backup`. You can fetch the backup and disable the plugin.
+
 ### Antivirus detection
 
 Antivirus tools tend to distrust unknown exes that read and modify files, and even download another exe when updating.
