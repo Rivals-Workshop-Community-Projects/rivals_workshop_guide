@@ -20,3 +20,9 @@ if window_time_is(frame) {
 **Parameters:**
 
 - `frame`: ([int](/workshop_guide/programming/learning_path/data_types.md#integers)) The frame to check equality for.
+
+::: see_also
+
+- [window_time_is_div](window_time_is_div.md): Check if the current frame is divisible by a number.
+
+:::

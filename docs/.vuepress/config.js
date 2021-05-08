@@ -191,6 +191,11 @@ module.exports = {
                     },
                     '/assistant/asset_generation',
                     '/assistant/code_injection',
+                    {
+                        title: 'Warnings',
+                        path:'/assistant/warnings/',
+                        children: getChildren('docs', '/assistant/warnings')
+                    },
                     '/assistant/changelog'
                 ]
             }
