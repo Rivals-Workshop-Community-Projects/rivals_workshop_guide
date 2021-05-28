@@ -43,7 +43,7 @@ something. `instance_destroy()` with no arguments destroys the current instance,
 Other instances' variables can be accessed with `.` syntax, such as:
 
 ```gml{2}
-vortex = instance_create(x, y-30, obj_article1)
+vortex = instance_create(x, y-30, "obj_article1")
 vortex.vsp = -5
 ```
 
