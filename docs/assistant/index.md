@@ -60,6 +60,14 @@ print("My value: " + str(value) + " %")
 prints("My value:", value, "%")
 ```
 
+## [Warnings](warnings)
+
+There are some bugs that don't raise obvious error messages, and may be very difficult to uncover, such as a rare
+edge-case causing a crash 1 in 100 games.
+
+When the Assistant sees a pattern of code known to be able to cause a bug like that, it will add
+a `// WARN: description` comment, letting you know.
+
 ## [Code Injection](code_injection.md)
 
 Beyond providing functions, the Assistant can generate code for you based on a seed.
