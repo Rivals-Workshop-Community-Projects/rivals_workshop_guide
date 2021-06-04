@@ -75,9 +75,9 @@ called [Pillow Shading.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&P
 
 This ends up looking as if the light source is coming *from the viewer,* which is very unnatural.
 
-Use unnatural shading only when it helps show
+Use unnatural shading only when it helps show important details.
 
-<img src="https://static.wikia.nocookie.net/pixelstudiotutorial/images/1/1f/6_tutorial.png/revision/latest/scale-to-width-down/480?cb=20190828133448" height=250 alt="pillow shading example">
+<img src="https://static.wikia.nocookie.net/pixelstudiotutorial/images/1/1f/6_tutorial.png" height=250 alt="pillow shading example">
 <img src="https://i.gyazo.com/5380ff4ae31d706c94dfa481b255aab8.png" height=250 alt="pillow shading example">
 
 ## Shiny materials
