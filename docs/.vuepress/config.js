@@ -114,6 +114,7 @@ module.exports = {
                                     '/workshop_guide/programming/learning_path/with',
                                     '/workshop_guide/programming/learning_path/articles',
                                     '/workshop_guide/programming/learning_path/best_practices',
+                                    '/workshop_guide/programming/learning_path/vfx',
                                 ]
                             },
                             {
