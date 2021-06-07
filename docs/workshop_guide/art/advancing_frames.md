@@ -59,4 +59,7 @@ I'd like examples from rivals characters here
 [Saint11](https://saint11.org)
 
 [tinywarriorgames](https://tinywarriorgames.com/2019/01/04/game-development-pixel-art-sub-pixel-animation/)
+
+[doa687](https://www.deviantart.com/doa687/gallery)
+
 :::
