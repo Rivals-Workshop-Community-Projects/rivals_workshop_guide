@@ -137,10 +137,7 @@ Each item is followed by the number of uses in a selection of mods + the trouble
   --- [gpu_set_texrepeat](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Shaders/../../Drawing/GPU_Control/gpu_set_texrepeat.htm) - 0  
   -- [Audio](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm) - 2  
   --- [audio_sound_gain](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_sound_gain.htm) - 2  
-  --- [audio_sound_pitch](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_sound_pitch.htm) - 0  
-- [UWP And Xbox Live](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/UWP_And_XBox_Live.htm) - 5512  
-  -- [Users And Accounts](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/Users_And_Accounts.htm) - 5512  
-  --- [x](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_user_is_signed_in.htm) - 5512  
+  --- [audio_sound_pitch](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_sound_pitch.htm) - 0
 - [Maths And Numbers](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Maths_And_Numbers.htm) - 2688  
   -- [Number Functions](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/Number_Functions.htm) - 1926  
   --- [floor](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/floor.htm) - 719  
