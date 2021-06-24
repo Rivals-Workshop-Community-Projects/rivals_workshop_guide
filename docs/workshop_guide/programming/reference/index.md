@@ -589,7 +589,7 @@ gpu_get_tex_repeat_ext - 0
 [trigger_b_reverse](https://rivalsofaether.com/trigger_b_reverse/) - 26  
   \
 [random_func](https://rivalsofaether.com/random_func/) - 404  
-[random_func_2](https://rivalsofaether.com/random_func_2/) - 47  
+[random_func_2](https://rivalsofaether.com/random_func2/) - 47  
   \
 [sound_play](https://rivalsofaether.com/sound_play/) - 725  
 [sound_stop](https://rivalsofaether.com/sound_stop/) - 134  
