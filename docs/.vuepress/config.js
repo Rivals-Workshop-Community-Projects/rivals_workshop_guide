@@ -252,6 +252,13 @@ module.exports = {
         [
             'vuepress-plugin-container',
             {
+                type: 'note',
+                defaultTitle: '',
+            },
+        ],
+        [
+            'vuepress-plugin-container',
+            {
                 type: 'see_also',
                 defaultTitle: 'See Also',
             },
