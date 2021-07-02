@@ -9,13 +9,7 @@ These scripts are called every frame, and only effect the current frame.
 
 # animation.gml
 
-For manually changing the character’s sprite_index and image_index.
-
-::: construction
-
-Give a useful example
-
-:::
+For manually changing the character’s sprite_index and image_index, creating [custom character animations](/workshop_guide/programming/learning_path/vfx.html#custom-character-animations).
 
 # Draw Scripts
 
@@ -32,21 +26,13 @@ These actually draw things to the screen. Typically used with
 
 ## other_pre_draw.gml and other_post_draw.gml
 
-When you want to draw on opponents, such as Zetterburn's fire or Ranno's poison markers, user other_draw scripts.
+Runs on all *other* characters. For when you want to draw on opponents, such as Zetterburn's fire or Ranno's poison markers, user other_draw scripts.
 
 In these scripts `other_player_id` references your own character.
 
-`other_pre_draw.gml` draws behind their character.
+`other_pre_draw.gml` draws behind of their character.
 
 `other_post_draw.gml` draws in front of their character.
-
-::: construction
-
-Does this run on your own character as well? Test or ask.
-
-other_init.gml runs on your character as well.
-
-:::
 
 ## Article Draw
 
