@@ -53,7 +53,7 @@ Darker shades have hues closer to blue-purple, and lighter shades have hues clos
 
 Adjusting the hues like this is called **hue shifting.** Palettes should usually be hue shifted.
 
-<img src="https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/19237132/544b2269908b4fa28e65a10c938fcc9b/1.gif?token-time=1619208612&token-hash=Yq8BgXu2y2Q3bmn69G0Gq1BRDZiUrl0lKEx7AVlfTxM%3D" alt="hue shifting">
+<img src="https://pbs.twimg.com/tweet_video_thumb/DfF4YFFW4AAoVNy.jpg" alt="hue shifting">
 
 ### Blending materials
 
