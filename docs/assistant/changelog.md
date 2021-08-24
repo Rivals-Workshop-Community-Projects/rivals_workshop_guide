@@ -1,5 +1,9 @@
 # Changelog
 
+## Aug 24, 2021
+
+
+
 ## May 8, 2021
 
 [GMEdit release](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases/tag/1.1.0)
