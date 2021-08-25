@@ -4,8 +4,8 @@ Programming in Rivals has the potential to make almost anything you can imagine,
 started.
 
 The most common scripts for adding logic
-are [`update.gml`](/workshop_guide/programming/reference/scripts/event_scripts.html#update-gml) which runs every frame,
-and [`attack_update.gml`](/workshop_guide/programming/reference/scripts/event_scripts.html#attack-update-gml), which
+are [`update.gml`](/workshop_guide/programming/reference/scripts/event_scripts.md#update-gml) which runs every frame,
+and [`attack_update.gml`](/workshop_guide/programming/reference/scripts/event_scripts.md#attack-update-gml), which
 runs every frame that you are attacking.
 
 This section will take you through a bunch of tiny examples.

@@ -2,7 +2,23 @@
 
 ## Aug 24, 2021
 
+[GMEdit release](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases/tag/1.1.7)
 
+### Added
+
+- [Hurtbox generation](animation_handling.md#hurtbox-generation)
+- Beta function libraries (Copy the files into your `assistant/user_inject` folder to use):
+  - [Random](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/random.gml)
+    No more manual indexing.  \
+    No limited number of random numbers per frame.  \
+    Desync safe. 
+  - [List](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/list.gml)
+    Cheap to resize often, like a `ds_list`.
+    Performance and memory-safety of an `array`.
+
+### Fixed
+
+- GMEDit running the assistant multiple times when an aseprite file changes. 
 
 ## May 8, 2021
 
@@ -10,7 +26,7 @@
 
 ### Added
 
-- [Warnings for dangerous code!](warnings)
+- [Warnings for dangerous code](warnings)
     - Find common desync patterns.
     - Don't forget to check hitpause with `window_timer`.
     - Avoid infinite set_attack loops.
@@ -29,7 +45,7 @@
 
 - Assistant's core exe is now **self updating**. GMEdit users will only need to update when the GMEdit integration part
   changes.
-- [Aseprite Tag integration!](animation_handling.md#tag-integration)
+- [Aseprite Tag integration](animation_handling.md#tag-integration)
     - Aseprite tags that are **blue** (changeable in config file) will be treated as **animation** markers.  \
       If the file has *any* tags like this, then instead of exporting as a single spritesheet, frames in the tags will
       be saved to spritesheets named after the tags.

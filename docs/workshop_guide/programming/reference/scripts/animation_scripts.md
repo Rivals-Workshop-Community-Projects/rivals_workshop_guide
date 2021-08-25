@@ -9,7 +9,7 @@ These scripts are called every frame, and only effect the current frame.
 
 # animation.gml
 
-For manually changing the character’s sprite_index and image_index, creating [custom character animations](/workshop_guide/programming/learning_path/vfx.html#custom-character-animations).
+For manually changing the character’s sprite_index and image_index, creating [custom character animations](/workshop_guide/programming/learning_path/vfx.md#custom-character-animations).
 
 # Draw Scripts
 
