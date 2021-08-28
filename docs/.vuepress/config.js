@@ -81,10 +81,19 @@ module.exports = {
                 title: 'Workshop Guide',
                 path: '/workshop_guide/',
                 children: [
-                    // {
-                    //     title: "Quickstart (EMPTY)",
-                    //     path: "/workshop_guide/quickstart/",
-                    // },
+                    {
+                        title: "Quickstart",
+                        path: "/workshop_guide/quickstart/",
+                        children: [
+                            "/workshop_guide/quickstart/software_setup.md",
+                            "/workshop_guide/quickstart/project_setup.md",
+                            "/workshop_guide/quickstart/in_game_testing.md",
+                            "/workshop_guide/quickstart/change_movement.md",
+                            "/workshop_guide/quickstart/change_attack.md",
+                            "/workshop_guide/quickstart/programming.md",
+                            "/workshop_guide/quickstart/change_animation.md",
+                        ]
+                    },
                     // {
                     //     title: "The Journey (EARLY WIP)",
                     //     path: "/workshop_guide/process/",

@@ -1,6 +1,14 @@
+---
+
+next: software_setup
+
+---
+
 # Quickstart
 
-This section will get new modders set up, oriented, and ready to explore.
+New to Rivals of Aether modding?
+
+This section is here to get you set up, oriented, and ready to explore.
 
 ::: sources
 
