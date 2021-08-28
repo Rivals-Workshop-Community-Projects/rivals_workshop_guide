@@ -2,18 +2,18 @@
 
 ## Aug 24, 2021
 
-[GMEdit release](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases/tag/1.1.7)
+[GMEdit release](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases/tag/1.1.8)
 
 ### Added
 
 - [Hurtbox generation](animation_handling.md#hurtbox-generation)
 - Beta function libraries (Copy the files into your `assistant/user_inject` folder to use):
-  - [Random](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/random.gml)
+  - [Random](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/random.gml)  \
     No more manual indexing.  \
     No limited number of random numbers per frame.  \
     Desync safe. 
-  - [List](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/list.gml)
-    Cheap to resize often, like a `ds_list`.
+  - [List](https://github.com/Rivals-Workshop-Community-Projects/injector-library/blob/beta/inject/list.gml)  \
+    Cheap to resize often, like a `ds_list`.  \
     Performance and memory-safety of an `array`.
 
 ### Fixed
