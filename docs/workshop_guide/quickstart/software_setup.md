@@ -6,14 +6,6 @@ This process should only need to be done once.
 
 ## GMEdit - Code Editor
 
-::: warn
-
-Later parts of this guide assume you have installed GMEdit and [the Assistant](/assistant). 
-
-If you don't use the Assistant, you may occasionally get errors about functions not being defined, because normally the Assistant would supply them.
-
-:::
-
 ### Installing GMEdit
 
 **Install the [GMEdit Beta](https://yellowafterlife.itch.io/gmedit)**, the default code editor for Rivals.  \
@@ -40,6 +32,14 @@ This adds:
   check for errors.
 - `plugin`: Installs [the Assistant](/assistant), a multipurpose tool that quietly automates many tedious parts of
   Rivals modding.
+
+::: warn
+
+Later parts of this guide assume you have installed GMEdit and [the Assistant](/assistant), as described above.
+
+If you don't use the Assistant, you may occasionally get errors about functions not being defined, because normally the Assistant would supply them.
+
+:::
 
 ### Opening your project with GMEdit
 
