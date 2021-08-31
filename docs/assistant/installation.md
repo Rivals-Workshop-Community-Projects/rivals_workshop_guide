@@ -2,17 +2,9 @@
 
 ## Plugin Installation
 
-### VSCode
-
-1. Download and install [VSCode](https://code.visualstudio.com/).
-2. Open the extension manager (Ctrl+Shift+X), search for and install Rivals Workshop Assistant.
-
-That's it. For a better experience, also install `rivals of aether gml support` the same way, for highlighting and
-completion.
+If you haven't chosen an editor yet, most people use GMEdit, which is more tailored for GML and Rivals specically.
 
 ### GMEdit
-
-The GMEdit plugin is a bit more difficult to install, and currently doesn't automatically update.
 
 1. Go to
    the [plugin's release page](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases)
@@ -21,6 +13,14 @@ The GMEdit plugin is a bit more difficult to install, and currently doesn't auto
 3. In GMEdit preferences, near the bottom, click 'Plugins directory' to open the plugins directory.
 4. Extract the zip file into the plugins directory.
 5. Close and reopen GMEdit to load the plugin.
+
+### VSCode
+
+1. Download and install [VSCode](https://code.visualstudio.com/).
+2. Open the extension manager (Ctrl+Shift+X), search for and install Rivals Workshop Assistant.
+
+You may also want to install `rivals of aether gml support` the same way, for highlighting and
+completion.
 
 ## Configuration
 
