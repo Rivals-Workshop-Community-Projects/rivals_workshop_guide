@@ -6,7 +6,7 @@
 
 ### Fixed
 
-- Removed the many false alarm desync warnings in css_draw (thanks Supersonic)
+- Removed the many false alarm desync warnings in `css_draw.gml` (thanks Supersonic)
 
 - GMEdit fixes (requires reinstall with
   from [here](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases/tag/1.1.9))
