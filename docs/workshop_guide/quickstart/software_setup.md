@@ -11,6 +11,8 @@ This process should only need to be done once.
 **Install the [GMEdit Beta](https://yellowafterlife.itch.io/gmedit)**, the default code editor for Rivals.  \
 Make sure to get the beta version for Rivals dialect compatibility.
 
+GMEdit can simply be unzipped and run, so unzip it somewhere easy to find, or make a shortcut.
+
 ::: note
 
 Other editors *can* be used (and VSCode has some Rivals support) but will lack features for Rivals and Rivals'
