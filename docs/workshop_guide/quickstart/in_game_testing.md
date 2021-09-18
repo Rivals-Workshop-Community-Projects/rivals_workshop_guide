@@ -12,7 +12,7 @@ reload while in the menu.
 
 1. In Rivals, open **Practice Mode**. Practice mode lets you refresh changes in your character mid-game.
 2. Open your character. It will have the name given in your `config.ini` file, and *won't* have a download
-   icon. ![](https://storage.ko-fi.com/cdn/useruploads/display/e1b39611-2142-4ff7-bafc-0f046bb873c0_local.png)
+   icon. ![](https://storage.ko-fi.com/cdn/useruploads/display/e1b39611-2142-4ff7-bafc-0f046bb873c0_local.png). Since it's a modded character, you need to have workshop enabled in the match settings, and select the character from the cog on the character select screen.
 3. Start a game on any map, possibly with a cpu to beat up.
 4. **Press Ctrl+8** to see the in game log. Always do this when developing a mod. If something is wrong in the code,
    this will usually tell you what and where.
