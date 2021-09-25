@@ -24,11 +24,12 @@ completion.
 
 ## Configuration
 
-The next time you save a file in the editor with the plugin, it will create an `assistant` directory.
+When the editor has a character's root folder open, it will run whenever you save a script in the editor.
 
-Inside is `assistant_config.yaml`.
+The first time it runs, it will create an `assistant` directory in the root directory, and inside that is `assistant_config.yaml`.  
+`<your character dir>/assistant/assistant_config.yaml`
 
-Set the path to your `aseprite.exe` to enable automatic animation exporting.
+Edit that config and set the path to your `aseprite.exe` to enable automatic animation exporting.
 
 ## Usage
 

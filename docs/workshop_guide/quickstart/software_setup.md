@@ -22,14 +22,19 @@ language (GML), which will slow you down considerably.
 
 ### Configuring GMEdit
 
+**Find your GMEdit folder.**  
+(GMEdit -> properties -> scroll to bottom -> Plugins directory -> Go up one level to the `GMEdit` directory)  
+On Windows it will probably look like `C:\Users\{Your_Account}\AppData\Roaming\AceGM\GMEdit`.
+![](https://i.gyazo.com/022f077d0e9b2a9fe38a9efe3b9d75e9.png)
+
 Next, **Unzip
 [GMEdit Rivals Configuration](https://github.com/Rivals-Workshop-Community-Projects/GMEdit-rivals-config/releases/latest/download/GMEdit-rivals-config.zip)
-into `C:\Users\{Your_Account}\AppData\Roaming\AceGM\GMEdit`**, and allow replacing existing files.
+into your GMEdit folder**, and allow replacing existing files.  
+If you already have personalized GMEdit settings, either back up or don't replace your config folder.
 
 This adds:
 
-- `config`: Some default settings, configuring backups and removing some overly strict style warnings.  \
-  If you already have personalized settings, back them up or don't replace them.
+- `config`: Some default settings, configuring backups and removing some overly strict style warnings.
 - `api`: The Rivals dialect, telling the editor what functions and variables exist in Rivals, so it can autocomplete and
   check for errors.
 - `plugin`: Installs [the Assistant](/assistant), a multipurpose tool that quietly automates many tedious parts of

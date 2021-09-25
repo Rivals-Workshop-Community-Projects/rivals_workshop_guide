@@ -8,9 +8,9 @@ into `C:\Users\{Your_Account}\AppData\Local\RivalsofAether\workshop\my_new_proje
 Whenever you start creating a new mod, you'll need to make a new project for it.
 
 Your project directory is `C:\Users\{Your_Account}\AppData\Local\RivalsofAether\workshop\`. Create the `workshop`
-directory if it doesn't exist.
+directory if it doesn't exist. `workshop_synced` is unrelated.
 
-Each project is a folder in the project directory. Make a new directory named after your project,
+Each project is a folder in the project directory. Make a new directory named after your project, called anything,
 like `C:\Users\{Your_Account}\AppData\Local\RivalsofAether\workshop\my_new_project`.
 
 ## Templates
@@ -22,7 +22,9 @@ Rather than starting from nothing, copy a template into the folder to build from
   is designed to make things as easy as possible for new modders, and take advantage of [The Assistant's](/assistant)
   features. This template uses Zetterburn's stats and normal attacks, and Sandbert's animations and specials.
 
-Just unzip the template into a new folder in your project directory.
+Just unzip the template into a new folder in your project directory. The character files should be in the root of your project folder, like `...\rivalsofaether\workshop\your_project\config.ini`
+
+![](https://i.gyazo.com/69a0474a5d0734d83530b910ea9526bf.png)
 
 ### Alternative Templates: Using other Rivals mods
 
