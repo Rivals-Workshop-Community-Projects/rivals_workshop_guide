@@ -24,7 +24,7 @@ make_window(AT_BAIR, 1,
   configure.
 - Any number of pairs of:
     - `value_name`:
-      A [window attack grid index](https://rivalsofaether.com/attack-grid-arindexes/#post-153:~:text=Window%20Data,These%20values%20only)
+      A [window attack grid index](https://rivalsofaether.com/attack-grid-indexes/#post-153:~:text=Window%20Data,These%20values%20only)
       to set.
     - `value`: The value to set to the paired window attack grid index.
 

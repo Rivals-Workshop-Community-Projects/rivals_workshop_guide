@@ -599,8 +599,8 @@ trace - 10
 [take_damage](https://rivalsofaether.com/take_damage/) - 167
 
 ## Color Profiles
-[set_color_profile_slot](https://rivalsofaether.com/set_color_profile_slot/) - 1300
-[set_color_profile_slot_range](https://rivalsofaether.com/set_color_profile_slot_range/) - 304
+set_color_profile_slot - 1300
+set_color_profile_slot_range - 304
 [set_character_color_slot](https://rivalsofaether.com/set_character_color_slot/) - 47
 [set_article_color_slot](https://rivalsofaether.com/set_article_color_slot/) - 9
 [set_character_color_shading](https://rivalsofaether.com/set_character_color_shading/) - 24

@@ -23,4 +23,4 @@ Much more is planned, including:
 - [Quickstart](quickstart) gets new modders set up and able to explore.
 - [The Journey](process) will walk modders through the process of building a character at a high level.
 
-When this guide isn't answering your question, try [[How to Learn]].
+When this guide isn't answering your question, try [How to Learn](how_to_learn.md).

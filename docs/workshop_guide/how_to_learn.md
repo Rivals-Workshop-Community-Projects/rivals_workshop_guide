@@ -3,14 +3,6 @@
 This guides aims to be a primary resource, so if something is missing contact me
 at [qazzquimby@yahoo.com](mailto:qazzquimby@yahoo.com)
 
-::: construction
-
-split this between technical and art sides.
-
-[Art feedback](/workshop_guide/art/feedback.md)
-
-:::
-
 ## Resources
 
 - General art and animation questions are most easily answered via google.
@@ -24,10 +16,12 @@ split this between technical and art sides.
 
 ## Humans
 
-You can also ask people, but they are volunteering their time. Try to use to avoid asking anything you could have
-learned elsewhere.
+You can also ask people, but they are *volunteering* their time. **Try to use to avoid asking anything you could have
+learned elsewhere.**
 
 Human help is most appropriate if you have a very specific problem, or you are looking for feedback on your work.
 
 The [Rivals](https://discord.gg/roa) and [ExW](https://discord.gg/GsDqfQyD) discords have channels to discuss and ask
 for help. 
+
+For art specifically, see [Art Feedback](/workshop_guide/art/feedback.md)

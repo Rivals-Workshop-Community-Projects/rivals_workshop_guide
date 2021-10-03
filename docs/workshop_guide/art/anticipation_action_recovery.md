@@ -65,7 +65,7 @@ idle/jump/crouch stance it comes out of.
 The stronger the attack, the more obvious the pose has to be, to give the opponent a fair chance to react.
 
 \
-<img src="https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/34927686/318697c1bf9e41bdb644d1fc3577b410/1.gif?token-time=1619644269&token-hash=f4Lwny6D8aln8ToNjmb3VfzOm0h3M5kjgAdYBTBGKmg%3D" height=250 alt="anticipation gif">
+<img src="https://i.pinimg.com/originals/2e/eb/81/2eeb81b11bc84d7b0de0e36c81a5b266.gif" height=250 alt="anticipation gif">
 
 A powerful anticipation also creates a feeling of physicality and power.
 
