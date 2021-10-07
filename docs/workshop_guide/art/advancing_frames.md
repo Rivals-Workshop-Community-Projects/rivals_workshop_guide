@@ -54,7 +54,7 @@ This is most visible with details like hair or clothes.
 When something long and soft, like a scarf or tentacle, is pulled back and forth, the drag can make it take a wavy S
 shape.
 
-<cimg src="https://media.discordapp.net/attachments/895523201784897578/895524392296153148/claire_fstrong.gif" height=100 caption="Follow through on cape - by Mr Nart" />
+<cimg src="https://media.discordapp.net/attachments/895523201784897578/895524392296153148/claire_fstrong.gif" height=100 caption="Follow through on scarf - by Mr Nart" />
 
 [Short Video Guide](https://youtu.be/4OxphYV8W3E?t=7)
 
