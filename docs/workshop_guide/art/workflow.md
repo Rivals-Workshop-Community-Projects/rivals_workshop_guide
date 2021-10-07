@@ -55,8 +55,8 @@ How exactly you work with layers is quite personal, but here are some ideas, rou
     - A Scaled down sprite of a similar character (but be careful if you want to keep rivals proportions).
     - Zetterburn, or whatever rivals character looks most similar to yours.
     - A line representing the floor is common.
-- It's often helpful to make [rough sketches](#starting-with-low-detail) before animating. If you make them in Aseprite, you can make them
-  a low layer to draw over.
+- It's often helpful to make [rough sketches](#starting-with-low-detail) before animating. If you make them in Aseprite,
+  you can make them a low layer to draw over.
 - When drawing your character, it's common to separate the parts that could be in front of or behind another
     - Torso
     - Limbs
@@ -64,6 +64,11 @@ How exactly you work with layers is quite personal, but here are some ideas, rou
 - [Smears](pose.md#showing-movement) and VFX often go on top.
 - With
   the [Assistant, you can automatically generate hurtboxes from some special layers](/assistant/animation_handling.md#hurtbox-generation)
+
+\
+With many layers, you'll save time naming and organizing them well, so you can quickly find what you're looking for.
+
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895494267148042280/unknown-177.png" height="70" caption="Muno demonstrates what not to do"/>
 
 ### Multiple Animations per File?
 
@@ -133,17 +138,14 @@ should be left till late in the process since they're the most expensive to chan
 #### Starting with Low Framerate
 
 You don't actually need many frames to see what an animation will look like. The most important frames are "Key Frames",
-which are usually the poses for [Anticipation, Action, and Recovery](anticipation_action_recovery.md)
+which are usually the poses for [Anticipation, Action, and Recovery](anticipation_action_recovery.md). These frames are
+very important, and should be [posed](pose.md) well and drawn from scratch.
 
-When you're starting an animation, it is **very common** to just draw these critical frames, and to add "in-between"
-frames later as they're needed to make the animation more
+When you're starting an animation, it is very common to start by only drawing these critical frames, and to add "
+in-between" frames later as they're needed to make the animation more
 fluid. [The assistant tries to make this easy by letting you automatically adjust window timings.](/assistant/animation_handling.md#window-tags)
 
-[Communicating with the keyframes is very important](pose.md), and each keyframe should be drawn from scratch for
-maximum impact and readability.
-
-When adding in-betweens, you can save time by copy-paste-adjusting the neighboring frames, but be careful of making the
-character look stiff, static, or robotic. Look at the animations of character's you like for reference.
+[There's a whole page on adding in-betweens.](advancing_frames.md)
 
 ::: sources
 

@@ -3,6 +3,48 @@
 This page is for principles on the changes from one frame to the next, like when you're adding in-between frames to
 smooth things.
 
+## How Many Frames?
+
+*As many as it needs.*
+
+There's no fixed framerate that is "good enough" when animating, the goal is to find a middle ground between looking
+choppy, and taking too long to animate.
+
+A good way to find that point is
+by [starting with few frames, and gradually adding inbetweens as needed](workflow.md#starting-with-low-framerate) to
+make the animation look smooth.
+
+::: quote
+
+Most attacks in rivals can get away with very few total frames. A simple punch can have as few as 5 or even 4 animation
+frames.
+
+You should try to optimize your development by using as few frames as possible to [smoothly] convey a motion.
+
+[This may actually end up making your character look better.](anticipation_action_recovery.md#fast-transitions)
+
+Here is the jab animation of a character i am working on currently, as an example:
+
+<img src="https://media.discordapp.net/attachments/659932047741157406/891534467699712070/jab.gif" height=100>
+
+This loop of 2 punches uses only 8 frames, because the attack is fast, cancellable and repeatable. This is all that's
+necessary to make it look smooth and clear in-game
+
+~ Trail Mix (paraphrased)
+
+:::
+
+## Redrawing or Adjusting
+
+[Communicating with the keyframes is very important](pose.md), and each keyframe should be drawn from scratch for
+maximum impact and readability.
+
+However, when adding in-betweens, you can save time by copy-pasting the neighboring frames and adjusting to show the
+movement.
+
+Be careful of making the character look stiff, static, or robotic. You can look at the animations of character's you
+like for reference of how much they move between each frame.
+
 ## Follow Through and Overlapping action
 
 Soft parts of the character drag behind a character's movements, and keep moving after the character stops.
@@ -11,6 +53,8 @@ This is most visible with details like hair or clothes.
 
 When something long and soft, like a scarf or tentacle, is pulled back and forth, the drag can make it take a wavy S
 shape.
+
+<cimg src="https://media.discordapp.net/attachments/895523201784897578/895524392296153148/claire_fstrong.gif" height=100 caption="Follow through on cape - by Mr Nart" />
 
 [Short Video Guide](https://youtu.be/4OxphYV8W3E?t=7)
 
