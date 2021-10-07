@@ -152,6 +152,7 @@ module.exports = {
                         path: '/workshop_guide/art/',
                         children: [
                             '/workshop_guide/art/references',
+                            '/workshop_guide/art/workflow',
                             '/workshop_guide/art/feedback',
                             '/workshop_guide/art/pixel_art_basics',
                             '/workshop_guide/art/proportion',

@@ -1,6 +1,6 @@
 # Quickstart: Changing Movement
 
-::: Warn
+::: warn
 
 If your changes don't seem to do anything, see [In Game Testing](in_game_testing.md).
 

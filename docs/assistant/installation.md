@@ -1,8 +1,10 @@
 # Installation
 
+If you're new to Rivals modding, see [software setup](/workshop_guide/quickstart/software_setup.md) instead.
+
 ## Plugin Installation
 
-If you haven't chosen an editor yet, most people use GMEdit, which is more tailored for GML and Rivals specically.
+If you haven't chosen an editor yet, most people use GMEdit, which is more tailored for GML and Rivals specifically.
 
 ### GMEdit
 

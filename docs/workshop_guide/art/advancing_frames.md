@@ -1,21 +1,7 @@
 # Advancing Frames
 
-::: construction
-
-This page is for principles on the changes from one frame to the next.
-
-Tbh, the organization for all the animation stuff is pretty bad. If you have better ideas, please let me know. The
-challenge is to make it sensibly categorized **and** most important content first **and** naturally build on previous
-sections.
-
-\
-Things I'd still like to cover:
-
-- Breaking versus maintaining clusters for smoothness
-- When to redraw versus copy and move
-- A full guide on workflow, keyframe use, and drafting
-
-:::
+This page is for principles on the changes from one frame to the next, like when you're adding in-between frames to
+smooth things.
 
 ## Follow Through and Overlapping action
 

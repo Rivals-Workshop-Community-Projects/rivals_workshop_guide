@@ -6,7 +6,7 @@ Getting characters proportioned correctly is a simple but important step to make
 
 Rivals characters typically stand **25-45px tall**, and **35-60px wide**.
 
-Average height characters are very close to **35 px tall.** 
+Average height characters are very close to **35 px tall.**
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/7fae8c82-24fd-40e2-8713-80fbed50caf2_height.png)
 
@@ -46,7 +46,6 @@ move. Exaggerated poses are an exception.
 Characters should be obviously facing forward, but they usually turn ~45 degrees towards the camera, to make their
 features easier to see.
 
-\
 ::: sources
 
 Thine

@@ -52,6 +52,8 @@ There are a lot of ways an animation can look unnatural. Follow similar movement
 - How does someone wind up just before they do a sweeping kick?
 - How do four-legged animals turn around?
 
+<img src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 alt="Amber and Ori">
+
 \
 <details>
 <summary>Example of how an attack animation can be guided by references</summary>

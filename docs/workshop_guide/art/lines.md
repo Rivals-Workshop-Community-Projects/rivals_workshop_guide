@@ -48,13 +48,16 @@ such as blurriness and [banding](shading.md#banding).
 
 Characters should have outlines black outlines for clear readability.
 
-Glowing things, like Zetterburn's fire or  Clairen's sword can have outline in other colors, but be careful of losing
+Glowing things, like Zetterburn's fire or Clairen's sword can have outline in other colors, but be careful of losing
 readability.
 
 \
 Outlining can be as simple as just drawing a line around the outside of the sprite, but there
-are [several techniques](https://youtu.be/gW1G_FLsuEs?t=377) to reduce [noise](simplification.md#noise) and show
-the shape better.
+are [several techniques](https://youtu.be/gW1G_FLsuEs?t=377) to reduce [noise](simplification.md#noise) and show the
+shape better.
+
+Automatic outlining is possible, but should be avoided when drawing characters because of the lost opportunity to use
+the above techniques and improve the readability. Sometimes automatic outlining is used for projectiles or text.
 
 ::: sources
 

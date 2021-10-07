@@ -3,7 +3,10 @@
 Getting attributes tuned right is more important than it might seem, and has a huge influence on how the character
 feels.
 
-::: construction This is all rough notes.
+::: construction 
+
+This is all rough notes.
+
 :::
 
 ## Air acceleration

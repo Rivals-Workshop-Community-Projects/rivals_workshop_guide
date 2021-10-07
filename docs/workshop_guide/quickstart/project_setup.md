@@ -22,7 +22,8 @@ Rather than starting from nothing, copy a template into the folder to build from
   is designed to make things as easy as possible for new modders, and take advantage of [The Assistant's](/assistant)
   features. This template uses Zetterburn's stats and normal attacks, and Sandbert's animations and specials.
 
-Just unzip the template into a new folder in your project directory. The character files should be in the root of your project folder, like `...\rivalsofaether\workshop\your_project\config.ini`
+Just unzip the template into a new folder in your project directory. The character files should be in the root of your
+project folder, like `...\rivalsofaether\workshop\your_project\config.ini`
 
 ![](https://i.gyazo.com/69a0474a5d0734d83530b910ea9526bf.png)
 
@@ -37,12 +38,13 @@ edit it.
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/fdb41c93-e507-467e-86b3-04fd3af52d96_folders.png)
 
-- [Sandbert](https://steamcommunity.com/workshop/filedetails/?id=1865940669) is often used as a new character
-  template.  \
-  Sandbert is overpowered in many ways, making it a poor foundation. Many parts of the character will need to be
+- [Sandbert with a Phone](https://steamcommunity.com/sharedfiles/filedetails/?id=2606414594) comes with some powerful
+  extra features, but may be more complicated to get started with.
+- [Sandbert](https://steamcommunity.com/workshop/filedetails/?id=1865940669), the official example character, is often
+  used as a new character template.  \
+  This original Sandbert is overpowered in many ways, making it a poor foundation. Many parts of the character will need to be
   re-tuned.
-
-::: note
+  ::: note
 
 Technically any mod can be used as a starting template, but unfortunately not everyone is open to their work being
 reused. Get permission before copypasting large sections of another mod.

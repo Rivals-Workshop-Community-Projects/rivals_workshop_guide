@@ -22,7 +22,7 @@ Learning a skill comes from **practicing** and **adjusting**, over and over agai
 Expect to make a lot of big mistakes. Don't worry about that. What matters is you *recognize and understand those
 mistakes*, so you can do a little better next time.
 
-If you're practicing, but don't know how to adjust, growth will be slower. That is what this guide is for.
+This guide is here to help you know how to adjust, so you can grow faster.
 
 ## You don't need great art to make a good character
 
