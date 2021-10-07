@@ -1,6 +1,6 @@
 <template>
-  <figure align='center'>
-    <img :src="imagesrc" :height="height" alt=""/>
+  <figure align='center' style="display: inline-block; margin: 0; ">
+    <img :src="imagesrc" :height="height" alt=caption/>
     <figcaption><i><small>{{ caption }}</small></i></figcaption>
   </figure>
 </template>

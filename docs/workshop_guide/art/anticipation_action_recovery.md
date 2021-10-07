@@ -20,6 +20,9 @@ distinct [silhouettes](pose.md#silhouette).
 
 ## Fast Transitions
 
+When adding in-between frames, it is very important to keep your key frame poses clearly distinct. Add frames to
+accentuate the poses, but avoid making frames that don't clearly belong to one pose or another.
+
 ### Clarity
 
 Normally it's good for animations to flow smoothly, but it is more important that the character's current state is very
@@ -56,8 +59,8 @@ Longer, slower movements show that there is less force behind them. This leads t
 <img src="https://i.gyazo.com/819ea1883ee24d83c71bcde1f8bcee6e.png" height=200 alt="zetter anticipation">
 
 
-Anticipation is extremely important for **readability**. The few frames of anticipation before an attack are the only way
-for the opponent to know that an attack is coming, and where it will hit.
+Anticipation is extremely important for **readability**. The few frames of anticipation before an attack are the only
+way for the opponent to know that an attack is coming, and where it will hit.
 
 Anticipation poses should always have a distinct [silhouette](pose.md#silhouette) that stands out from the
 idle/jump/crouch stance it comes out of.
@@ -144,7 +147,6 @@ If you set a linear scale between the recovery pose and idle, then it is impossi
 act.
 
 ![](https://miro.medium.com/max/1858/1*wTQH2AFrkoaqfipXHNH03w.png)
-
 
 Players will feel like they are stuck standing still, and the game will feel clunky and unresponsive.
 

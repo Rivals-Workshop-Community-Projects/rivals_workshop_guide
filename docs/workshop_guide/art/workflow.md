@@ -109,7 +109,13 @@ For attacks:
 ### Starting Rough
 
 A first priority is quickly getting a sense of how the animation will look when it's done, so you can improve your plan.
-To do this, you usually want to start *very* rough, and clean up later as you gain confidence with the current plan.
+To do this, you usually want to start *very* rough, test, and clean up later as you gain confidence with the current
+plan.
+
+\
+Any time you're unsure, you can test the animation in game, get feedback, or leave the animation for a while and come
+back when you have a more complete picture of the character. Even an extremely rough, 3 frame scribbled animation can be
+tested in game.
 
 #### Starting with Low Detail
 
@@ -118,20 +124,37 @@ need to give a rough sense of the animation.
 
 People have very different drawing processes, so see what you enjoy.
 
-- Stick figures
-- Sketchy outlines  \
-  <cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="Low detail (but high framerate) - by NoArms"/>
-- [Color blocking](https://youtu.be/PEyQP5_CYf0?t=1269). Sometimes each limb is already given its own layer at this
-  point. This is a much bigger leap from mind to page, so you may want to do this on top of one of the other methods.  \
-  <cimg src="https://media.discordapp.net/attachments/659932047741157406/894328906474225724/image0.gif" height=250 caption="Color blocking with vfx - by FuZZ"/>
+##### Stick figures, scribbled animations, and rough outlines
+
+These let you very quickly visualize the animation. They're most often done on a single layer, put on the bottom for
+reference later.
+
+<cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="by NoArms"/> 
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895668374976221244/ftilt_sketch.gif" height=150 caption="By Bernard0"/> 
+<cimg src="https://images-ext-1.discordapp.net/external/E9PNZjGBTAF_sOIl1xqEjEVXBIqqDRIvS0hL8CDVZto/https/media.discordapp.net/attachments/720710900838957067/844397038853554205/AWJ_-_dstrong.gif" height=150 caption="by Reighoul"/>
+
+##### Color Blocking
+
+Color blocking is making a silhouette of the animation, maybe with a larger pen.
+
+This can be done on one layer and drawn over, or could use your normal [layer setup](#layers) and later be polished
+toward the final product.
+
+Color blocking is sometimes done as a second drafting step after something rougher.
+
+[Demonstration](https://youtu.be/PEyQP5_CYf0?t=1269)
+
+<cimg src="https://media.discordapp.net/attachments/659932047741157406/894328906474225724/image0.gif" height=300 caption="Color blocking with vfx - by FuZZ"/>
+
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895690574554873876/BACKWARDS_AERIAL.gif" height="150" caption="by Bar-Kun"/>
+
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895697029131567114/dstrong_proto-1.gif" height=250 caption="Daora by Opengunner"/>
 
 \
 As you become more confident in the current draft, you can start to clean it up and move towards the final product. If
 you did the draft on all one layer, you should now [start working in multiple layers on top.](#layers)
 
-Any time you're unsure, you can test the animation in game, or leave the animation for a while and come back when you
-have a more complete picture of the character.
-
+\
 Anything particularly hard to draw, like [secondary motions](advancing_frames.md#follow-through-and-overlapping-action),
 should be left till late in the process since they're the most expensive to change.
 
@@ -146,6 +169,8 @@ in-between" frames later as they're needed to make the animation more
 fluid. [The assistant tries to make this easy by letting you automatically adjust window timings.](/assistant/animation_handling.md#window-tags)
 
 [There's a whole page on adding in-betweens.](advancing_frames.md)
+
+<cimg src="https://images-ext-1.discordapp.net/external/ARUMNWr_V0kqEZn0-jYRd-CjiMqOA9oQKPqlCiocLTI/https/media.discordapp.net/attachments/722582229968093294/806591295904153650/dattack_new.gif" height=300 caption="A low framerate draft - by Reighoul"/>
 
 ::: sources
 

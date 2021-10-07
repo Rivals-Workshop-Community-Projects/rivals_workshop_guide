@@ -52,7 +52,12 @@ There are a lot of ways an animation can look unnatural. Follow similar movement
 - How does someone wind up just before they do a sweeping kick?
 - How do four-legged animals turn around?
 
-<img src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 alt="Amber and Ori">
+<cimg src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=150 caption="Amber by BountyXSnipe, and Ori reference"/>
+<cimg src="https://media.discordapp.net/attachments/358493363676381186/728401108413710436/unknown.png" height="150" caption="Nozomi by Frtoud, and Fox reference" />
+
+\
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895681268921028628/LucasUTilt_ultimate_example.gif" height=200 caption="Original Lucas animation"/>
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895681213082259486/utilt_Lucas_example.gif" height=200 caption="Lucas by Reighoul"/>
 
 \
 <details>
