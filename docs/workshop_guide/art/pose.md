@@ -5,7 +5,7 @@
 Rivals characters are seen in a variety of palettes and stage backgrounds. Distinct silhouettes are important to make
 them clear at a glance.
 
-<img src="https://miro.medium.com/max/500/1*9fCU18CzaD3GYgIqMd42Gw.png" height=250 alt="street fighter silhouettes">
+<cimg src="https://miro.medium.com/max/500/1*9fCU18CzaD3GYgIqMd42Gw.png" height=250 caption="street fighter silhouettes" />
 
 The most important time for obvious silhouettes is in the [anticipation](anticipation_action_recovery.md#anticipation)
 frames of a powerful attack. The other player has only a handful of frames to understand the attack is coming.
@@ -57,7 +57,7 @@ While body proportions shouldn't change for no reason, they *should* change to e
 
 ::: quote
 
-<img src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 alt="amber exaggeration">
+<cimg src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 caption="amber exaggeration - by BountyXSnipe">
 
 Amber was mostly broken proportions in her animations, just at least not to the point where you really notice the broken
 proportions.

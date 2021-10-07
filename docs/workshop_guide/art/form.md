@@ -43,7 +43,7 @@ Use [shading](shading.md) to communicate those shapes.
 
 It can also help to think about the arc of the character's pose.
 
-<img src="https://cdna.artstation.com/p/assets/images/images/006/814/892/large/madison-avelli-avelli-madison-2g-art2-o-1707.jpg?1501471822" height=250 alt="pose arcs">
+<cimg src="https://cdna.artstation.com/p/assets/images/images/006/814/892/large/madison-avelli-avelli-madison-2g-art2-o-1707.jpg?1501471822" height=250 caption="pose arcs - by Madison Avelli" />
 
 ### Experiment on paper
 

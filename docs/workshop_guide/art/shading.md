@@ -36,9 +36,9 @@ This is
 called [banding.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Banding%3A,simply%2C%20is%20when%20pixels%20line%20up.)
 It may be easy, but it doesn't show [form](form.md), and looks artificial.
 
-<img src="https://i.gyazo.com/bc7d6f6b5917df08fa4d4db47ec7921a.png" height=250 alt="banding example">
-<img src="https://i.gyazo.com/35dac8e4279fcd4981dfd039828dd6a0.png" height=250 alt="banding example">
-<img src="https://i.gyazo.com/d1c610b252896e84e1b25da86308e226.png" height=250 alt="banding example">
+<cimg src="https://i.gyazo.com/bc7d6f6b5917df08fa4d4db47ec7921a.png" height=250 caption="by misbug" />
+<cimg src="https://i.gyazo.com/35dac8e4279fcd4981dfd039828dd6a0.png" height=250 caption="by MasterianoX" />
+<cimg src="https://i.gyazo.com/d1c610b252896e84e1b25da86308e226.png" height=250 caption="by pinnguaq" />
 
 ## Creases and valleys
 
@@ -46,7 +46,7 @@ A less obvious kind of shadow, the inner parts of shapes get less light than the
 
 Shading creases is makes it possible to show complex forms, like Etalus' face.
 
-<img src="https://i.pinimg.com/474x/07/d6/75/07d6759cca706f6d956e599b84ad5e59.jpg" height=250 alt="fabric shading">
+<cimg src="https://i.pinimg.com/474x/07/d6/75/07d6759cca706f6d956e599b84ad5e59.jpg" height=250 caption="fabric shading - by Barbara Bradley" />
 
 <img src="https://i.gyazo.com/b825ef27d2e0fff92256305363469b9e.png" height=250 alt="etalus creases">
 
@@ -77,8 +77,8 @@ This ends up looking as if the light source is coming *from the viewer,* which i
 
 Use unnatural shading only when it helps show important details.
 
-<img src="https://static.wikia.nocookie.net/pixelstudiotutorial/images/1/1f/6_tutorial.png" height=250 alt="pillow shading example">
-<img src="https://i.gyazo.com/5380ff4ae31d706c94dfa481b255aab8.png" height=250 alt="pillow shading example">
+<cimg src="https://static.wikia.nocookie.net/pixelstudiotutorial/images/1/1f/6_tutorial.png" height=250 alt="by pixelstudio" />
+<cimg src="https://i.gyazo.com/5380ff4ae31d706c94dfa481b255aab8.png" height=250 alt="by pinguaq" />
 
 ## Shiny materials
 
@@ -88,8 +88,7 @@ extra shade to help show that.
 Shiny materials also tend to have small spots or streaks where the light reflects off of them, called **specular
 highlights.**
 
-<img src="https://cms-assets.tutsplus.com/uploads/users/108/posts/20549/image/color-fundamentals-shading-40b.png"
-height=250 alt="https://design.tutsplus.com/articles/color-fundamentals-shading--cms-20549">
+<cimg src="https://cms-assets.tutsplus.com/uploads/users/108/posts/20549/image/color-fundamentals-shading-40b.png" height=250 caption="https://design.tutsplus.com/articles/color-fundamentals-shading--cms-20549" />
 
 The highlights on Shovel Knight's armor makes it look polished and clean.
 

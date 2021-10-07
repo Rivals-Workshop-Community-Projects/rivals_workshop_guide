@@ -25,11 +25,11 @@ Say that you want to make a twisty, tricky witch character.
 
 Google images "witch" doesn't help much, looking halloweeny, but google images "hag" has some helpful pictures such as:
 
-<img src="https://lordsofnether.com/wp-content/uploads/2020/08/Hag-1920x2560.png" height=300 alt="Hag">
+<cimg src="https://lordsofnether.com/wp-content/uploads/2020/08/Hag-1920x2560.png" height=300 caption="Hag - by Lords Of Nether" />
 
 You might decide the hunched back fits, and remember a similar posture from dota's witch doctor.
 
-<img src="https://i.pinimg.com/originals/ff/7c/cd/ff7ccd5b2ed2e16c4845fdfc6b5d7396.png" height=300 alt="Witch doctor">
+<cimg src="https://i.pinimg.com/originals/ff/7c/cd/ff7ccd5b2ed2e16c4845fdfc6b5d7396.png" height=300 caption="Witch doctor from Dota"/>
 
 Leaning on the staff might be interesting. That and the twisty-misshapen look reminds of you of spooky old trees, so you
 search for "gnarled wood."
@@ -41,7 +41,7 @@ That might work for body shape, or a staff, or at the very least for some cool a
 No animal immediately jumps to mind as fitting this weird body shape. Ferrets are long, and sorta shifty looking, so you
 look for ferret characters.
 
-<img src="https://static.wikia.nocookie.net/toothandtail_gamepedia/images/0/09/Ferret.png" height=300 alt="Tooth and tail ferret">
+<cimg src="https://static.wikia.nocookie.net/toothandtail_gamepedia/images/0/09/Ferret.png" height=300 caption="from Tooth and Tail"/>
 
 Not quite right but could maybe work with some adjustments. Carrying something large on their back could be interesting.
 Maybe a cauldron or big sack.

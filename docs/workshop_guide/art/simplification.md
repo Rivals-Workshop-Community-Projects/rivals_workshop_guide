@@ -18,7 +18,7 @@ scrapped and restarted because the character was too difficult to animate.
 
 **Wrastor** doesn't have many tiny feathers drawn, but communicates feathers through the shape and shading of his arms.
 
-<img src="https://i.gyazo.com/1005405589fb902dd73f089876c286ff.png" height=250 alt="anstein">
+<cimg src="https://i.gyazo.com/1005405589fb902dd73f089876c286ff.png" height=250 caption="anstein - by TrailMix"/>
 <img src="https://i.gyazo.com/064773ae89d640c95a588451a6322dba.png" height=250 alt="wrastor">
 
 ## Clusters
@@ -32,7 +32,8 @@ keeping clusters larger will keep the sprite clear and readable.
 
 ![](https://saint11.org/img/articles/2/cookie.png)
 
-Rivals sprites will have small clusters, especially around hands and faces. What matters is that the clusters are conveying important information.
+Rivals sprites will have small clusters, especially around hands and faces. What matters is that the clusters are
+conveying important information.
 
 ![](https://yachtclubgames.com/wp-content/uploads/2014/06/kingKnightBeforeAfter.png)
 

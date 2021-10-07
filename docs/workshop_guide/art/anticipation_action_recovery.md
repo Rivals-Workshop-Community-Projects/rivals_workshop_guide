@@ -68,7 +68,7 @@ idle/jump/crouch stance it comes out of.
 The stronger the attack, the more obvious the pose has to be, to give the opponent a fair chance to react.
 
 \
-<img src="https://i.pinimg.com/originals/2e/eb/81/2eeb81b11bc84d7b0de0e36c81a5b266.gif" height=250 alt="anticipation gif">
+<cimg src="https://i.pinimg.com/originals/2e/eb/81/2eeb81b11bc84d7b0de0e36c81a5b266.gif" height=250 caption="by jasontomlee" />
 
 A powerful anticipation also creates a feeling of physicality and power.
 
@@ -102,8 +102,8 @@ Attack anticipation should not only show *that* an attack is coming, but *where*
 
 ::: quote
 
-<img src="https://i.gyazo.com/210c574a0b5a7539927e0edf3c594374.png" height=100 alt="Amber nondirectional anticipation">
-<img src="https://i.gyazo.com/982fe72ace5c05dac02f8c4926cb5c24.png" height=100 alt="Amber direction anticipation">
+<img src="https://i.gyazo.com/210c574a0b5a7539927e0edf3c594374.png" height=100 alt="undirected anticipation"/>
+<img src="https://i.gyazo.com/982fe72ace5c05dac02f8c4926cb5c24.png" height=100 alt="directed anticipation"/>
 
 In the first one, she's facing directly towards the camera. It's hard to tell where she's about to leap to.
 
@@ -129,7 +129,7 @@ The active pose is often a very fast movement, shown with a [smear](pose.md#smea
 
 ## Recovery
 
-<img src="https://i.gyazo.com/2b03ba64f783db830ff30cd5a885483f.png" height=250 alt="zetter recovery">
+<img src="https://i.gyazo.com/2b03ba64f783db830ff30cd5a885483f.png" height=250 alt="zetter recovery" >
 
 Recovery poses are usually a continuation of the attack's motion, with the character off-balance over over-extended.
 
