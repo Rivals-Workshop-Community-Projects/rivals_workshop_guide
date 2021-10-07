@@ -115,9 +115,10 @@ People have very different drawing processes, so see what you enjoy.
 
 - Stick figures
 - Sketchy outlines  \
-  <cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="Low Detail (but high framerate)"/>
+  <cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="Low detail (but high framerate) - by NoArms"/>
 - [Color blocking](https://youtu.be/PEyQP5_CYf0?t=1269). Sometimes each limb is already given its own layer at this
-  point. This is a much bigger leap from mind to page, so you may want to do this on top of one of the other methods.
+  point. This is a much bigger leap from mind to page, so you may want to do this on top of one of the other methods.  \
+  <cimg src="https://media.discordapp.net/attachments/659932047741157406/894328906474225724/image0.gif" height=250 caption="Color blocking with vfx - by FuZZ"/>
 
 \
 As you become more confident in the current draft, you can start to clean it up and move towards the final product. If
@@ -149,5 +150,7 @@ character look stiff, static, or robotic. Look at the animations of character's 
 [Official Docs](https://rivalsofaether.com/sprites/)
 
 [AdamCYounis](https://www.youtube.com/watch?v=PEyQP5_CYf0)
+
+NoArms
 
 :::
