@@ -137,56 +137,52 @@ if attack == AT_DSPECIAL {
 Now adding the flash only needs to change the new function. Using named values like `spend_empower` often improves
 readability as well.
 
-With [the Assistant](/assistant), you can share defines across files, rather than needing to copy them into each
-file where they're used.
+With [the Assistant](/assistant), you can share defines across files, rather than needing to copy them into each file
+where they're used.
 
-# Decomposition
+# Writing Simple Code
 
-Sometimes you'll have complicated problems to solve. If you work at it, you can probably solve it with some gross
-complicated code.
+Much of the code you see will be long, tangled, and hard to follow.
 
-It doesn't have to be that way. How simple or complicated something is to understand depends on how well the details are
-grouped and hidden. When well organized, code should read like an english explanation of what it's doing.
-
-## A weird example
-
-Imagine programming a robot to walk from your bedroom to your front door, where the only built-ins
-are `left_wheel_velocity` and `right_wheel_velocity`, and `wait(ms)`.
-
-It would be entirely possible to complete the task just by changing the wheel's at the right times to get it to turn and
-move the right amounts. The resulting code would be incomprehensible and extremely hard to change.
+Code doesn't need to be that way. Reading well written code feels like a friend clearly explaining what the code does.
 
 \
-The trick to notice is that you're doing repeated actions with those wheel changes, turning and moving forwards. You
-could improve things by making functions for `turn(direction)` and `move(distance)`, which handle the wheel adjustments
-for that change.
-
-Now the code would look like a series of turns and movements rather than a series of wheel adjustments. Easier to read,
-write, and understand, but still not *easy.*
+With some practice and effort, you can create complex effects out of simple code that is easy to understand, fix, and
+change. To do this, actually think in terms of how you would clearly describe what the code does, and turn that
+description into code.
 
 \
-The functions being used are still too small and low level to describe what you're doing. If you keep track of the
-robot's current position, you could make `go_to_point(x, y)`, which turns towards that point and moves to reach it.
+For example, I might describe a command grab at a high level as:
 
-Then you can name the points to stop and turn at, e.g. `bedroom_door = [15, 30]`, and write the code just as a list of
-english named locations. Now the code is short, easy to understand, and easy to change.
+```
+when nspecial hits:
+  Grab the opponent
+  While they are held:
+    Move slower and can't double jump
+    if you release the button: Throw them in the held direction
+    If you get too close to the bottom blastzone: drop them
+    After a timer: drop them
+```
 
-## Decomposing from the start
+(Note that if you can't write something like this, you probably don't know what you want yet.)
 
-Normally it's better not to write the horrific version first and then clean it up. It's much nicer for things to be
-simple when you're still writing them. Write the code as if you were explaining it to someone.
+\
+Then you can try to turn the description into meaningful code.
 
-With the robot example the task is "get to the front door":
+Often, parts of the code will require more detail to fully explain, such as "throw them in the held direction." If you
+just write down those details, it will obscure the clear, high-level meaning! Instead, use a [function](functions.md) to
+separate the details, and keep the meaning clear.
 
-- If someone asked "How does it work?" - "It goes to this series of points."
-- They ask "How does `go_to_point` work?" - "It turns the robot toward the point, and moves the distance between them."
-- "How does turning work?" - "It moves one wheel forwards, and the other backwards, for the right amount of time."
-  etc.
+```gml
+if not special_down {
+    throw_in_held_direction()
+}
 
-In this way, even though the problem is complicated, each level of the code is simple. To look into the details, the
-reader just goes down a level to the next easy-to-understand function.
-
-You can do this in code-comments or paper before you start coding to get a better idea of what you're doing.
+...
+#define throw_in_held_direction() {
+    // Lots of code
+}
+```
 
 # Understanding your Code
 

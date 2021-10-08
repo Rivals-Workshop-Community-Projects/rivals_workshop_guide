@@ -23,7 +23,7 @@ print(the_maximum)
 Characters can be made without personal functions, so if you're a new modder, you can safely skip the rest of this page.
 
 Once you're familiar with the other basics of the language, though, you can
-and *[should](best_practices.md#decomposition)* make your own functions!
+and *[should](best_practices.md#writing-simple-code)* make your own functions!
 
 Your functions are created with a `#define` block. Like variables, they can be named almost anything, but should be
 named a *verb*, that helps the reader's understanding.
@@ -54,7 +54,7 @@ Notice the first line. This requires two inputs, which will be given the names `
 The most obvious use for a function is [avoiding duplication,](best_practices.md#behavior) which makes your code easier
 to read, write, and change.
 
-Functions also let you [decompose your code into simpler layers,](best_practices.md#decomposition) as a great way to
+Functions also let you [decompose your code into simpler layers,](best_practices.md#writing-simple-code) as a great way to
 manage complexity. Functions can help even when they're only used once, as a way of keeping your code simple.
 
 ### Advanced Defines
