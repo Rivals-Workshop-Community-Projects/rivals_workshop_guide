@@ -5,7 +5,7 @@ always be testing while you edit a mod, to get quick feedback of your changes.
 
 ::: note
 
-This guide assumes your mod is a character. Other projects are tested similarly, but are loaded differently and might only
+This guide assumes your mod is a character. You test other projects similarly, but load them differently and may only be able to
 reload while in the menu.
 
 :::

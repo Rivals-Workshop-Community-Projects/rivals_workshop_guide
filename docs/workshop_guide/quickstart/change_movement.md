@@ -11,7 +11,7 @@ in [variables](/workshop_guide/programming/learning_path/variables.md)
 in [`scripts/init.gml`](/workshop_guide/programming/reference/scripts/init_and_attack_scripts.md#init-gml).
 
 Open `scripts/init.gml`in [GMEdit](software_setup.md#opening-your-project-with-gmedit) and try changing some values. For
-example changing the `max_fall` line to `max_fall = 1` will make your character fall very slowly.
+example, changing the `max_fall` line to `max_fall = 1` will make your character fall slowly.
 
 Some to try are:
 
@@ -21,7 +21,7 @@ Some to try are:
 
 Some values even work when negative, though that gets weird.
 
-There are also animation variables in `init.gml`, though they're probably less interesting to play with.
+`init.gml` also has animation variables, though they're probably less interesting to play with.
 
 A lot of a character's balance and feeling comes from their movement controls, so you'll be able to get a lot of value
-from tuning these. 
+from tuning these.

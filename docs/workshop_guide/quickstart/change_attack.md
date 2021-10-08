@@ -27,15 +27,14 @@ These statements set values to fields of 3 types:
 \
 **Try modifying the values of some `HG_` fields to extreme numbers and see the effects.**
 
-You can edit other fields, but the effect will probably just be breaking the attack or mis-aligning the animation from
-the windows.
+You can edit other fields, but the change will probably break the attack or misalign the animation windows.
 
 If you want to check what a field does, [search the official documentation](https://rivalsofaether.com/workshop/) (or
 later, search here on RivalsLib.com)
 
 ::: note
 
-Making your own attacks is a little harder than editing an attack, but not too complicated.
+Making your own attacks is slightly harder than editing an attack, but not too complicated.
 
 When it's time to make your first new attack, try Mawral's guides
 on [windows](https://ko-fi.com/post/RoA-Workshop-Guide-Explaining-Attack-Windows-M4M72XOMP)

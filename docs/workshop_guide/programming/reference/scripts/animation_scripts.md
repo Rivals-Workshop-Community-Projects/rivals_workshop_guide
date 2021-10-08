@@ -2,22 +2,22 @@
 
 These scripts handle the character's visuals.
 
-They *must not affect gameplay.* If they modify gameplay variables in any way (positions, attributes, etc), it will
+They *must not affect gameplay.* If they change gameplay variables in any way (positions, attributes, etc.), it will
 cause desyncs in online play.
 
 These scripts are called every frame, and only effect the current frame.
 
 # animation.gml
 
-For manually changing the character’s sprite_index and image_index, creating [custom character animations](/workshop_guide/programming/learning_path/vfx.md#custom-character-animations).
+For manually changing the character’s `sprite_index` and `image_index`, creating [custom character animations](/workshop_guide/programming/learning_path/vfx.md#custom-character-animations).
 
 # Draw Scripts
 
-These actually draw things to the screen. Typically used with
+These directly draw images to the screen. Typically used with
 
 - [draw_sprite](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/drawing/sprites_and_tiles/draw_sprite.html)
 - [draw_sprite_ext](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/drawing/sprites_and_tiles/draw_sprite_ext.html)
-  for additional options
+  for more options
 - [draw_debug_text](https://rivalsofaether.com/draw_debug_text/)
 
 `pre_draw.gml` draws behind your character. It's drawn before, so your character draws on top of it.
@@ -26,7 +26,7 @@ These actually draw things to the screen. Typically used with
 
 ## other_pre_draw.gml and other_post_draw.gml
 
-Runs on all *other* characters. For when you want to draw on opponents, such as Zetterburn's fire or Ranno's poison markers, user other_draw scripts.
+Runs on all *other* characters. For when you want to draw on opponents, such as Zetterburn's fire or Ranno's poison markers, user `other_draw` scripts.
 
 In these scripts `other_player_id` references your own character.
 
@@ -59,14 +59,12 @@ displacing them. `var special_ready_indicator_x = temp_x + 150`
 
 ## css_draw.gml
 
-Draws on the character select screen when the character is selected. Usually used for palette selection.
+Draws on the character select screen when the character is selected. Used for palette selection.
 
 `x` and `y` refer to the top left corner of the character portrait.
 
 ## debug_draw.gml
 
-Meant to be used during development, not in finished characters.
+Meant for use during development, not in finished characters.
 
-Everything drawn in this will be drawn in front of everything else.
-
-
+Draws in front of everything else on the screen.

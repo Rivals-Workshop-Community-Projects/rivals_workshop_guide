@@ -11,7 +11,7 @@ There's no fixed framerate that is "good enough" when animating, the goal is to 
 choppy, and taking too long to animate.
 
 A good way to find that point is
-by [starting with few frames, and gradually adding inbetweens as needed](workflow.md#starting-with-low-framerate) to
+by [starting with few frames, and gradually adding in-betweens as needed](workflow.md#starting-with-low-framerate) to
 make the animation look smooth.
 
 ::: quote
@@ -82,12 +82,6 @@ While you can't change a fraction of a pixel, you can use tricks to make the cha
 \
 <cimg src="https://tinywarriorgames.com/wp-content/uploads/2019/01/subpixel-bad.gif" height=200 caption="No subpixel animation"/>
 <cimg src="https://tinywarriorgames.com/wp-content/uploads/2019/01/subpixel.gif" height=200 caption="With subpixel animation - By tinywarriorgames.com"/>
-
-::: construction
-
-I'd like examples from rivals characters here
-
-:::
 
 ::: sources
 

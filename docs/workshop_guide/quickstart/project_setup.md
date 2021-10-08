@@ -19,10 +19,10 @@ Rather than starting from nothing, copy a template into the folder to build from
 
 - **Recommended**
   [The Assistant Beginner Template](https://github.com/Rivals-Workshop-Community-Projects/rivals-character-template/archive/refs/heads/master.zip)
-  is designed to make things as easy as possible for new modders, and take advantage of [The Assistant's](/assistant)
+  is designed to make creating a character as easy as possible for new modders, and take advantage of [The Assistant's](/assistant)
   features. This template uses Zetterburn's stats and normal attacks, and Sandbert's animations and specials.
 
-Just unzip the template into a new folder in your project directory. The character files should be in the root of your
+Unzip the template into a new folder in your project directory. The character files should be in the root of your
 project folder, like `...\rivalsofaether\workshop\your_project\config.ini`
 
 ![](https://i.gyazo.com/69a0474a5d0734d83530b910ea9526bf.png)
@@ -42,13 +42,13 @@ edit it.
   extra features, but may be more complicated to get started with.
 - [Sandbert](https://steamcommunity.com/workshop/filedetails/?id=1865940669), the official example character, is often
   used as a new character template.  \
-  This original Sandbert is overpowered in many ways, making it a poor foundation. Many parts of the character will need to be
+  This original Sandbert is overpowered in many ways, making it a poor foundation. Parts of the character will need to be
   re-tuned.
   ::: note
 
-Technically any mod can be used as a starting template, but unfortunately not everyone is open to their work being
-reused. Get permission before copypasting large sections of another mod.
+You can technically use any mod as a starting template, but unfortunately not everyone is open to the reuse of their work.
+Get permission before copy-pasting large sections of another mod.
 
-(Rather than copypasting, studying and understanding mods is a fantastic way to learn.)
+(Rather than copy-pasting, studying and understanding mods is a fantastic way to learn.)
 
 :::

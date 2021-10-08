@@ -2,7 +2,7 @@
 
 Once you have a [new project set up](/workshop_guide/quickstart/project_setup), you need tools to work on it.
 
-This process should only need to be done once.
+You should only need to do this once.
 
 ## GMEdit - Code Editor
 
@@ -11,11 +11,11 @@ This process should only need to be done once.
 **Install the [GMEdit Beta](https://yellowafterlife.itch.io/gmedit)**, the default code editor for Rivals.  \
 Make sure to get the beta version for Rivals dialect compatibility.
 
-GMEdit can simply be unzipped and run, so unzip it somewhere easy to find, or make a shortcut.
+Unzip GMEdit somewhere easy to find, or make a shortcut.
 
 ::: note
 
-Other editors *can* be used (and VSCode has some Rivals support) but will lack features for Rivals and Rivals'
+You *can* use other editors (VSCode has some Rivals support) but they will lack features for Rivals and Rivals'
 language (GML), which will slow you down considerably.
 
 :::
@@ -50,7 +50,7 @@ If you don't use the Assistant, you may occasionally get errors about functions 
 
 ### Opening your project with GMEdit
 
-GMEdit recognizes rivals projects by the `config.ini` file. 
+GMEdit recognizes rivals projects by the `config.ini` file.
 
 Either:
 - Drag the `config.ini` file into GMEdit.
