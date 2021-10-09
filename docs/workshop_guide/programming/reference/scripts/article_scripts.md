@@ -13,9 +13,9 @@ Article names are `1`, `2`, `3`, `solid`, and `platform`
 
 Called when the article is created, to initialize variables.
 
-Articles have several [built-in variables.](../../learning_path/articles.md#article-variables)
+Articles have [built-in variables.](../../learning_path/articles.md#article-variables)
 
-An article's `sprite_index` variable *must* be set to a valid sprite, or the game may crash. If you need an invisible
+You must set an article's `sprite_index` variable to a valid sprite, or the game may crash. If you need an invisible
 article, you can get around this with `sprite_index = asset_get("empty_sprite")`.
 
 In all scripts, should avoid using Game Maker's in-built 'speed' variables

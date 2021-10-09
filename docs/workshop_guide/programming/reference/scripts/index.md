@@ -8,7 +8,7 @@ next: init_and_attack_scripts
 
 [Official docs](https://www.rivalsofaether.com/workshop/scripts/)
 
-Rivals uses many files, each with a different purpose. Different files are called at different times, and are given
+Rivals uses many files, each with a different purpose. Different files are called at different times, and have
 access to different built-in variables.
 
 You don't need to be familiar with all the scripts yet, but when adding new code, it helps to think about which script

@@ -1,6 +1,6 @@
 # Function Library
 
-The Assistant's function library lets you write shorter, simpler code by automatically sharing helprul `#define`
+The Assistant's function library lets you write shorter, simpler code by automatically sharing helpful `#define`
 and `#macro` statements to the files where they're used.
 
 For example:

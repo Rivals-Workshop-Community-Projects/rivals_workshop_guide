@@ -51,7 +51,7 @@ if my_cloud != noone {
 
 ### Hit events
 
-To change the knockback given, modify `orig_knock` on the hit character.
+To change the knockback given, change `orig_knock` on the hit character.
 
 You can disable the purple kill effect by setting `should_make_shockwave` to `false` on the hit character.
 
@@ -60,7 +60,7 @@ You can disable the purple kill effect by setting `should_make_shockwave` to `fa
 Called when you hit another character with any hitbox.
 
 - `hit_player_obj` - the oPlayer instance that was hit.
-- `hit_player` - the player number of the hit character (player 1, player 2, etc).
+- `hit_player` - the player number of the hit character (player 1, player 2, etc.).
 - `my_hitboxID` - the hitbox you hit them with.
 
 ```gml
@@ -73,7 +73,7 @@ if my_hitboxID.attack == AT_NAIR {
 
 Called when you are hit by any hitbox.
 
-- `hit_player_obj` - *Misleading.* Whatever instance created the hitbox *that hit you.* *May not be an oPlayer
+- `hit_player_obj` - *Misleading.* Whatever instance created the hitbox *that hit you.* *May not be an `oPlayer`
   instance.*
 - `hit_player` - *Misleading*. The player number of the `hit_player_obj` (player 1, player 2, etc).
 - `enemy_hitboxID` - the hitbox you were hit with.
@@ -116,12 +116,8 @@ if (my_hitboxID.attack == AT_USPECIAL){
 
 `user_event[0 – 15].gml`
 
-These scripts can be called manually with the `user_event()` function, making them similar to
-writing [`define` functions](../../learning_path/functions.md#making-functions-with-define) that are accessible from multiple
+You can call these scripts manually with the `user_event()` function, making them similar to
+[`define` functions](../../learning_path/functions.md#making-functions-with-define) that are accessible from multiple
 files.
 
-::: construction
-
-This is made largely obsolete by the workshop assistant, pending public release.
-
-:::
+[The Assistant lets you use any define across multiple files.](/assistant/function_library) 

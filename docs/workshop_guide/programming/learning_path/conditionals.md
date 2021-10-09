@@ -55,7 +55,7 @@ if charge <= 0 {
 
 Sometimes you might find you have a long `if`-`else` chain checking the value of something, like checking `attack`
 in [attack_update.gml](../reference/scripts/event_scripts.md#attack-update-gml). In these
-cases you may use the `switch`-`case` statement to streamline things, though it's entirely optional.
+cases you may use the `switch`-`case` statement to streamline the code, though it's entirely optional.
 
 ```gml
 switch(<a variable>) {
@@ -90,4 +90,4 @@ switch(my_hitboxID.attack) {
 
 `break` is a special statement that ends the current block of code, here ending the `switch` statement.
 
-If your switch case has less than 3 items in it, it'd be clearer to just use `if`.
+If your switch case has less than 3 items in it, it'd be clearer to use `if`.

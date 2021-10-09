@@ -57,7 +57,7 @@ While body proportions shouldn't change for no reason, they *should* change to e
 
 ::: quote
 
-<cimg src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 caption="amber exaggeration - by BountyXSnipe">
+<cimg src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=250 caption="amber exaggeration - by BountyXSnipe" />
 
 Amber was mostly broken proportions in her animations, just at least not to the point where you really notice the broken
 proportions.
@@ -109,6 +109,13 @@ Smears are not outlined, and grow thinner closer to the tail.
 Many smears dissipate over a few frames, leaving fading traces in place.
 
 <img src="https://i.gyazo.com/3cc98ef8688b74a40ec142621b7ddbd2.png" height=250 alt="zetter smear">
+
+\
+Some VFX can serve the same purpose as smears.
+
+<cimg src="https://media.discordapp.net/attachments/894392813544943636/894395860077654046/Rftilt.gif" height=250 caption="by FuZZ" />
+
+<cimg src="https://media.discordapp.net/attachments/894392813544943636/894395350566182972/Rutilt.gif" height=250 caption="by FuZZ" />
 
 ::: construction
 

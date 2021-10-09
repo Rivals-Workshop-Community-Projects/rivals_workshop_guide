@@ -144,7 +144,7 @@ Color blocking is sometimes done as a second drafting step after something rough
 
 [Demonstration](https://youtu.be/PEyQP5_CYf0?t=1269)
 
-<cimg src="https://media.discordapp.net/attachments/659932047741157406/894328906474225724/image0.gif" height=300 caption="Color blocking with vfx - by FuZZ"/>
+<cimg src="https://media.discordapp.net/attachments/659932047741157406/894328906474225724/image0.gif" height=300 caption="by FuZZ"/>
 
 <cimg src="https://media.discordapp.net/attachments/722892672347668491/895690574554873876/BACKWARDS_AERIAL.gif" height="150" caption="by Bar-Kun"/>
 

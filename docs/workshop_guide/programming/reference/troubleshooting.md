@@ -1,6 +1,6 @@
 # Troubleshooting
 
-This page is meant to be an easily searchable list of error messages, and common fixes.
+This is a searchable list of error messages, and common fixes.
 
 ::: construction
 

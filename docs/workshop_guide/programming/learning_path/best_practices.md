@@ -1,14 +1,14 @@
 # Programming Best Practices
 
-The natural tendency of new programmers is to write code that works, and then move on. Unfortunately, that leads to a
+The natural tendency of new programmers is to write code that works, and then move on. That leads to a
 trail of chaos left behind, where the code may work, but it's hard to tell *how* or *why.*
 
 \
-That's fine until you need to change something. Either you're trying to find the cause of a bug and fix it, or you're
-trying to adjust how part of the character works, you'll be back. Code is read much more often than it's written.
+That feels fine until you need to change something. Maybe you're trying to find the cause of a bug and fix it, or you're
+trying to adjust how part of the character works. **You'll be back.** Code is read much more often than it's written.
 
 \
-Being organized also prevents a lot of bugs before they happen. Spending a little more time making your code clean and
+Staying organized also prevents a lot of bugs before they happen. Spending a little more time making your code clean and
 organized will *save* you more time in the future.
 
 # Naming
@@ -16,11 +16,12 @@ organized will *save* you more time in the future.
 This is the quickest win. Once good naming is a habit, all your code will be easier to understand.
 
 \
-Naming well is conceptually simple. Think of what the variable *means.* If someone asked you what it is, think of what
+Naming well is conceptually simple. Think of what the variable *means.* If someone asked you what the variable is, think of what
 you'd tell them. That's what your variable name should say.
 
 \
 Don't worry too much about keeping your variable names very short. Editors provide autocompletion of variable names.
+If a variable name takes 3 or 4 words to be clear, use 3 or 4 words.
 
 ::: construction
 
@@ -41,7 +42,7 @@ It's `has_walljump`. Try to make your code obvious, and avoid creased foreheads.
 
 # Duplication
 
-When something is written in multiple places, there's a high chance that it is logical duplication, which can make your
+When you write something in multiple places, there is a high chance it's "logical duplication", which can make your
 job much harder later on.
 
 By extracting the repeated code to a name, you can avoid needing to change multiple places, and make the code more
@@ -50,7 +51,7 @@ readable.
 ## Values
 
 ```gml
-// A charge shot with a charged and uncharged stage. 
+// A charge shot with a charged and uncharged stage.
 // When charge is 50, it plays a sound and creates a stronger projectile.
 
 if laser_charge == 50 {
@@ -62,13 +63,13 @@ if laser_charge == 50 {
 if laser_charge >= 50 {
     // Create the stronger attack
 } else {
-    // Create the weaker attack 
+    // Create the weaker attack
 }
 ```
 
 During balancing, you realize it's charging too slowly, and you want to try it at 40. It's been a while, so you forgot
 that you wrote '50' in multiple places, and you miss one, and get a weird bug. Searching all project files for '50'
-could help, but can be messy, especially if the value is being used for another meaning elsewhere.
+could help, but can be messy, especially if the same value has for another meaning.
 
 The solution is to save '50' to a variable with a nice descriptive name, and use that variable instead of the value
 directly.
@@ -84,13 +85,13 @@ if charge == laser_charge_requirement {
 if laser_charge >= laser_charge_requirement {
     // Create the stronger attack
 } else {
-    // Create the weaker attack 
+    // Create the weaker attack
 }
 ```
 
 ## Behavior
 
-Behavior can be duplicated too. When you find you're writing the nearly identical lines of code in multiple places, that
+Behavior can also duplicated. When you find you're writing the nearly identical lines of code in multiple places, that
 can lead to the same sort of problem.
 
 ```gml
@@ -112,7 +113,7 @@ if attack == AT_DSPECIAL {
 ```
 
 Say that later you want to add a flash as well as the sound effect. Again, you'd need to make the same changes to
-multiple places in order to avoid weird inconsistent behavior.
+multiple places to avoid weird inconsistent behavior.
 
 Fortunately, you can save the behavior to a [function](functions.md) with a `#define` block.
 
@@ -128,13 +129,13 @@ if attack == AT_DSPECIAL {
         // (Code that does empowered dspecial)
         spend_empower()
     }
-    
-#define spend_empower() 
+
+#define spend_empower()
     sound_play(sound_get("sfx_go"))
     empowered = false
 ```
 
-Now adding the flash only needs to change the new function. Using named values like `spend_empower` often improves
+Now adding the flash requires only one change in the new function. Using descriptive named values like `spend_empower` often improves
 readability as well.
 
 With [the Assistant](/assistant), you can share defines across files, rather than needing to copy them into each file
@@ -148,7 +149,7 @@ Code doesn't need to be that way. Reading well written code feels like a friend 
 
 \
 With some practice and effort, you can create complex effects out of simple code that is easy to understand, fix, and
-change. To do this, actually think in terms of how you would clearly describe what the code does, and turn that
+change. To do this, actually think of how you would clearly describe what the code does, and turn that
 description into code.
 
 \
@@ -170,7 +171,7 @@ when nspecial hits:
 Then you can try to turn the description into meaningful code.
 
 Often, parts of the code will require more detail to fully explain, such as "throw them in the held direction." If you
-just write down those details, it will obscure the clear, high-level meaning! Instead, use a [function](functions.md) to
+directly write down those details, it will obscure the clear, high-level meaning! Instead, use a [function](functions.md) to
 separate the details, and keep the meaning clear.
 
 ```gml

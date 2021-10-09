@@ -15,6 +15,6 @@ reload while in the menu.
    icon. ![](https://storage.ko-fi.com/cdn/useruploads/display/e1b39611-2142-4ff7-bafc-0f046bb873c0_local.png). Since it's a modded character, you need to have workshop enabled in the match settings, and select the character from the cog on the character select screen.
 3. Start a game on any map, possibly with a cpu to beat up.
 4. **Press Ctrl+8** to see the in game log. Always do this when developing a mod. If something is wrong in the code,
-   this will usually tell you what and where.
+   this will often tell you what and where the problem is.
 5. Whenever you change the character's files, whether code or art, press f5 to reload your character with the new
-   changes. It's good to do this often to get feedback quickly. It should show a large 'Refreshing' symbol.
+   changes. It's good to do this often to get fast feedback. It should show a large 'Refreshing' symbol.

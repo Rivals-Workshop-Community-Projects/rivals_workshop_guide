@@ -10,8 +10,8 @@ Sometimes you want an [instance](objects_and_instances.md) other than your chara
 
 You grow a tree, have an owlfriend, drop bear traps, or throw a bouncy saw blade.
 
-Sometimes these can be handled as simple projectiles. Other times it's okay to just make them part of your character,
-tracking their location and using a draw script.
+Sometimes you can handle articles as simple projectiles. Other times it's okay to make them part of your character,
+tracking their location in a variable and using a draw script.
 
 If you have something with more complex behavior, it's probably easier to use an **article.**
 
@@ -40,12 +40,12 @@ There are five article objects:
 
 ## Creating an Instance of an Article
 
-Instances of articles are created with [instance_create("obj_article1"),](https://rivalsofaether.com/instance_create/) or
-whichever article type. Note that this is the only time when you'll need to put the article object name in quotes.
+You create instances of articles with [instance_create("obj_article1"),](https://rivalsofaether.com/instance_create/) or
+whichever article type. Note that this is the *only* time when you need to put the article object name in quotes.
 
 ```gml{4}
 //attack_update.gml
-if attack == AT_DSPECIAL { 
+if attack == AT_DSPECIAL {
   if window == 2 && window_timer == 1 && hitpause == false { // 'hitpause == false' prevents it from running multiple times if frozen in hitpause
     bomb = instance_create(x, y, "obj_article1") // Optionally save a reference to the instance in a variable.
   }
@@ -66,7 +66,7 @@ Articles have the following built-in variables:
 - `can_be_grounded` - Determines if the article follows platforms when free == false. `false` by default.
 - `ignores_walls` - Determines if the article moves through solid objects rather than colliding. `true` by default.
 - `hit_wall` - Is true if the article hit a wall due to its own movement.
-- `uses_shader` - Whether the article is recolored by the player’s shader or not.
+- `uses_shader` - Whether the player's shader recolors the article.
 
 *Changing:*
 
@@ -79,21 +79,21 @@ Articles have the following built-in variables:
 ## Referencing Articles
 
 [`instance_create()`](https://rivalsofaether.com/instance_create/) returns the id of the newly-created article, which
-can be saved in a variable to access later.
+you can save in a variable to access later.
 
 [`instance_exists(instance_id)`](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/instances/instance_functions/instance_exists.html)
 returns `true` if the instance exists. You can use this to check if your player article variable has an article assigned
 to it or not.
 
 ```gml
-// init.gml 
+// init.gml
 my_player_article = noone;
 
-// attack_update.gml 
+// attack_update.gml
 
-// if an article doesn't exist yet, let the player create an article with dspecial. 
-if !instance_exists(my_player_article) { 
-  if attack == AT_DSPECIAL { 
+// if an article doesn't exist yet, let the player create an article with dspecial.
+if !instance_exists(my_player_article) {
+  if attack == AT_DSPECIAL {
     my_player_article = instance_create("obj_article1")
   }
 } else { // if an article exists, make the article move upwards with uspecial.
@@ -119,7 +119,7 @@ if attack == AT_TAUNT {
   with (obj_article1) {
     if (player_id == other.id) { // If the article belongs to you
       vsp = 5;
-  } 
+  }
 }
 ```
 
@@ -127,7 +127,7 @@ if attack == AT_TAUNT {
 
 ### Safely
 
-Destroying articles without organization can make things buggy and complicated.
+Destroying articles without organization can make lead to bugs and strange behaviors.
 
 To make sure the article doesn't disappear in the middle of doing something, it's good to let the article handle its own
 destruction.
@@ -153,14 +153,14 @@ if should_die {
 }
 ```
 
-When using an article that could be destroyed,
+When using an article that might have been destroyed,
 use [`instance_exists(instance_id)`](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/instances/instance_functions/instance_exists.html)
 to check.
 
 ### Manually
 
 You can destroy articles directly using [`instance_destroy(article_id)`](https://rivalsofaether.com/instance_destroy/)
-or just `instance_destroy()` if you're in the article's perspective.
+or `instance_destroy()` if you're in the article's perspective.
 
 ```gml
 // update.gml
@@ -189,47 +189,50 @@ if shield_pressed {
 
 ### Collisions
 
-Article collisions must also be handled manually. For this reason it can be the most difficult part of setting up a
-working article. There are a few different ways to go about article collisions, and so this guide will outline the most
+You must handle article collisions manually. This can be the most difficult part of setting up a
+working article. There are several different ways to handle article collisions, and so this guide will outline the most
 common options.
 
 #### place_meeting Collisions
 
 Use
 the [place_meeting()](https://docs2.yoyogames.com/source/_build/3_scripting/4_gml_reference/movement%20and%20collisions/collisions/place_meeting.html)
-function. This is the simplest way to check for a collision in an article script. However, this function can cause a lot
-of slowdown if it is used too frequently.
+function. This is the simplest way to check for a collision in an article script. This function can cause a lot
+of slowdown if it's used too frequently.
 
 Objects you may want to check for include:
 
-- `pHurtBox` (hurtboxes. For when precise collision boxes are needed.)
-- `oPlayer` (when you need to check for players' platforming boxes instead of their hurtbox, or when precise collisions
-  are not needed. You should also check their 'clone' variable to see if they are a Forsburn clone or not.)
-- `pHitBox` (hitboxes.)
-- `asset_get(par_block)` (walls and floors.)
-- `asset_get(par_jumpthrough)` (platforms.)
+- `pHurtBox` (hurtboxes) For when you need precise collision detection.
+- `oPlayer` (players) When you need to check for players' platforming boxes instead of their hurtbox, or when you don't need precise collisions
+  detection. You should also check their 'clone' variable to see if they are a Forsburn clone or not.)
+- `pHitBox` (hitboxes)
+- `asset_get(par_block)` (walls and floors)
+- `asset_get(par_jumpthrough)` (platforms)
 
 #### Manual Collisions
 
-Make a 'manual' collision detection by simply comparing x, y and char_height values, or
+Make a 'manual' collision detection by comparing `x`, `y` and `char_height` values, or
 using [`point_distance()`](https://docs.yoyogames.com/source/dadiospice/002_reference/maths/vector%20functions/point_distance.html)
-. This method is efficient, and recommended for making articles that act like 'fields', e.g. Wrastor's slipstream.
+. This method is fast, and recommended for making articles that act like 'fields', e.g. Wrastor's slipstream.
 
 #### Hitbox Collisions
 
 Create a projectile with [`create_hitbox()`](https://rivalsofaether.com/create_hitbox/), save the instance id, and move
-the projectile's coordinates to overlap the article in article[name]_update.gml.
+the projectile's coordinates to overlap the article in `article[name]_update.gml`.
 
-This is the most complex method, but also the most accurate, and more efficient than place_meeting(). It is recommended
-for articles that can be triggered by opponents touching them, and for articles that may need to be 'parried' by
-opponents. If the projectile disappears, you can assume something happened that would destroy the article. Likewise, you
-can use your character's `hit_player.gml` script to check when the article collides with a player's hurtbox.
+This is the most complex method, but also the most accurate, and faster than `place_meeting()`.
+You should use this for articles that act when opponent's touch them, or may need to be 'parried' by
+opponents.
+If the projectile disappears, you can assume something happened that would destroy the article.
+You can use your character's `hit_player.gml` script to check when the article collides with a player's hurtbox.
 
 ::: construction
 
-common article features (hopefully powered by the standard library)
+- Common article features (hopefully powered by the standard library)
 
-player articles
+- Player articles
+
+- Code examples of each collision detection method
 
 :::
 

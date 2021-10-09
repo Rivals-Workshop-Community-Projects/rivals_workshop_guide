@@ -20,15 +20,15 @@ print(the_maximum)
 
 ## Making Functions with `Define`
 
-Characters can be made without personal functions, so if you're a new modder, you can safely skip the rest of this page.
+You can make characters without your own personal functions, so if you're a new modder, you can safely skip the rest of this page.
 
 Once you're familiar with the other basics of the language, though, you can
 and *[should](best_practices.md#writing-simple-code)* make your own functions!
 
-Your functions are created with a `#define` block. Like variables, they can be named almost anything, but should be
-named a *verb*, that helps the reader's understanding.
+You create new functions with a `#define` block. Like variables, you can name them almost anything, but should use
+a *verb* that helps the reader's understanding.
 
-Your functions **must be declared at the bottom of the file they're used in.** You can't put any normal code underneath
+You **must declare your functions at the bottom of the file they're used in.** You can't put any normal code underneath
 a define.
 
 ```gml
@@ -47,7 +47,7 @@ This makes a new function called `stop_movement` that you can use with `stop_mov
 }
 ```
 
-Notice the first line. This requires two inputs, which will be given the names `x_offset` and `y_offset`.
+Notice the first line. This requires two inputs, and names them `x_offset` and `y_offset`.
 
 ### Why Create Functions
 
@@ -59,7 +59,7 @@ manage complexity. Functions can help even when they're only used once, as a way
 
 ### Advanced Defines
 
-It is also possible to allow an unknown number of input arguments.
+You can also allow an unknown number of input arguments.
 
 The function body has two new variables.
 
@@ -84,7 +84,7 @@ You can use some arguments as variables and [loop](array.md#for-loop) through th
 #define fancy_prints {
     //title, ...args
     // Prints the first argument as a title, then the others separated by spaces.
-    var _out_string = argument[0]+":" 
+    var _out_string = argument[0]+":"
     for (var i = 1; i < argument_count; i++){
         _out_string += " "
         _out_string += string(argument[i])
@@ -96,5 +96,5 @@ You can use some arguments as variables and [loop](array.md#for-loop) through th
 These should always have a first line comment explaining what the arguments are, with the unknown quantity last,
 named `...args`
 
-(In the GML documentation, defines are called 'scripts', because in standard gml each user-function is written in a
+(The GML documentation calls defines 'scripts', because in standard GML you write each user-function in a
 separate file.)

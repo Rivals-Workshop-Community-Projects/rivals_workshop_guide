@@ -37,14 +37,13 @@ This adds:
 - `config`: Some default settings, configuring backups and removing some overly strict style warnings.
 - `api`: The Rivals dialect, telling the editor what functions and variables exist in Rivals, so it can autocomplete and
   check for errors.
-- `plugin`: Installs [the Assistant](/assistant), a multipurpose tool that quietly automates many tedious parts of
-  Rivals modding.
+- `plugin`: Installs [the Assistant](/assistant), a multipurpose tool that automates tedious parts of Rivals modding.
 
 ::: warn
 
 Later parts of this guide assume you have installed GMEdit and [the Assistant](/assistant), as described above.
 
-If you don't use the Assistant, you may occasionally get errors about functions not being defined, because normally the Assistant would supply them.
+If you don't use the Assistant, you may get errors about undefined functions, because the guide assumes Assistant would supply them.
 
 :::
 
@@ -56,13 +55,13 @@ Either:
 - Drag the `config.ini` file into GMEdit.
 
 or
-- In GMedit, click 'Open...', change 'GameMaker files' to 'All files' in the new window, and open the `config.ini` file.
+- In GMEdit, click 'Open...', change 'GameMaker files' to 'All files' in the new window, and open the `config.ini` file.
 ## Aseprite - Art Editor
 
 [Aseprite](https://new.isthereanydeal.com/game/aseprite/info/) is the recommended art tool for Rivals of Aether. It has
 powerful features for pixel art and animation, and has [Assistant](/assistant) automation.
 
-Aseprite is paid. Free alternatives include:
+Aseprite is not free. Free alternatives include:
 
 - [An update of the old open source version of Aseprite](https://libresprite.github.io/) though these have bugs, missing features, and may
   not have assistant compatibility. [The free version old version of Aseprite is here.](https://www.aseprite.org/older-versions/)
