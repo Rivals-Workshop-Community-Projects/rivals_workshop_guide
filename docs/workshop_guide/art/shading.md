@@ -10,7 +10,7 @@ shades to work with.
 Most materials have
 
 - A main light shade that covers most of the material
-- A darker shade that that covers most of the shaded area
+- A darker shade that covers most of the shaded area
 - An even darker shade for the deepest shadows
 
 See [shiny materials](shading.md#shiny-materials) for when this looks too flat.
@@ -29,8 +29,8 @@ change direction whenever the character turns around.
 
 ### Banding
 
-When an artist isn't sure how to shade something, it's common to just draw a line of shading along the edge of the
-shape, or maybe multiple lines in a gradient.
+When an artist isn't sure how to shade something, it's common to draw a line of shading along the edge of the
+shape, or multiple lines in a gradient. **Don't.**
 
 This is
 called [banding.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Banding%3A,simply%2C%20is%20when%20pixels%20line%20up.)
@@ -65,17 +65,16 @@ To communicate form well, it sometimes helps to shade an area, even if it would 
 
 Having a change in shading shows that the material has curved or has different depth from the viewer.
 
+\
+Remember that unnatural shading can look strange, and should only be done when it helps
+show [form](form.md) or important details.
+
 ### Pillow Shading
 
-It's important to remember that unnatural shading can look strange, and should only be done when it helps
-show [form](form.md).
+A common kind of unnatural shading is [Pillow Shading,](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Pillow%2Dshading%3A,central%20area%20with%20increasingly%20darker%20bands.)
+shading just the outsides of the shape.
 
-A common mistake is to try to show form just by darkening the outsides of the object, which is
-called [Pillow Shading.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Pillow%2Dshading%3A,central%20area%20with%20increasingly%20darker%20bands.)
-
-This ends up looking as if the light source is coming *from the viewer,* which is very unnatural.
-
-Use unnatural shading only when it helps show important details.
+This ends up looking as if the light source is coming *from the viewer,* instead of above.
 
 <cimg src="https://static.wikia.nocookie.net/pixelstudiotutorial/images/1/1f/6_tutorial.png" height=250 alt="by pixelstudio" />
 <cimg src="https://i.gyazo.com/5380ff4ae31d706c94dfa481b255aab8.png" height=250 alt="by pinguaq" />
@@ -105,7 +104,7 @@ character moves.
 
 Don't use dithering in Rivals art.
 
-Dithering is a technique where two colors are speckled into each other in a pattern, either to produce smoother shading
+Dithering is a technique where you speckle two colors into each other in a pattern, either to produce smoother shading
 or add texture.
 
 At Rivals' size, dithering creates far too much noise. Shading should be done with solid colors, and texture should
@@ -120,4 +119,3 @@ be [simplified](simplification.md).
 [Pinguaq](https://pinnguaq.com/learn/pixel-art/pixel-art-2-core-techniques-in-graphicsgale)
 
 :::
-

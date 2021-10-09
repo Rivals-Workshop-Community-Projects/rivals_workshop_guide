@@ -1,6 +1,6 @@
 # Simplification
 
-Because pixel art is so restrictive, it is more important
+Because pixel art is so restrictive, it's more important
 to [show a few important things clearly,](https://saint11.org/blog/thoughts_on_low_resolution/#2-keep-it-simple-and-meaningful---focus:~:text=Keep%20it%20Simple%20and%20Meaningful%20%2D%20Focus)
 than to try to show many details.
 

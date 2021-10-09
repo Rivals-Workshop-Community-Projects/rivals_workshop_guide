@@ -12,7 +12,7 @@ This is even more common in pixel art, where the grid leads to using long straig
 <img src="https://i.gyazo.com/641803dad56052ccd787699d83254d90.png" height=200 alt="bad etalus">
 
 \
-Rivals characters look better than this, because they aren't just 2d structures. Rivals sprites communicate 3d form.
+Rivals characters look better than this, because they aren't just 2d shapes. Rivals sprites communicate 3d form.
 
 <img src="https://i.gyazo.com/eda5e299e2167f691593bde4c57d9ab8.png" alt="Etalus turning">
 
@@ -20,8 +20,8 @@ Rivals characters look better than this, because they aren't just 2d structures.
 
 ## How to draw form
 
-Drawing form is very hard. Do not expect it to come quickly. Some things in this guide can be learned quickly and just
-need to be remembered, but drawing realistic form is something you improve at, but rarely ever master.
+Drawing form is difficult. Do not expect it to come quickly. Parts of this guide can are easy to learn and remember,
+but drawing realistic form is something you practice over time.
 
 ### Use References
 
@@ -34,7 +34,7 @@ Some animators use small pose-able mannequins, so they can always have a referen
 
 ### Decompose forms
 
-Think of the form in terms of smaller shapes, like spheres and cylinders.
+Think of the form as a collection of smaller shapes, like spheres and cylinders.
 
 Use [shading](shading.md) to communicate those shapes.
 
@@ -55,9 +55,9 @@ Try sketching the pose from different angles to understand the shape of it.
 ### Avoid tight details in designs
 
 Imagine you have a face drawn with small, tightly packed details, each only a couple pixels large. Now try turning the
-face slightly to the side and tilting it up or down. It's a puzzle how to fit all the details into this new orientation.
+face slightly to the side and tilting it up or down, and notice how it's difficult to fit all the details into this new orientation.
 
-Pixel art should usually [avoid tight details](simplification.md) anyway, and large clear shapes will also be easier to
+Pixel art should usually [avoid tight details](simplification.md). Large clear shapes are easier to
 work with in 3d form.
 
 ::: sources

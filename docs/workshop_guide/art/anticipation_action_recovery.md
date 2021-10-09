@@ -20,19 +20,16 @@ distinct [silhouettes](pose.md#silhouette).
 
 ## Fast Transitions
 
-When adding in-between frames, it is very important to keep your key frame poses clearly distinct. Add frames to
-accentuate the poses, but avoid making frames that don't clearly belong to one pose or another.
-
 ### Clarity
 
-Normally it's good for animations to flow smoothly, but it is more important that the character's current state is very
+It's normally good for animations to flow smoothly, but it's more important that the character's current state is very
 clear.
 
-If the character smoothly moves between two poses, then during the frames in between it is unclear which state the
-character is currently in.
+If the character smoothly moves between two poses, then during the transitioning frames it's unclear which state the
+character is in.
 
 The character needs to get into their pose *fast*, and stay clearly in that pose until they quickly transition to the
-next.
+next. Add frames to accentuate the poses or show motion, but avoid making frames that don't clearly belong to one pose or another.
 
 Unclear posing is most common
 in [the transition between recovery and idle](anticipation_action_recovery.md#transition-to-idle), because it tends to
@@ -113,7 +110,7 @@ The bottom one shows better where Amber is aiming towards. She's aiming to the r
 
 :::
 
-In addition to a clear pose, characters always look in the direction they're going to attack.
+Characters always look in the direction they're going to attack.
 
 ## Active
 
@@ -138,12 +135,12 @@ Recovery poses are usually a continuation of the attack's motion, with the chara
 The transition from recovery back to idle needs to be [fast and clear](anticipation_action_recovery.md#fast-transitions)
 so that the player knows what frame they're able to act on.
 
-The last frames of the recovery can't look similar to idle, or players will try to act while still in recovery and miss
+The last frames of the recovery can't look like the idle, or players will try to act while still in recovery and miss
 inputs.
 
 ::: quote
 
-If you set a linear scale between the recovery pose and idle, then it is impossible for the player to know when they can
+If you set a linear scale between the recovery pose and idle, then it's impossible for the player to know when they can
 act.
 
 ![](https://miro.medium.com/max/1858/1*wTQH2AFrkoaqfipXHNH03w.png)

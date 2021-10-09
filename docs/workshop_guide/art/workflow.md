@@ -34,11 +34,11 @@ See [Aseprite setup](../quickstart/software_setup.md#aseprite-art-editor) for in
 ### Assistant Export
 
 The
-Assistant [automates the steps between saving an aseprite file and seeing the changes in game.](/assistant/animation_handling.md)
+Assistant [automates the steps between saving an Aseprite file and seeing the changes in game.](/assistant/animation_handling.md)
 Depending on your workflow, that might be a significant time save, particularly if you're doing
 many [iterations](#iteration) and testing your animations while they're still rough.
 
-If [The Assistant](/assistant) is set up and running in your editor, and you have supplied your aseprite path to the
+If [The Assistant](/assistant) is running in your editor, and you have supplied your Aseprite path to the
 config, then saved files in an `/anims` director will automatically export to properly named and sized sprite
 sheets. [Other features](/assistant/animation_handling.md) can let you skip other steps.
 
@@ -49,11 +49,11 @@ shows its worth.
 
 > Arm looking a little too far back? Just drag it forwards and make some adjustments at the shoulder.
 
-How exactly you work with layers is quite personal, but here are some ideas, roughly in order from bottom to top:
+How exactly you work with layers is quite personal, but here are some ideas, roughly in order from bottom layer to top:
 
 - Reference materials can go at the bottom for you to draw over.
     - A Scaled down sprite of a similar character (but be careful if you want to keep rivals proportions).
-    - Zetterburn, or whatever rivals character looks most similar to yours.
+    - Zetterburn, or whatever rivals character looks most like yours.
     - A line representing the floor is common.
 - It's often helpful to make [rough sketches](#starting-with-low-detail) before animating. If you make them in Aseprite,
   you can make them a low layer to draw over.
@@ -81,7 +81,7 @@ tags. [The Assistant can understand them to still properly export the animations
 This lets you quickly skip between animations to see other poses, and means all sprites will share the same `load.gml`
 data.
 
-With many animations, it may get bulky and harder to navigate. Some modders split into a few aseprite files for
+With many animations, it may get bulky and harder to navigate. Some modders split into a few Aseprite files for
 organization (such as movement, normals, aerials, specials).
 
 ## Iteration
@@ -114,30 +114,29 @@ plan.
 
 \
 Any time you're unsure, you can test the animation in game, get feedback, or leave the animation for a while and come
-back when you have a more complete picture of the character. Even an extremely rough, 3 frame scribbled animation can be
-tested in game.
+back when you have a more complete picture of the character. You can even test in game an extremely rough, 3 frame scribbled animation.
 
 #### Starting with Low Detail
 
 Your rough drafts don't need to have good [linework](lines.md), [color](color.md) or [shading](shading.md), they just
 need to give a rough sense of the animation.
 
-People have very different drawing processes, so see what you enjoy.
+People have different drawing processes, so see what you enjoy.
 
 ##### Stick figures, scribbled animations, and rough outlines
 
-These let you very quickly visualize the animation. They're most often done on a single layer, put on the bottom for
+These let you quickly visualize the animation. They're most often done on a single layer, put on the bottom for
 reference later.
 
-<cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="by NoArms"/> 
-<cimg src="https://media.discordapp.net/attachments/722892672347668491/895668374976221244/ftilt_sketch.gif" height=150 caption="By Bernard0"/> 
+<cimg src="https://media.discordapp.net/attachments/659932047741157406/894329591114661978/utilt.gif" height=150 caption="by NoArms"/>
+<cimg src="https://media.discordapp.net/attachments/722892672347668491/895668374976221244/ftilt_sketch.gif" height=150 caption="By Bernard0"/>
 <cimg src="https://images-ext-1.discordapp.net/external/E9PNZjGBTAF_sOIl1xqEjEVXBIqqDRIvS0hL8CDVZto/https/media.discordapp.net/attachments/720710900838957067/844397038853554205/AWJ_-_dstrong.gif" height=150 caption="by Reighoul"/>
 
 ##### Color Blocking
 
 Color blocking is making a silhouette of the animation, maybe with a larger pen.
 
-This can be done on one layer and drawn over, or could use your normal [layer setup](#layers) and later be polished
+You can do this one one layer, and draw over it, or you could use your normal [layer setup](#layers) and later polish it
 toward the final product.
 
 Color blocking is sometimes done as a second drafting step after something rougher.
@@ -162,9 +161,9 @@ should be left till late in the process since they're the most expensive to chan
 
 You don't actually need many frames to see what an animation will look like. The most important frames are "Key Frames",
 which are usually the poses for [Anticipation, Action, and Recovery](anticipation_action_recovery.md). These frames are
-very important, and should be [posed](pose.md) well and drawn from scratch.
+critical, and should be [posed](pose.md) well and drawn from scratch.
 
-When you're starting an animation, it is very common to start by only drawing these critical frames, and to add "
+When you're starting an animation, it's common to start by only drawing these critical frames, and to add "
 in-between" frames later as they're needed to make the animation more
 fluid. [The assistant tries to make this easy by letting you automatically adjust window timings.](/assistant/animation_handling.md#window-tags)
 

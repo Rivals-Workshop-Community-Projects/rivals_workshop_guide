@@ -2,14 +2,14 @@
 
 ![](https://i.gyazo.com/636fa88383bbee93a83be3c998a954d0.png)
 
-**NO,** there is nothing wrong with using references. Seeing how things look is an absolutely necessary part of making
+**NO,** there is nothing wrong with using references. Seeing how things look is a necessary part of making
 any kind of realistic art.
 
 \
 Brains aren't naturally good at knowing how things look. You may be able to recognize if something looks right, but
 being able to generate something that looks natural from your imagination is extremely difficult.
 
-Attempts to work from imagination (without huge amounts of prior experience) are usually overly simple and artificial
+Attempts to work from imagination (without years of practice) are usually overly simple and artificial
 looking, because brains don't know how to generate the details.
 
 Drawing from references lets you see those details, make better art, and get a better understanding of how things look.
@@ -20,7 +20,7 @@ Most artists should use references almost constantly.
 
 If skeptical, try drawing a pixel-art dog buddy in Rivals style, entirely from imagination.
 
-Then draw the same kind of dog while looking at the reference below, and paying attention to how it is different from
+Then draw the same kind of dog while looking at the reference below, and paying attention to how it's different from
 your first try.
 
 <details>
@@ -32,7 +32,7 @@ your first try.
 
 ## Specific references
 
-There's a misconception that a reference must be exactly what you're drawing it, and you need to copy it, like
+There's a misconception that a reference must be an exact match of what you're drawing, and you need to copy everything about the reference, like
 referencing a picture of sonic to draw sonic.
 
 Usually a reference shows you some small aspect of the subject. For example:
@@ -46,10 +46,10 @@ Usually a reference shows you some small aspect of the subject. For example:
 
 ## Pose and Animation references
 
-There are a lot of ways an animation can look unnatural. Follow similar movement in other animations, or similar poses.
+An animation can look unnatural in many ways. Follow similar movement in other animations, or similar poses.
 
 - How does someone throw something big and heavy?
-- How does someone wind up just before they do a sweeping kick?
+- How does someone wind up before they do a sweeping kick?
 - How do four-legged animals turn around?
 
 <cimg src="https://cdn.discordapp.com/attachments/630864417671741499/674667946492297216/unknown.png" height=150 caption="Amber by BountyXSnipe, and Ori reference"/>
@@ -70,7 +70,7 @@ Google imaging that movement doesn't turn up much, but there are good examples o
 <img src="https://i.pinimg.com/originals/30/ff/ca/30ffca60b5008006ab43e7d171fc9b13.gif" width=400 alt="lion running">
 
 
-That can help with the pounce movement, but finding references for the clawing looks harder. Searching eventually finds
+That can help with the pounce movement, but finding references for the clawing looks harder. Searching finds
 Ms. Fortune sprites in similar poses.
 
 <img src="https://static.wikia.nocookie.net/skullgirls/images/3/35/Nyaaawn.png" alt="ms fortune yawn">
@@ -78,7 +78,7 @@ Ms. Fortune sprites in similar poses.
 
 They're not from the same attack (and one is actually a yawn), but they both fit and look catty.
 
-These sources can be combined to make some evocative keyframes for the animation.
+You can combine these sources to make some evocative keyframes for the animation.
 
 </details>
 

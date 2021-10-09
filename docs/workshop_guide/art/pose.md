@@ -2,7 +2,7 @@
 
 # Silhouette
 
-Rivals characters are seen in a variety of palettes and stage backgrounds. Distinct silhouettes are important to make
+Players see Rivals characters in a variety of palettes and stage backgrounds. Distinct silhouettes are important to make
 them clear at a glance.
 
 <cimg src="https://miro.medium.com/max/500/1*9fCU18CzaD3GYgIqMd42Gw.png" height=250 caption="street fighter silhouettes" />
@@ -19,7 +19,7 @@ Communicating that in the pose can be difficult to learn, but will create much m
 
 ## Gesture lines
 
-Bodies in motion aren't perfectly balance. Even when taking a step forwards, the center of gravity moves off of the back
+Bodies in motion aren't perfectly balanced. Even when taking a step forwards, the center of gravity moves off of the back
 foot to fall onto the front foot.
 
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/060c5b2a-d29c-4413-a193-8ea0726072c5/db07u5s-856eca40-086d-4c53-ad23-a59b63bf98cb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDYwYzViMmEtZDI5Yy00NDEzLWExOTMtOGVhMDcyNjA3MmM1XC9kYjA3dTVzLTg1NmVjYTQwLTA4NmQtNGM1My1hZDIzLWE1OWI2M2JmOThjYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DJ9W9Zm9zKJ8uTvSEJMMbCCucVVSdOLXIeTZEp7IcT0" height=250 alt="gesture lines">
@@ -84,7 +84,7 @@ Softer things, or greater movements, have more deformation.
 ## Arcs
 
 When drawing a motion from one point to another, the simplest way our brains generate is a straight line, but this ends
-up looking very strange and artificial.
+up looking strange and artificial.
 
 The vast majority of movements naturally follow a curve, rather than a straight line.
 
@@ -98,7 +98,7 @@ the blur where the movement took place.
 Smears are especially important for sweeping attacks to show the hitbox. Smears imply hitboxes, because any movement
 that fast would create a strong impact.
 
-Smears should lead in an [arc](pose.md#arcs) from near the previous frame's location to the current location.The tail
+Smears should lead in an [arc](pose.md#arcs) from near the previous frame's location to the current location. The tail
 end of a smear usually reaches near the previous frame's location.
 
 Smears are not outlined, and grow thinner closer to the tail.

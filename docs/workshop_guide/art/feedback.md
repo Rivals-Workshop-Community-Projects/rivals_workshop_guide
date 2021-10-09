@@ -6,7 +6,7 @@ costly than learning from other resources (like this guide).
 Your primary learning method should be comparing your art with good examples, and understand the theory that separates
 them.
 
-When you can't figure out what it is you need to change, that's when to try asking for specific feedback.
+When you can't figure out what it's you need to change, that's when to try asking for specific feedback.
 
 ## How to ask for feedback
 

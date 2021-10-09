@@ -1,7 +1,7 @@
 # Advancing Frames
 
 This page is for principles on the changes from one frame to the next, like when you're adding in-between frames to
-smooth things.
+smooth the animation.
 
 ## How Many Frames?
 
@@ -23,7 +23,7 @@ You should try to optimize your development by using as few frames as possible t
 
 [This may actually end up making your character look better.](anticipation_action_recovery.md#fast-transitions)
 
-Here is the jab animation of a character I'm working on currently, as an example:
+Here is the jab animation of a character I'm working on, as an example:
 
 <img src="https://media.discordapp.net/attachments/659932047741157406/891534467699712070/jab.gif" height=100>
 
@@ -36,10 +36,10 @@ necessary to make it look smooth and clear in-game.
 
 ## Redrawing or Adjusting
 
-[Communicating with the keyframes is very important](pose.md), and each keyframe should be drawn from scratch for
+[Communicating with the keyframes is critical](pose.md), and you should draw each keyframe from scratch for
 maximum impact and readability.
 
-However, when adding in-betweens, you can save time by copy-pasting the neighboring frames and adjusting to show the
+When you add **in-between** frames, you can save time by copy-pasting the neighboring frames and adjusting to show the
 movement.
 
 Be careful of making the character look stiff, static, or robotic.
@@ -54,8 +54,7 @@ Soft parts of the character drag behind a character's movements, and keep moving
 
 This is most visible with details like hair or clothes.
 
-When something long and soft, like a scarf or tentacle, is pulled back and forth, the drag can make it take a wavy S
-shape.
+Long soft things, like scarves or tentacles, often create wavy "S" shapes as they're pulled back and forth.
 
 [Short Video Guide](https://youtu.be/4OxphYV8W3E?t=7)
 
@@ -67,8 +66,7 @@ shape.
 
 <cimg src="https://saint11.org/img/pixel-tutorials/Subpixel.gif" caption="Tutorial by saint11"/>
 
-For subtle animations like an idle, there may be times when moving a full pixel is too big a movement, making things
-look jumpy.
+For subtle animations like an idle, moving a full pixel may be too big a movement, looking jumpy.
 
 While you can't change a fraction of a pixel, you can use tricks to make the change less jarring.
 
