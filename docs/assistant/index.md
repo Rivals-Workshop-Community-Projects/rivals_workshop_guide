@@ -4,26 +4,24 @@ next: installation.md
 
 # Rivals Workshop Assistant
 
-The Assistant is a tool that looks at your mod files, and does all sorts of things automatically to save you time. There
-are a lot of ways Rivals modding could be easier, and the Assistant is meant to let you focus more on making content,
-and less on handling the language.
+The Assistant is a tool that looks at your mod files, and automates things to save you time. There
+are many ways Rivals modding could be easier, and the Assistant tries to let you focus more on making content.
 
 \
 **[Installation](installation.md)**
 
 ## [Aseprite Exporting](animation_handling.md)
 
-The Assistant automates converting aseprite files to spritesheets when making changes.
+The Assistant automates converting Aseprite files to spritesheets when making changes.
 
-You can work entirely on aseprite files in a new `anims` folder, and the correctly sized and named files will just
-appear in `sprites`.
+You can work entirely on Aseprite files in a new `anims` folder, and the correctly sized and named files will appear in `sprites`.
 
-Advanced features are planned, such drawing hitboxes and hurtboxes, and tagging attack windows, all within the aseprite
+Advanced features are planned, such drawing hitboxes and hurtboxes, and tagging attack windows, all within the Aseprite
 file.
 
 ## [Function library](function_library)
 
-User functions in the form of `#define` blocks are very helpful, but they can't be used across files. The Assistant
+User functions in the form of `#define` blocks are very helpful, but you can't use them across files. The Assistant
 solves this by automatically copying define and macro definitions to the files they're used in.
 
 \
@@ -39,7 +37,7 @@ set_window_value(AT_FAIR, 1, AG_WINDOW_LENGTH, 14)
 set_window_value(AT_FAIR, 1, AG_WINDOW_ANIM_FRAMES, 1)
 
 // New
-make_window(AT_FAIR, 1, 
+make_window(AT_FAIR, 1,
     AG_WINDOW_TYPE, 1,
     AG_WINDOW_LENGTH, 14,
     AG_WINDOW_ANIM_FRAMES, 1,

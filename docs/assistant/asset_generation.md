@@ -9,7 +9,7 @@ When the Assistant sees you try to use a shape it understands, that doesn't alre
 for you, and it'll be in game when you press f5.
 
 \
-Shapes are created with something like:
+You create shapes with something like:
 
 ```gml
 asset_get("red_circle_20") // A 20px diameter red circle

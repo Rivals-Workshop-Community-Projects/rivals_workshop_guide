@@ -2,7 +2,7 @@
 
 The Assistant has the power to generate text for you.
 
-There's a huge amount of potential, but right now this feature is only demoed with **For Each Loop Generation.**
+There's a lot of of potential, but right now this feature is only demoed with **For Each Loop Generation.**
 
 ## For Each Loop Generation
 
