@@ -37,4 +37,4 @@ for (var vfx_i = 0; vfx_i < array_length(vfxs); vfx_i += 1) { // For loop over t
 (see [for loop](array.md#for-loop))
 
 Structs are sometimes called a 'lightweight object', which is misleading.
-[Structs an instances, not objects.]((objects_and_instances.md))
+[Structs are instances, not objects.](objects_and_instances.md)
