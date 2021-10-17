@@ -85,6 +85,17 @@ Names are typically from [the standard attack names](https://rivalsofaether.com/
 The files typically look like a long series of function calls setting attack, window, and hitbox values:
 
 ```gml
+make_hitbox(AT_DAIR, 1,
+  HG_LIFETIME, 3,
+  HG_HITBOX_X, -6,
+  HG_HITBOX_Y, -44,
+// ... Many more lines
+)
+```
+
+Or, without the assistant's functions:
+
+```gml
 set_hitbox_value(AT_DAIR, 1, HG_LIFETIME, 3);
 set_hitbox_value(AT_DAIR, 1, HG_HITBOX_X, -6);
 set_hitbox_value(AT_DAIR, 1, HG_HITBOX_Y, -44);
