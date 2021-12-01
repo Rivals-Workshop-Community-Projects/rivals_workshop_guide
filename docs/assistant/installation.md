@@ -31,7 +31,7 @@ When the editor has a character's root folder open, it will run whenever you sav
 The first time it runs, it will create an `assistant` directory in the root directory, and inside that is `assistant_config.yaml`.  
 `<your character dir>/assistant/assistant_config.yaml`
 
-Edit that config and set the path to your `aseprite.exe` to enable automatic animation exporting.
+Edit the config file using any text editor and set the path to your `aseprite.exe` to enable automatic animation exporting.
 
 ## Usage
 
