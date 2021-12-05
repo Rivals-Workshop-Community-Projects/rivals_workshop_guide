@@ -49,7 +49,7 @@ The developer tools console can be opened with **Ctrl+Shift+I** or
 - **GMEdit**: Top left dropdown -> Dev Tools
 - **Vscode**: Help -> Toggle Developer Tools
 
-If that error message doesn't point to a clear solution, contact me.
+If that error message doesn't point to a clear solution, contact me (see the site footer).
 
 If there is nothing related to the assistant in there, it's not installed yet. If you just installed it, try restarting
 the editor.
@@ -59,7 +59,7 @@ the editor.
 If it's a minor inconvenience in a gml file, consider writing `// NO-INJECT` somewhere in the file, to disable
 processing. Please let me know if something's misbehaving.
 
-If it's serious, like data loss, please tell me **immediately.**
+If it's serious, like data loss, please tell me **immediately.** (see the site footer for contact)
 
 Every day, the Assistant will make a backup to `/assistant/backup`. You can fetch the backup and disable the plugin.
 
