@@ -13,7 +13,7 @@ If you haven't chosen an editor yet, most people use GMEdit, which is more tailo
    .
 2. Download the 'rivals-workshop-assistant-gmedit.zip' from the most recent release.
 3. In GMEdit preferences, near the bottom, click 'Plugins directory' to open the plugins directory.
-4. Extract the zip file into the plugins directory.
+4. Extract the zip file into the plugins directory. The zip contents should be in `plugins/rivals-workshop-assistant-gmedit`.
 5. Close and reopen GMEdit to load the plugin.
 
 ### VSCode
