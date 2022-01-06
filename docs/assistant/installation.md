@@ -13,8 +13,13 @@ If you haven't chosen an editor yet, most people use GMEdit, which is more tailo
    .
 2. Download the 'rivals-workshop-assistant-gmedit.zip' from the most recent release.
 3. In GMEdit preferences, near the bottom, click 'Plugins directory' to open the plugins directory.
-4. Extract the zip file into the plugins directory.
-5. Close and reopen GMEdit to load the plugin.
+4. Extract the zip file into the plugins directory.  \
+Should look something like this if you delete the `.zip`:  \
+![](https://i.gyazo.com/64aef00412ba7dd6b26c773ed5933dc8.png)  \
+![](https://i.gyazo.com/54d17e32aa6f681425dd84326a67bb09.png)
+6. Close and reopen GMEdit to load the plugin.
+
+Alternatively, if you haven't yet set up GMEdit with the Rivals of Aether dialect, see [the gmedit installation guide](workshop_guide/quickstart/software_setup.md#gmedit-code-editor)
 
 ### VSCode
 
@@ -24,19 +29,21 @@ If you haven't chosen an editor yet, most people use GMEdit, which is more tailo
 You may also want to install `rivals of aether gml support` the same way, for highlighting and
 completion.
 
+## Usage
+
+The editor must open the root folder for the project, containing the `config.ini` file. If an individual file or
+subfolder is opened, the Assistant won't run. Let me know if this is annoying for you, and I can look at changing it.
+
+Aseprite handling won't happen until you've set up the Aseprite.exe path in configuration.
+
 ## Configuration
 
-When the editor has a character's root folder open, it will run whenever you save a script in the editor.
+When the editor has a character's root folder open, it will run whenever you save a modified script in the editor.
 
 The first time it runs, it will create an `assistant` directory in the root directory, and inside that is `assistant_config.yaml`.  
 `<your character dir>/assistant/assistant_config.yaml`
 
 Edit that config and set the path to your `aseprite.exe` to enable automatic animation exporting.
-
-## Usage
-
-The editor must open the root folder for the project, containing the `config.ini` file. If an individual file or
-subfolder is opened, the Assistant won't run. Let me know if this is annoying for you and I can look at changing it.
 
 ## Troubleshooting
 
