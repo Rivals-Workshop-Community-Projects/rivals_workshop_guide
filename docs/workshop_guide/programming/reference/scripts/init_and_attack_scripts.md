@@ -44,10 +44,16 @@ sprite_change_offset("crouch", 25, 66)
 Calling `sprite_change_offset(sprite_name, x_offset, y_offset)` for each sprite to tell Rivals where to draw the sprite.
 If they're wrong, you may find them floating or clipping into the floor.
 
-The origin point should be at the bottom center of your character. You can find the right offset in your editor, or
+The origin point should be at the bottom center of your character. You can find the right offset by opening the final sprite `.png` in your editor or
 using [Dan Fornace's workshophelper](https://github.com/dfornace/workshophelper)
 
 ![](https://storage.ko-fi.com/cdn/useruploads/display/8e2cf977-f883-4e42-b976-3e3a0ae7c984_offset.png)
+
+::: note
+
+Note that the offset point in your `\anims` `.aseprite` file may not be the same as the final `\sprites` `.png` file, because many sprites are scaled up, to x2, or even x4 for [SSL](https://www.youtube.com/watch?v=4sY19mlxd7U). 
+
+:::
 
 ### colors.gml
 
