@@ -13,11 +13,11 @@ If you haven't chosen an editor yet, most people use GMEdit, which is more tailo
    .
 2. Download the 'rivals-workshop-assistant-gmedit.zip' from the most recent release.
 3. In GMEdit preferences, near the bottom, click 'Plugins directory' to open the plugins directory.
-4. Extract the zip file into the plugins directory.  \
+4. Extract the zip file into the plugins directory. The zip contents should be in `plugins/rivals-workshop-assistant-gmedit`.  \
 Should look something like this if you delete the `.zip`:  \
 ![](https://i.gyazo.com/64aef00412ba7dd6b26c773ed5933dc8.png)  \
 ![](https://i.gyazo.com/54d17e32aa6f681425dd84326a67bb09.png)
-6. Close and reopen GMEdit to load the plugin.
+5. Close and reopen GMEdit to load the plugin.
 
 Alternatively, if you haven't yet set up GMEdit with the Rivals of Aether dialect, see [the gmedit installation guide](workshop_guide/quickstart/software_setup.md#gmedit-code-editor)
 
@@ -43,7 +43,7 @@ When the editor has a character's root folder open, it will run whenever you sav
 The first time it runs, it will create an `assistant` directory in the root directory, and inside that is `assistant_config.yaml`.  
 `<your character dir>/assistant/assistant_config.yaml`
 
-Edit that config and set the path to your `aseprite.exe` to enable automatic animation exporting.
+Edit the config file using any text editor and set the path to your `aseprite.exe` to enable automatic animation exporting.
 
 ## Troubleshooting
 
@@ -56,7 +56,7 @@ The developer tools console can be opened with **Ctrl+Shift+I** or
 - **GMEdit**: Top left dropdown -> Dev Tools
 - **Vscode**: Help -> Toggle Developer Tools
 
-If that error message doesn't point to a clear solution, contact me.
+If that error message doesn't point to a clear solution, contact me (see the site footer).
 
 If there is nothing related to the assistant in there, it's not installed yet. If you just installed it, try restarting
 the editor.
@@ -66,7 +66,7 @@ the editor.
 If it's a minor inconvenience in a gml file, consider writing `// NO-INJECT` somewhere in the file, to disable
 processing. Please let me know if something's misbehaving.
 
-If it's serious, like data loss, please tell me **immediately.**
+If it's serious, like data loss, please tell me **immediately.** (see the site footer for contact)
 
 Every day, the Assistant will make a backup to `/assistant/backup`. You can fetch the backup and disable the plugin.
 
