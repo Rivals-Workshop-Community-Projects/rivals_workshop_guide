@@ -1,5 +1,5 @@
 ---
-next: installation.md
+next: installation_and_usage.md
 ---
 
 # Rivals Workshop Assistant
@@ -8,7 +8,7 @@ The Assistant is a tool that looks at your mod files, and automates things to sa
 are many ways Rivals modding could be easier, and the Assistant tries to let you focus more on making content.
 
 \
-**[Installation](installation.md)**
+**[Installation](installation_and_usage.md)**
 
 ## [Aseprite Exporting](animation_handling.md)
 

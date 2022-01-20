@@ -172,7 +172,7 @@ module.exports = {
                 title: 'Assistant',
                 path: '/assistant/',
                 children: [
-                    '/assistant/installation',
+                    '/assistant/installation_and_usage',
                     '/assistant/animation_handling',
                     {
                         title: 'Function Library',
