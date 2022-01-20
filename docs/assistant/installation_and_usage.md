@@ -1,4 +1,4 @@
-# Installation
+# Installation and Usage
 
 If you're new to Rivals modding, see [software setup](/workshop_guide/quickstart/software_setup.md) instead.
 
@@ -19,7 +19,7 @@ Should look something like this if you delete the `.zip`:  \
 ![](https://i.gyazo.com/54d17e32aa6f681425dd84326a67bb09.png)
 5. Close and reopen GMEdit to load the plugin.
 
-Alternatively, if you haven't yet set up GMEdit with the Rivals of Aether dialect, see [the gmedit installation guide](workshop_guide/quickstart/software_setup.md#gmedit-code-editor)
+Alternatively, if you haven't yet set up GMEdit with the Rivals of Aether dialect, see [the gmedit installation guide](/workshop_guide/quickstart/software_setup.md#installing-gmedit)
 
 ### VSCode
 
