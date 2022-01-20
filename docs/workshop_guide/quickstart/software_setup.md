@@ -1,6 +1,6 @@
 # Software Setup
 
-Once you have a [new project set up](/workshop_guide/quickstart/project_setup), you need tools to work on it.
+Once you have a [new project set up](/workshop_guide/quickstart/project_setup.md), you need tools to work on it.
 
 You should only need to do this once.
 
