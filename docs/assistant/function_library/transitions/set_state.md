@@ -7,7 +7,7 @@ Transition to the given state and resets the state timer.
 ```gml
 // Without Assistant
 state = 2
-state_timer = 0 # Don't forget
+state_timer = 0 // Don't forget
 // With Assistant
 set_state(2)
 ```
