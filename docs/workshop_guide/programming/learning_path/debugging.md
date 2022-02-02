@@ -1,4 +1,6 @@
-# Troubleshooting
+# Debugging
+
+(If you've read this and have a specific issue, see [Common Errors](../reference/common_errors.md))
 
 Much of programming is figuring out why things aren't working. Expect things to not work. When you
 write something new, it'll probably be broken in obvious ways that you'll figure out and change.
@@ -16,7 +18,7 @@ Bugs are either *Syntax* or *Semantic* problems.
 
 Syntax errors are when the computer can't understand the program.
 
-Examples in English: "This sentence is sytanxicly. wrong", "there is mistakes tihs in ."
+Examples in English: "This sentence are sytanxicly. wrong", "there is mistakes tihs in ."
 
 Examples in GML:
 
@@ -27,6 +29,8 @@ Examples in GML:
 These errors are usually easy to find (your editor should underline them for you in red) and easy to fix once you see what's
 wrong. If your editor doesn't point them out to you, they should appear in the [error log](#error-log) as soon as the
 game loads the script.
+
+One mistake can sometimes cause more syntax errors after it, so it can help to look at the top error first.
 
 ### Semantic
 

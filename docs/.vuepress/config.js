@@ -142,7 +142,7 @@ module.exports = {
                                             '/workshop_guide/programming/reference/scripts/ai_scripts',
                                         ]
                                     },
-                                    '/workshop_guide/programming/reference/troubleshooting',
+                                    '/workshop_guide/programming/reference/common_errors',
                                 ]
                             },
                         ]
