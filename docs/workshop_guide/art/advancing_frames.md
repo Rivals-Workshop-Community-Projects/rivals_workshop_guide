@@ -12,7 +12,7 @@ choppy, and taking too long to animate.
 
 A good way to find that point is
 by [starting with few frames, and gradually adding in-betweens as needed](workflow.md#starting-with-low-framerate) to
-make the animation look smooth.
+make the animation look smooth. If in doubt, [look at the vanilla rivals animations](references.md).
 
 ::: quote
 
@@ -36,17 +36,31 @@ necessary to make it look smooth and clear in-game.
 
 ## Redrawing or Adjusting
 
-[Communicating with the keyframes is critical](pose.md), and you should draw each keyframe from scratch for
+[Communicating with the keyframes is critical](pose.md), and you should draw each keyframe more-or-less from scratch for
 maximum impact and readability.
 
 When you add **in-between** frames, you can save time by copy-pasting the neighboring frames and adjusting to show the
-movement.
+movement. Adjustments might start with stretching or rotating the sprite and then repolishing.
+
+Keeping body parts on separate [layers](workflow.md#layers) is very important to this approach, so that you can adjust
+each body part separately without messing up the rest of the image.
 
 Be careful of making the character look stiff, static, or robotic.
 
 You can look at the animations of character's you like for reference of how much they move between each frame.
 
 <cimg src="https://media.discordapp.net/attachments/722892672347668491/895647290696548423/Virgo_FSmash_clone1.gif?" height=250 caption="'Yes, I know' - Iguanadont"/>
+
+### Using an Asset Library
+
+As a more advanced technique, some artists make a sketchbook of body parts in different orientations, such as the
+character's head, drawn tilted in different directions.
+
+They can then copy-paste the right image for the frame they're drawing only need minor adjustments to smoothly integrate
+it with the animation.
+
+This is probably not worthwhile for a first character, but may be worth looking into when you want to increase your
+speed.
 
 ## Follow Through and Overlapping action
 

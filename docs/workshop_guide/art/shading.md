@@ -4,8 +4,8 @@ Line art can suggest a 3d [form](form.md), but shading makes the shape much clea
 
 <img src="https://i.gyazo.com/dd8af3799732e364b8aed0b583166545.png" height=250 alt="no shading etalus">
 
-As always, its best to work with a [small palette](color.md#palette), so each color in a sprite only has a few
-shades to work with.
+As always, its best to work with a [small palette](color.md#palette), so each color in a sprite only has a few shades to
+work with.
 
 Most materials have
 
@@ -29,8 +29,8 @@ change direction whenever the character turns around.
 
 ### Banding
 
-When an artist isn't sure how to shade something, it's common to draw a line of shading along the edge of the
-shape, or multiple lines in a gradient. **Don't.**
+When an artist isn't sure how to shade something, it's common to draw a line of shading along the edge of the shape, or
+multiple lines in a gradient. **Don't.**
 
 This is
 called [banding.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Banding%3A,simply%2C%20is%20when%20pixels%20line%20up.)
@@ -66,12 +66,13 @@ To communicate form well, it sometimes helps to shade an area, even if it would 
 Having a change in shading shows that the material has curved or has different depth from the viewer.
 
 \
-Remember that unnatural shading can look strange, and should only be done when it helps
-show [form](form.md) or important details.
+Remember that unnatural shading can look strange, and should only be done when it helps show [form](form.md) or
+important details.
 
 ### Pillow Shading
 
-A common kind of unnatural shading is [Pillow Shading,](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Pillow%2Dshading%3A,central%20area%20with%20increasingly%20darker%20bands.)
+A common kind of unnatural shading
+is [Pillow Shading,](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#PD:~:text=Pillow%2Dshading%3A,central%20area%20with%20increasingly%20darker%20bands.)
 shading just the outsides of the shape.
 
 This ends up looking as if the light source is coming *from the viewer,* instead of above.
@@ -81,8 +82,8 @@ This ends up looking as if the light source is coming *from the viewer,* instead
 
 ## Shiny materials
 
-Shiny materials like metal tend have a greater [value](color.md#parts-of-color) range between light and dark, and might have an
-extra shade to help show that.
+Shiny materials like metal tend have a greater [value](color.md#parts-of-color) range between light and dark, and might
+have an extra shade to help show that.
 
 Shiny materials also tend to have small spots or streaks where the light reflects off of them, called **specular
 highlights.**

@@ -19,8 +19,8 @@ Communicating that in the pose can be difficult to learn, but will create much m
 
 ## Gesture lines
 
-Bodies in motion aren't perfectly balanced. Even when taking a step forwards, the center of gravity moves off of the back
-foot to fall onto the front foot.
+Bodies in motion aren't perfectly balanced. Even when taking a step forwards, the center of gravity moves off of the
+back foot to fall onto the front foot.
 
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/060c5b2a-d29c-4413-a193-8ea0726072c5/db07u5s-856eca40-086d-4c53-ad23-a59b63bf98cb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDYwYzViMmEtZDI5Yy00NDEzLWExOTMtOGVhMDcyNjA3MmM1XC9kYjA3dTVzLTg1NmVjYTQwLTA4NmQtNGM1My1hZDIzLWE1OWI2M2JmOThjYi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.DJ9W9Zm9zKJ8uTvSEJMMbCCucVVSdOLXIeTZEp7IcT0" height=250 alt="gesture lines">
 

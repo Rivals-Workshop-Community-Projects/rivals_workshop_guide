@@ -38,8 +38,8 @@ Assistant [automates the steps between saving an Aseprite file and seeing the ch
 Depending on your workflow, that might be a significant time save, particularly if you're doing
 many [iterations](#iteration) and testing your animations while they're still rough.
 
-If [The Assistant](/assistant) is running in your editor, and you have supplied your Aseprite path to the
-config, then saved files in an `/anims` director will automatically export to properly named and sized sprite
+If [The Assistant](/assistant) is running in your editor, and you have supplied your Aseprite path to the config, then
+saved files in an `/anims` director will automatically export to properly named and sized sprite
 sheets. [Other features](/assistant/animation_handling.md) can let you skip other steps.
 
 ### Layers
@@ -114,7 +114,8 @@ plan.
 
 \
 Any time you're unsure, you can test the animation in game, get feedback, or leave the animation for a while and come
-back when you have a more complete picture of the character. You can even test in game an extremely rough, 3 frame scribbled animation.
+back when you have a more complete picture of the character. You can even test in game an extremely rough, 3 frame
+scribbled animation.
 
 #### Starting with Low Detail
 

@@ -29,8 +29,8 @@ tend to get comboed too easily.
 ![](https://media.discordapp.net/attachments/611423483863367692/612094255300870154/GridShovelKnight.png)
 ![](https://media.discordapp.net/attachments/611423483863367692/612094267690582046/GridEmpty.png)
 
-Note that Rivals expects sprites to be double sized in the `/sprites` folder.
- If your character looks like a little pixel-dwarf, this may be the reason.
+Note that Rivals expects sprites to be double sized in the `/sprites` folder. If your character looks like a little
+pixel-dwarf, this may be the reason.
 
 ## Proportion
 

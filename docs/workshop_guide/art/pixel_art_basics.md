@@ -2,17 +2,31 @@
 
 [Pixel art isn't just any art made of pixels.](http://pixeljoint.com/forum/forum_posts.asp?TID=11299&PID=139318#139318)
 
-In pixel art, changing the color of one pixel makes a big difference. You place pixels with care and control,
-to say a lot with a tiny resolution and few colors.
+In pixel art, changing the color of one pixel makes a big difference. You place pixels with care and control, to say a
+lot with a tiny resolution and few colors.
 
-![](https://saint11.org/blog/thoughts_on_low_resolution/image1.png)
+<cimg src="https://saint11.org/blog/thoughts_on_low_resolution/image1.png" caption="By Saint11"/>
+
+There are a few extra things to learn in making pixel art (which this guide will teach), but the drawing process itself
+tends to be much faster than traditional art. In Rivals modding, a single hard-working artist could do what might take a
+whole team for another fighting game.
+
+::: quote
+
+Pixel art is a higher learning curve for faster rewards.
+
+Rivals is, thus, excellent for beginner animators specially.
+
+~ KerroBerry
+
+:::
 
 ## Readability
 
 Readability is a key aspect in Rivals pixel art. Characters need to communicate.
 
-Rivals characters are small, and the game is fast. The players need to be able to tell what the other character is
-doing within a matter of frames, while dodging and counter-attacking.
+Rivals characters are small, and the game is fast. The players need to be able to tell what the other character is doing
+within a matter of frames, while dodging and counter-attacking.
 
 To communicate well, Rivals sprites need to be simple and exaggerated.
 

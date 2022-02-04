@@ -20,8 +20,8 @@ Rivals characters look better than this, because they aren't just 2d shapes. Riv
 
 ## How to draw form
 
-Drawing form is difficult. Do not expect it to come quickly. Parts of this guide can are easy to learn and remember,
-but drawing realistic form is something you practice over time.
+Drawing form is difficult. Do not expect it to come quickly. Parts of this guide can are easy to learn and remember, but
+drawing realistic form is something you practice over time.
 
 ### Use References
 
@@ -55,10 +55,11 @@ Try sketching the pose from different angles to understand the shape of it.
 ### Avoid tight details in designs
 
 Imagine you have a face drawn with small, tightly packed details, each only a couple pixels large. Now try turning the
-face slightly to the side and tilting it up or down, and notice how it's difficult to fit all the details into this new orientation.
+face slightly to the side and tilting it up or down, and notice how it's difficult to fit all the details into this new
+orientation.
 
-Pixel art should usually [avoid tight details](simplification.md). Large clear shapes are easier to
-work with in 3d form.
+Pixel art should usually [avoid tight details](simplification.md). Large clear shapes are easier to work with in 3d
+form.
 
 ::: sources
 

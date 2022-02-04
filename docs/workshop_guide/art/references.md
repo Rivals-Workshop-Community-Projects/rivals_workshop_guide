@@ -1,5 +1,7 @@
 # Using References
 
+[*~ A quick link to the vanilla sprites ~*]([Vanilla cast sprites](https://drive.google.com/drive/folders/18qVCZ9uKaAMQcDLDYdkrbeBP9HAibHlu?usp=sharing))
+
 ![](https://i.gyazo.com/636fa88383bbee93a83be3c998a954d0.png)
 
 **NO,** there is nothing wrong with using references. Seeing how things look is a necessary part of making

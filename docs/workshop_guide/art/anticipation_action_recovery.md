@@ -29,7 +29,8 @@ If the character smoothly moves between two poses, then during the transitioning
 character is in.
 
 The character needs to get into their pose *fast*, and stay clearly in that pose until they quickly transition to the
-next. Add frames to accentuate the poses or show motion, but avoid making frames that don't clearly belong to one pose or another.
+next. Add frames to accentuate the poses or show motion, but avoid making frames that don't clearly belong to one pose
+or another.
 
 Unclear posing is most common
 in [the transition between recovery and idle](anticipation_action_recovery.md#transition-to-idle), because it tends to
