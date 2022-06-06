@@ -1,4 +1,4 @@
-# How to Learn
+# How to Learn More
 
 This guides aims to be a primary resource, so if something is missing contact me
 at [qazzquimby@yahoo.com](mailto:qazzquimby@yahoo.com)

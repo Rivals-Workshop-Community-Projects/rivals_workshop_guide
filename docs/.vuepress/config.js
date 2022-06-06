@@ -74,6 +74,10 @@ module.exports = {
             {
                 text: 'Assistant',
                 link: '/assistant/'
+            },
+            {
+                text: 'Reference',
+                link: 'https://rivalswsmanual.miraheze.org/wiki/Main_Page'
             }
         ],
         sidebar: [

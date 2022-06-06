@@ -17,10 +17,7 @@ you, help you find whatever information you need, and stop you from falling into
 - [Programming Guide](programming/learning_path) teaches programming and language features.
 - [Art Guide](art) covers the theory behind making good Rivals art and animations.
 
-\
-Much more is planned, including:
-- [Programming Reference Documents](programming/reference)  \
-  Will make all Rivals, Gml, or [Assistant](/assistant)  functions, variables, scripts, error messages, etc, searchable.
-- [The Journey](process) will walk modders through the process of building a character at a high level.
+For reference docs, see [the wiki](https://rivalswsmanual.miraheze.org/wiki/Main_Page).
 
-When this guide isn't answering your question, try [How to Learn](how_to_learn.md).
+
+When this guide isn't answering your question, try [How to Learn More](how_to_learn.md).

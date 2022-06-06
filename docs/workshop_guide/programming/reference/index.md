@@ -4,6 +4,8 @@ next: scripts/
 
 # Programming Reference
 
+[See new wiki!](https://rivalswsmanual.miraheze.org/wiki/Main_Page)
+
 This section is a searchable repository of knowledge for quick reference while working.
 
 This is reference, like a dictionary, and is not meant to read like a guide.
