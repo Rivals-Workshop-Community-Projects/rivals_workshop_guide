@@ -4,6 +4,7 @@
       <div class="footer">
         ---
         <h3>I need help making this!</h3>
+        <p><a href="ko-fi.com/torendarby">Donate</a></p>
         <p>Contributions or feedback?</p>
         <p><a href="https://forms.gle/Yv8qUkPknk7FB5Lw7">Brief survey, so I know what will help you.</a></p>
         <p><a href="https://discord.com">Discord</a> qazzquimby#0073</p>
