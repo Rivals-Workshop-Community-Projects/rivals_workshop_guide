@@ -30,14 +30,16 @@ if the project is open in the editor with the plugin.
 
 Some people keep multiple animations in a single Aseprite file, for convenience.
 
-If an Aseprite file contains any **blue** tags (configurable), it will treat each blue-tagged section as a separate animation.
+If an Aseprite file contains any **blue** tags (configurable), it will treat each blue-tagged section as a separate
+animation.
 
 Instead of exporting the Aseprite file as a single spritesheet, each blue tag will create its own sprite sheet, named
 after the tag.
 
 ### Window Tags
 
-If an animation matches the name of a script in your `attacks` folder, then the Asssistant will treat each **red**-tagged (configurable)
+If an animation matches the name of a script in your `attacks` folder, then the Asssistant will treat each **red**
+-tagged (configurable)
 section as a window of the attack.
 
 The injector will then provide macros to that attack with the window's timing data.
@@ -57,6 +59,10 @@ or remove frames from the animation.
 Manually create hurtboxes no more!
 
 The Assistant can generate customized hurtboxes from your sprites, no matter your workflow.
+
+Hurtboxes are automatically generated for any animation that normally gets one (e.g. `bair`). You can manually request a
+hurtbox for an attack by starting the attack's name (in the file name or attack tag) with "HURTBOX". The HURTBOX label
+will be removed from the actual attack name.
 
 By default, the full silhouette of the sprite will be the hurtbox. If you have a basic animation with no weird effects
 or disjoints, you don't need to do anything at all.
@@ -82,7 +88,8 @@ This layer won't show up in your animation. It's only used to edit the hurtbox.
 
 ### The `HURTBOX` Layer
 
-The only thing missing is if for some reason your hurtbox is larger than your sprite. This sounds like something to avoid.
+The only thing missing is if for some reason your hurtbox is larger than your sprite. This sounds like something to
+avoid.
 
 If you have a layer name `HURTBOX`, the Assistant adds its silhouette to the hurtbox.
 
