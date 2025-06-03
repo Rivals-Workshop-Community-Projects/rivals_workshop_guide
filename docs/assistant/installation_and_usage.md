@@ -8,6 +8,9 @@ If you haven't chosen an editor yet, most people use GMEdit, which is more tailo
 
 ### GMEdit
 
+Versions of GMEdit made later than 2021 may not be compatible.
+A compatible version of GMEdit can be found [here](https://drive.google.com/file/d/1BbW6cyl17s_IVpG1LrGXLy2GTgoMmNPW/view?usp=sharing)
+
 1. Go to
    the [plugin's release page](https://github.com/Rivals-Workshop-Community-Projects/rivals-workshop-assistant-gmedit/releases)
    .
